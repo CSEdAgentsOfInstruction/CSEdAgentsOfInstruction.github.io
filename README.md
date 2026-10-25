@@ -9,8 +9,37 @@ This page is created and maintainted by:
 * [Arto Hellas, Aalto University](https://www.aalto.fi/en/people/arto-hellas)
 * [Paul Denny, University of Auckland](https://www.cs.auckland.ac.nz/~paul/)
 
-> [!NOTE]
+> [!CAUTION]
 > This page is a work in progress!
+
+<!-- to get alerts to render on the html page -->
+<style>
+  .md-alert { padding: .5rem 1rem; margin: 1rem 0; border-left: .25em solid; border-radius: 4px; }
+  .md-alert-title { font-weight: 600; margin: 0 0 .25rem; }
+  .md-alert-note      { border-color: #0969da; background: #ddf4ff; }
+  .md-alert-tip       { border-color: #1a7f37; background: #dafbe1; }
+  .md-alert-important { border-color: #8250df; background: #fbefff; }
+  .md-alert-warning   { border-color: #9a6700; background: #fff8c5; }
+  .md-alert-caution   { border-color: #cf222e; background: #ffebe9; }
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("blockquote").forEach(bq => {
+    const p = bq.querySelector("p");
+    if (!p) return;
+    const m = p.innerHTML.match(/^\s*\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*(<br\s*\/?>)?\s*/i);
+    if (!m) return;
+    const type = m[1].toLowerCase();
+    p.innerHTML = p.innerHTML.slice(m[0].length);
+    if (!p.innerHTML.trim()) p.remove();
+    bq.classList.add("md-alert", "md-alert-" + type);
+    const title = document.createElement("p");
+    title.className = "md-alert-title";
+    title.textContent = type[0].toUpperCase() + type.slice(1);
+    bq.prepend(title);
+  });
+});
+</script>
 
 ## Workshop Abstract
 
