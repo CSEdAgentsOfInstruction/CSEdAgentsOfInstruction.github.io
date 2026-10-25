@@ -9,8 +9,8 @@ This page is created and maintainted by:
 * [Arto Hellas, Aalto University](https://www.aalto.fi/en/people/arto-hellas)
 * [Paul Denny, University of Auckland](https://www.cs.auckland.ac.nz/~paul/)
 
-> [!CAUTION]
-> This page is a work in progress!
+[!CAUTION]
+This page is a work in progress!
 
 
 
