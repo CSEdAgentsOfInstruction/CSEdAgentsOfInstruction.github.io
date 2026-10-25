@@ -25,7 +25,7 @@ to get the most out of the workshop:
     - [Github Copilot Pro](https://github.com/features/copilot) is available for
       University faculty members for free as part of the [Github Education](https://github.com/education)
       program. However, your faculty status will need to be verified manually, which can take some time.
-      Paid membership is USD$10/month.
+      Paid membership is USD$10/month[^as of October 2026].
     - [Anthropic Claude Code Pro](https://claude.com/pricing) is USD$23/month,
       and is a good choice if you prefer a terminal-based workflow, or if you
       want to set it up yourself on VSCode.
