@@ -1,6 +1,6 @@
 This page contains resources for the [SIGCSE-Virtual 2026](https://sigcsevirtual2026.acm.org/) workshop "Agents of Instruction: Co-Creating Learning Materials with AI Agents"
 
-This page is created and maintainted by the workshop facilitators:
+This page is created and maintained by the workshop facilitators:
 
 * [Lisa Zhang, University of Toronto](https://lisazhang.ca/)
 * [Juho Leinonen, Aalto University](https://juholeinonen.com/)
@@ -31,7 +31,7 @@ to get the most out of the workshop:
       want to set it up yourself on VSCode.
       Claude Design is included in the free tier if your goal is to create
       visualizations for your courses.
-    - [Cursor Pro](https://cursor.com/pricing) also has a free tier for getting sarted.
+    - [Cursor Pro](https://cursor.com/pricing) also has a free tier for getting started.
       It is a good choice if you don't mind using their IDE (built on top of 
       VS Code), or if your workflow may include making (human) edits on a file
       concurrently with an AI Agent.
@@ -45,7 +45,7 @@ to get the most out of the workshop:
       but [not](https://incidentdatabase.ai/entities/gemini-3-based-antigravity-agent-ide/)
       [unheard](https://rits.shanghai.nyu.edu/ai/metas-alignment-director-lost-control-of-openclaw-it-deleted-her-inbox/)
       [of](https://www.theregister.com/software/2025/05/29/openai-model-modifies-own-shutdown-script-say-researchers/917237).
-    - TODO: Discuss Security Settings here
+    - Our [agent sandbox guide](agent-sandbox-guide.md) shows a lighter option: running the agent in a Docker container, where it can only change files you copy into it. Please set it up before the workshop.
 
 3. Source files for you to adapt or work on during the workshop. You will get the most
    out of the workshop by working on instructional materials that you may consider
@@ -66,14 +66,12 @@ to get the most out of the workshop:
 
 #### Cursor Setup Instructions
 
-TODO. This could be a reasonable alternative to Github Coiplot,
+TODO. This could be a reasonable alternative to Github Copilot,
 given that the free tier is there.
 
 ### VM and Security
 
-#### Virtual Machine Setup
-
-#### Security Settings
+The [agent sandbox guide](agent-sandbox-guide.md) has step-by-step instructions for running GitHub Copilot, Claude Code or Codex in a Docker container, and explains what this setup does and doesn't protect against.
 
 ### Preparing Source Files
 
