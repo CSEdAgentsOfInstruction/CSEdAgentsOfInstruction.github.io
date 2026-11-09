@@ -63,6 +63,8 @@ to get the most out of the workshop:
 
 1. [Access Copilot Pro for free as a teacher or open source maintainer](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers)
     You should do this a week prior to the workshop
+2. [Sign up for github copilot](https://github.com/github-copilot/free_signup)
+3. [Install the Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli), and/or follow the instructions to [install the GitHub Copilot extension for your editor](https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/set-up-copilot/install-copilot-extension?tool=vscode)
 
 #### Cursor Setup Instructions
 
