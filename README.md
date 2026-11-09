@@ -31,7 +31,7 @@ to get the most out of the workshop:
       want to set it up yourself on VSCode.
       Claude Design is included in the free tier if your goal is to create
       visualizations for your courses.
-    - [Cursor Pro](https://cursor.com/pricing) also has a free tier for getting started.
+    - [Cursor](https://cursor.com/pricing) also has a free plan for getting started.
       It is a good choice if you don't mind using their IDE (built on top of 
       VS Code), or if your workflow may include making (human) edits on a file
       concurrently with an AI Agent.
@@ -74,14 +74,16 @@ You will need a GitHub account. Complete these steps before the workshop:
 
 If you are using the Docker sandbox, follow the [agent sandbox guide](agent-sandbox-guide.md) to complete the remaining setup.
 
-#### Cursor Setup Instructions
-
-TODO. This could be a reasonable alternative to Github Copilot,
-given that the free tier is there.
+Of course, you are welcome to set up a different AI Agent.
+[Cursor](https://cursor.com/pricing) also has a free tier that requires no credit card,
+however you may exceed usage limits during the workshop.
+For the Cursor editor, download the app from [cursor.com/download](https://cursor.com/download)
+For a terminal-based workflow, [install the Cursor CLI](https://cursor.com/docs/cli/installation) and start it with `agent`.
+You only need one of these options.
 
 ### VM and Security
 
-The [agent sandbox guide](agent-sandbox-guide.md) has step-by-step instructions for running GitHub Copilot, Claude Code or Codex in a Docker container, and explains what this setup does and doesn't protect against.
+The [agent sandbox guide](agent-sandbox-guide.md) has step-by-step instructions for running GitHub Copilot, Claude Code or Codex in a Docker container, and explains what this setup does and doesn't protect against. Cursor is a separate application, so the guide does not cover it.
 
 ### Preparing Source Files
 
