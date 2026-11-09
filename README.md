@@ -61,10 +61,18 @@ to get the most out of the workshop:
 
 #### Github Copilot Setup Instructions
 
-1. [Access Copilot Pro for free as a teacher or open source maintainer](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers)
-    You should do this a week prior to the workshop
-2. [Sign up for github copilot](https://github.com/github-copilot/free_signup)
-3. [Install the Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli), and/or follow the instructions to [install the GitHub Copilot extension for your editor](https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/set-up-copilot/install-copilot-extension?tool=vscode)
+You will need a GitHub account. Complete these steps before the workshop:
+
+1. Choose a plan:
+    - Teachers and open source maintainers may be eligible for [Copilot Pro at no cost](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-teachers-and-os-maintainers). Apply at least a week before the workshop, as verification can take time.
+    - Alternatively, [sign up for GitHub Copilot](https://github.com/github-copilot/free_signup) on the free plan.
+2. Choose how you will use Copilot:
+    - For the recommended Docker sandbox setup, install VS Code and the [GitHub Copilot extension](https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/set-up-copilot/install-copilot-extension?tool=vscode).
+    - For a terminal-based workflow, [install the Copilot CLI](https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli).
+    You only need one of these options unless you would like to use both.
+3. Sign in to GitHub in your chosen tool and confirm that Copilot responds to a test prompt.
+
+If you are using the Docker sandbox, follow the [agent sandbox guide](agent-sandbox-guide.md) to complete the remaining setup.
 
 #### Cursor Setup Instructions
 
