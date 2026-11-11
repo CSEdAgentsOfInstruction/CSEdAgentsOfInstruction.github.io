@@ -1,0 +1,14 @@
+id: fef85ec1-39d9-42b4-a401-11fc449913ac
+type: python
+title: Print the response twice
+prompt: |
+  Change the program so it prints the food entered by the user twice.
+
+  For example, when the user enters `Noodles`, the output after the prompt must be:
+
+  ```text
+  Noodles
+  Noodles
+  ```
+part: 1
+points: 5

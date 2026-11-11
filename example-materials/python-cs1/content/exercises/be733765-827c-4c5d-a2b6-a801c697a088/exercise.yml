@@ -1,0 +1,17 @@
+id: be733765-827c-4c5d-a2b6-a801c697a088
+type: mcq
+title: One score category
+prompt: |
+  A program classifies a score as exactly one of `Fail`, `Pass`, or `Excellent`. Which structure is more appropriate?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: de36dbe2-810e-40db-8726-08a5a7b70ff8
+    text: Separate `if` statements
+    correct: false
+    explanation: Overlapping true conditions could print several labels for one score.
+  - id: d2660788-635c-4085-892c-fd784f3e653a
+    text: One `if/elif/else` chain
+    correct: true
+    explanation: The chain stops after the first matching branch, so it selects exactly one category.

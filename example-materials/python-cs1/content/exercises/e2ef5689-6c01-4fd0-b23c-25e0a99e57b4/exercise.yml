@@ -1,0 +1,9 @@
+id: e2ef5689-6c01-4fd0-b23c-25e0a99e57b4
+type: python
+title: Print every character
+prompt: |
+  Complete the program so it reads one word without a visible input prompt and prints every character on its own line, in the original order.
+
+  Use a direct `for` loop over `word`, with the loop variable representing the current character. The starter removes whitespace around the word; otherwise preserve every character exactly, including its letter case. A repeated character must be printed once for each time it occurs. If the entered word is empty, the program should print nothing.
+part: 2
+points: 10

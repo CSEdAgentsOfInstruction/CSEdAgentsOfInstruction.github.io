@@ -1,0 +1,16 @@
+id: de5f1b27-289f-49fb-a318-65fb5023fafb
+type: mcq
+title: Equal values
+prompt: What value does `10 == 10` produce?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 95f913b1-ebeb-4a4a-9dee-d1096f7ae2cd
+    text: "True"
+    correct: true
+    explanation: Both sides have the same value, so the equality comparison is true.
+  - id: 3da5804e-6996-42b9-b718-03a9fc0202a1
+    text: "False"
+    correct: false
+    explanation: The equality operator produces true when the values on both sides are equal.

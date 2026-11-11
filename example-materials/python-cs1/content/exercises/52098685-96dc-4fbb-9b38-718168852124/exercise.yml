@@ -1,0 +1,17 @@
+id: 52098685-96dc-4fbb-9b38-718168852124
+type: mcq
+title: Adult and senior messages
+prompt: |
+  A program prints `Adult` when age is at least 18 and independently prints `Senior discount` when age is at least 65. Which structure is more appropriate?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 3b8aee8e-8726-4b1c-9400-23fe20d5bddb
+    text: Separate `if` statements
+    correct: true
+    explanation: A person aged 65 or older satisfies both facts, so both messages should be able to run.
+  - id: 3538825d-f9a6-488c-b830-c29d2ab00e2b
+    text: One `if/elif/else` chain
+    correct: false
+    explanation: A chain selects only one branch and would prevent both valid messages from being printed.

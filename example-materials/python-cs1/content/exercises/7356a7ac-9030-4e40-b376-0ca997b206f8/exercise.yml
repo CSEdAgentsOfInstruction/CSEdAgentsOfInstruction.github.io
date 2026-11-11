@@ -1,0 +1,16 @@
+id: 7356a7ac-9030-4e40-b376-0ca997b206f8
+type: mcq
+title: Name statement 1
+prompt: What does `name = "Ada"` do?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 6a6efd45-3f4f-4ab0-90de-63a34989bfa6
+    text: Changes program state
+    correct: true
+    explanation: The line assigns the string `"Ada"` to the variable `name`.
+  - id: ddc83b01-be06-4ef6-bdbd-a27d1e273f90
+    text: Asks a boolean question
+    correct: false
+    explanation: A single equals sign stores a value rather than comparing two values.

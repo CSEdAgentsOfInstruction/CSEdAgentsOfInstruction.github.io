@@ -1,0 +1,15 @@
+id: 0c367bd1-22fc-4668-9792-960185d1de7f
+type: python
+title: Restore the countdown panel
+prompt: |
+  Repair the program so it runs and prints exactly:
+
+  ```text
+  3
+  2
+  1
+  ```
+
+  Keep one definition and one call.
+part: 3
+points: 4

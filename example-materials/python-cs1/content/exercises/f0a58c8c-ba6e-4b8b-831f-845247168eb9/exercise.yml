@@ -1,0 +1,26 @@
+id: f0a58c8c-ba6e-4b8b-831f-845247168eb9
+type: mcq
+title: Evaluate index -8
+prompt: |
+  What happens when this program reaches its second line?
+
+  ```python
+  signal = "OPENING"
+  print(signal[-8])
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 23f72137-1195-4aa7-9b2a-1685901f8c37
+    text: Python raises an `IndexError`.
+    correct: true
+    explanation: A string of length 7 accepts negative indexes from -7 through -1, so -8 is outside it.
+  - id: 2e4875d8-35cc-442b-bad3-9b9f12c02272
+    text: It wraps around and prints `G`.
+    correct: false
+    explanation: Python's string indexes do not wrap around after reaching the first character.
+  - id: 7558beb4-33a5-452c-8531-90adb2a01210
+    text: It prints the first character, `O`.
+    correct: false
+    explanation: The first character is at -7; going one step further is invalid.

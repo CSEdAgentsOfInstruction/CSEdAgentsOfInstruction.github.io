@@ -1,0 +1,29 @@
+id: ce8f0d37-f8bc-4879-bafc-f8554331e27f
+type: python
+title: Record another reading
+prompt: |
+  Define `with_reading_added(readings, reading)` for a sensor log. The parameter `readings` is a list of numbers, and `reading` is one more number to record. The numbers may be negative, zero, positive, or decimal values.
+
+  Return a new list containing all the original readings in their original order, followed by the additional reading. Keep repeated values. An empty log produces a list containing just the additional reading.
+
+  Leave `readings` unchanged. The returned list must be separate from the original: changing either list afterward must not change the other. Each call must create its own result, so recording another reading later must not change a list returned by an earlier call.
+
+  For example:
+
+  ```python
+  original = [4, -2, 0, 4]
+  extended = with_reading_added(original, 1.5)
+  print(original)
+  print(extended)
+  ```
+
+  prints:
+
+  ```text
+  [4, -2, 0, 4]
+  [4, -2, 0, 4, 1.5]
+  ```
+
+  The function must not read input or print anything. The loops and list operations from Part 2 are enough for this task. Try calls with an empty log and repeated readings as well as the example above. Remove temporary calls before pressing **Check**, leaving your function definitions.
+part: 3
+points: 15

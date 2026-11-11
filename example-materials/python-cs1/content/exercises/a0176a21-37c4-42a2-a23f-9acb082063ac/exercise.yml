@@ -1,0 +1,32 @@
+id: a0176a21-37c4-42a2-a23f-9acb082063ac
+type: mcq
+title: Include 90 in the middle category
+prompt: |
+  Which change makes `90` produce `Medium` while leaving the other boundaries in place?
+
+  ```python
+  minutes = int(input())
+
+  if minutes < 30:
+      print("Short")
+  elif minutes < 90:
+      print("Medium")
+  else:
+      print("Long")
+  ```
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 403f820f-3df9-4cc7-a88e-604094489841
+    text: Change `minutes < 90` to `minutes <= 90`.
+    correct: true
+    explanation: Less than or equal to includes the boundary value 90 in the middle branch.
+  - id: 15b94400-da2d-4317-9dd2-5e394856a9b1
+    text: Change `minutes < 30` to `minutes <= 30`.
+    correct: false
+    explanation: This changes the category for 30 but does not affect what happens at 90.
+  - id: 0f3551e2-e214-4b28-9913-18ce5766f722
+    text: Change `minutes < 90` to `minutes > 90`.
+    correct: false
+    explanation: This would make most values above the first boundary skip the middle branch.

@@ -1,0 +1,22 @@
+id: b3655937-e2d2-4bd1-97d5-c41eed03f523
+type: mcq
+title: Check a full name
+prompt: |
+  What does this expression produce?
+
+  ```python
+  names = ["Ada", "Grace", "Linus"]
+  "Grace" in names
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 86e402f1-0722-42cf-aca2-58e0b3ce7c4e
+    text: "`True`"
+    correct: true
+    explanation: The complete string `"Grace"` is one of the list items.
+  - id: 698bb1c1-f158-4513-ab0f-a32e31497f03
+    text: "`False`"
+    correct: false
+    explanation: The list contains an item equal to `"Grace"`, so the membership test is true.

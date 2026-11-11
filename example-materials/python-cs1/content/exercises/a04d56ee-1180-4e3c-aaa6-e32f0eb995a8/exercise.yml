@@ -1,0 +1,24 @@
+id: a04d56ee-1180-4e3c-aaa6-e32f0eb995a8
+type: python
+title: Arrange a mission dashboard
+prompt: |
+  Define a function named `show_marker` with empty parentheses because it does not receive information when called. It must print exactly ten hyphens:
+
+  ```text
+  ----------
+  ```
+
+  The starter already prints three dashboard labels. Call `show_marker()` after each label so the complete output is:
+
+  ```text
+  FLIGHT PLAN
+  ----------
+  CREW
+  ----------
+  SUPPLIES
+  ----------
+  ```
+
+  Keep the marker text in the function and reuse that function three times. Do not copy the marker's `print` statement into the main program.
+part: 3
+points: 10

@@ -1,0 +1,32 @@
+id: 12dd0ec6-6f1c-415e-b6a0-df5f4c1a61d8
+type: mcq
+title: Review a small extraction
+prompt: |
+  A program stores session lengths in minutes in the list `sessions`. An inline loop counts the sessions lasting at least 30 minutes and stores the result in `long_count`. You have moved the counting rule into this tested helper:
+
+  ```python
+  def count_long_sessions(sessions, minimum_minutes):
+      count = 0
+      for minutes in sessions:
+          if minutes >= minimum_minutes:
+              count = count + 1
+      return count
+  ```
+
+  Which replacement preserves the intended value of `long_count` while making the helper responsible for the calculation?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: e7380cbf-f46d-4e88-bf6a-e83b5701206c
+    text: "`long_count = count_long_sessions(sessions, 30)`"
+    correct: true
+    explanation: The call supplies the required values and stores the returned count under the original result name.
+  - id: 8002eaac-8a14-40db-9480-c6e8e5bc0de0
+    text: "`print(count_long_sessions)`"
+    correct: false
+    explanation: This refers to the function itself without calling it and does not store the calculated count.
+  - id: 362738be-15aa-4a88-a544-3182a4fc26c5
+    text: "`count_long_sessions = long_count`"
+    correct: false
+    explanation: This replaces the function name instead of calling the function.

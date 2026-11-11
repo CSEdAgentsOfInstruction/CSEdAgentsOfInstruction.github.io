@@ -1,0 +1,17 @@
+id: 98906656-32a2-46ad-af2c-d1cf284d7790
+type: python
+title: Calculate a price with tax
+prompt: |
+  Write a program that reads a price as a decimal number and calculates the price after adding 25.5% VAT.
+
+  Use these meaningful intermediate variables:
+
+  - `price` for the entered price;
+  - `tax_amount` for 25.5% of the price;
+  - `final_price` for the price plus the tax.
+
+  Print `final_price` as a number. You do not need to format it to a fixed number of decimal places yet.
+
+  For input `10.50`, the result should be `13.1775`. You may assume the input is a valid non-negative number.
+part: 1
+points: 10

@@ -1,0 +1,31 @@
+id: 0e3f77f5-5145-4785-8a59-f89a2efc0536
+type: mcq
+title: Review the archive counter
+prompt: |
+  Required behavior: `count_matches(values, wanted)` returns the number of items equal to `wanted`. An empty list returns `0`.
+
+  ```python
+  def count_matches(values, wanted):
+      count = 0
+      for value in values:
+          count = count + 1
+      return count
+  ```
+
+  Which assertion reveals a mismatch with the required behavior?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: 7e924311-a1ff-4d5e-b25b-b061301610cb
+    text: '`assert count_matches(["note"], "map") == 0`'
+    correct: true
+    explanation: The loop counts the note even though it does not match map. This assertion expects zero but the function returns one.
+  - id: 27f1eaa3-7f2c-4ceb-8b28-9bc5e1741cbd
+    text: '`assert count_matches(["map", "map"], "map") == 2`'
+    correct: false
+    explanation: Every item matches in this case, so counting every item happens to give the required result.
+  - id: 2e25fcaf-72b5-4e9d-8116-d73ebce07430
+    text: '`assert count_matches([], "map") == 0`'
+    correct: false
+    explanation: The loop runs zero times and returns zero. Passing the empty case does not show whether nonmatching items are excluded.

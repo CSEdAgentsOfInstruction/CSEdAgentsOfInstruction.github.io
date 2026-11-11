@@ -1,0 +1,30 @@
+id: 302307fd-e330-4edb-943f-b26497954dec
+type: mcq
+title: Output from an integer
+prompt: |
+  What does this program display?
+
+  ```python
+  value = 42
+  print(value)
+  ```
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 74d7ebb2-9f1e-4f5c-9301-712e0889d077
+    text: "42"
+    correct: true
+    explanation: Printing the integer displays its digits, so this output looks like the output from the previous string value.
+  - id: 55673785-e0bc-4832-920f-b28ec1038254
+    text: '"42"'
+    correct: false
+    explanation: Quotation marks are Python source syntax for a string; `print(...)` does not add them around this integer.
+  - id: a8c0556c-e69c-445d-8e44-a6b4c2f5239f
+    text: <class 'int'>
+    correct: false
+    explanation: That would describe the type, but this program prints the value itself.
+  - id: b10c435a-8b71-4770-b45e-830557e1a1d8
+    text: The program raises an error.
+    correct: false
+    explanation: Assigning and printing an integer is valid Python.

@@ -1,0 +1,13 @@
+id: 04de5bac-f771-4b81-a629-d0df39ac3fee
+type: python
+title: Ask for a favorite food
+prompt: |
+  Complete the program so it asks the user for their favorite food and then prints the stored answer.
+
+  When the user enters `Noodles`, the output after the prompt must end with:
+
+  ```text
+  Noodles
+  ```
+part: 1
+points: 10

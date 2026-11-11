@@ -1,0 +1,13 @@
+id: 556a9ff6-5cb8-497f-94b6-46412d399144
+type: python
+title: Change a profile program with intent
+prompt: |
+  Make three deliberate changes to the profile program:
+
+  1. Change the `City:` question to `Hometown:`.
+  2. After the favorite-food question, add an input stored in `language` with the prompt `Favorite programming language: `.
+  3. Include the favorite programming language in the final output.
+
+  Before running the changed program, predict what one example run will display. Then run it and compare the result with your prediction. Keep the prediction in your own notes.
+part: 1
+points: 15

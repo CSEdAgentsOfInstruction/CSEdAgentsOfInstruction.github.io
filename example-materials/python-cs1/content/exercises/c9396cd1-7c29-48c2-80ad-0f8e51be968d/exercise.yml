@@ -1,0 +1,19 @@
+id: c9396cd1-7c29-48c2-80ad-0f8e51be968d
+type: mcq
+title: Start a character total
+prompt: |
+  A list named `words` contains nonempty words as strings. The list may be empty.
+
+  A loop will add the length of each word to `total_characters` to calculate the total number of characters in the words. What value should `total_characters` have before the loop begins?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 292ae5ba-4cc5-4b5a-9017-529132b3c4b2
+    text: "`0`"
+    correct: true
+    explanation: Zero is the total character count before any word lengths have been added.
+  - id: 0ae3704b-5f13-44c1-bd6a-e9a7648fe0af
+    text: "`[]`"
+    correct: false
+    explanation: An empty list is suitable for collecting items, not for adding word lengths.

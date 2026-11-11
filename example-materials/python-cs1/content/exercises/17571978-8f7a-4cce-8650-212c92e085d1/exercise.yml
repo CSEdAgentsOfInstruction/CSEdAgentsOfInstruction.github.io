@@ -1,0 +1,26 @@
+id: 17571978-8f7a-4cce-8650-212c92e085d1
+type: python
+title: Calculate how many pizzas to order
+prompt: |
+  Write a program that reads two positive whole numbers:
+
+  1. the number of people;
+  2. the number of pizza slices each person will eat.
+
+  Each pizza has 8 slices. Calculate how many whole pizzas must be ordered so that there are enough slices for everyone, including when the required slices do not divide evenly into pizzas.
+
+  For positive whole numbers, adding 7 before floor-dividing by 8 rounds a partial pizza up:
+
+  ```python
+  pizzas = (total_slices + 7) // 8
+  ```
+
+  Print the result in this form:
+
+  ```text
+  Pizzas: 2
+  ```
+
+  Use `input()` without visible prompts. You may assume both inputs are greater than zero.
+part: 1
+points: 15

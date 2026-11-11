@@ -1,0 +1,36 @@
+id: 9c4adb6e-a798-49cf-a3d5-9a40a0b46a47
+type: mcq
+title: Repair the flag loop
+prompt: |
+  The flag should tell whether every temperature is non-negative. This version does not work for every list:
+
+  ```python
+  temperatures = [6, -2, 4]
+  all_non_negative = True
+
+  for temperature in temperatures:
+      if temperature < 0:
+          all_non_negative = False
+      else:
+          all_non_negative = True
+
+  print(all_non_negative)
+  ```
+
+  Which repair makes the flag correct for every list, including an empty list?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: c4cd3ecf-7f2c-40b1-997e-907b591be8f6
+    text: Remove the `else` branch and its assignment. Keep the initial `True` before the loop.
+    correct: true
+    explanation: A negative value sets the flag to `False`, and later passing values leave it alone. An empty list leaves it `True` because no value failed the check.
+  - id: 5031141b-8c42-49fe-9fdd-fc29cf4b3b84
+    text: Remove the `else` branch, but set the flag to `True` at the beginning of every iteration instead.
+    correct: false
+    explanation: The final value 4 would reset the flag to `True`, erasing the failure found at -2. Initialization must happen once before the loop.
+  - id: 407076c8-7bc1-4aae-a30e-54233471cbb2
+    text: Change the initial flag to `False` and leave both branches unchanged.
+    correct: false
+    explanation: The last passing value would still reset the flag to `True`. An empty list would also give the wrong result because its flag would stay `False`.

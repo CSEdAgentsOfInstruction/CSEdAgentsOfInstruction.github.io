@@ -1,0 +1,24 @@
+id: 87cb3119-0089-4b70-9c0f-239fadb0d7dc
+type: mcq
+title: Repeat a reminder four times
+prompt: A program should print the same reminder exactly four times. There is no sequence of data to process. Which form is clearest?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 84931bb4-8732-4e8c-8d14-0677fc9f8a70
+    text: "`for number in range(4)`"
+    correct: true
+    explanation: "`range(4)` directly expresses the known number of repetitions."
+  - id: 987ffbef-d96f-47f5-bdd9-0a1810dbb10e
+    text: "`for item in items`"
+    correct: false
+    explanation: The task has no existing item sequence whose values should control repetition.
+  - id: 7faf0ea3-785c-43ab-aeb4-953d70a8fe08
+    text: "`for index in range(len(items))`"
+    correct: false
+    explanation: There is no existing sequence whose positions are needed.
+  - id: 1925076c-8d26-46ab-999b-3664038382e5
+    text: "`while True` with `break`"
+    correct: false
+    explanation: A manual stopping rule is unnecessary when the count is already known.

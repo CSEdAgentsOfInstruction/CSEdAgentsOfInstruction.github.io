@@ -1,0 +1,30 @@
+id: 4259f1b2-6536-4be8-b002-38abbc73e213
+type: mcq
+title: Trace index `len(word)`
+prompt: |
+  What happens when this program reaches its second line?
+
+  ```python
+  word = "planet"
+  print(word[len(word)])
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: a8c94ab8-c7d1-4948-a94d-1fa46522656f
+    text: Python raises an `IndexError`.
+    correct: true
+    explanation: The length is 6, but the valid non-negative indexes end at 5.
+  - id: 7c11d855-6ee6-4a3b-9721-61ced8cc5c28
+    text: It prints the final character, `t`.
+    correct: false
+    explanation: The final character is at `len(word) - 1`, not at `len(word)`.
+  - id: e45b5b0d-c6c2-475c-b9ee-b7f2e10e874d
+    text: It prints `6`.
+    correct: false
+    explanation: Square brackets access a character; they do not print the index itself.
+  - id: b3e9868f-cdd7-4313-8ab2-b1309a645160
+    text: It prints an empty string.
+    correct: false
+    explanation: Indexing past the end is an error rather than a request for an empty value.

@@ -1,0 +1,29 @@
+id: ab77eb58-fd0b-49d6-a0c9-e090c8c66a26
+type: mcq
+title: Trace empty input
+prompt: |
+  What does the program print if the user enters an empty line on the first iteration?
+
+  ```python
+  words = []
+
+  while True:
+      word = input()
+      if word == "":
+          break
+      words.append(word)
+
+  print(words)
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 28efd9c9-546f-4926-96b6-1636ce16f08a
+    text: "[]"
+    correct: true
+    explanation: The empty input reaches `break` before `.append(...)`, so the list remains empty.
+  - id: e41db936-862e-44b8-b622-491d64b13ab8
+    text: "['']"
+    correct: false
+    explanation: The empty string would appear in the list only if it were appended before the stopping check.

@@ -1,0 +1,25 @@
+id: 9c52fac6-0c97-4ddf-a3dd-512166f73a8b
+type: python
+title: Normalize a sensor log
+prompt: |
+  Define a function named `replace_negative_readings` with one parameter, `values`.
+
+  Use an indexed loop to replace every negative item in the existing list with `0`. Leave zero and positive items unchanged. The function must modify the list supplied by its caller, print nothing, and return `None`; do not return either the original list or a new list.
+
+  For example:
+
+  ```python
+  readings = [4, -2, 0, -7, 5]
+  replace_negative_readings(readings)
+  print(readings)
+  ```
+
+  prints:
+
+  ```text
+  [4, 0, 0, 0, 5]
+  ```
+
+  An empty list remains empty. Leave only the function definition in the editor before pressing **Check**.
+part: 3
+points: 15

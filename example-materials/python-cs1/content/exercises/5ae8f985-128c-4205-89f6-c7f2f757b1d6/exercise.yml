@@ -1,0 +1,13 @@
+id: 5ae8f985-128c-4205-89f6-c7f2f757b1d6
+type: python
+title: Restore the destination panel
+prompt: |
+  The function is defined correctly, but the program produces no output. Repair its use so the program prints exactly:
+
+  ```text
+  Destination: Europa
+  ```
+
+  Do not add another `print` statement.
+part: 3
+points: 4

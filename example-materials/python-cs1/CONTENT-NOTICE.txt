@@ -1,0 +1,13 @@
+Using the course materials
+
+These lessons, exercises, tests, and reference solutions are provided for you
+to explore and adapt during the Agents of Instruction tutorial.
+
+This package does not grant an open license to the course materials.
+Copyright remains with the respective rights holders. Existing permissions
+from rights holders still apply. Separately licensed material keeps its own
+licenses and notices.
+
+Please keep the attribution and this notice with your adaptations. Ask the
+workshop facilitators about permission to reuse or share the materials beyond
+the tutorial.

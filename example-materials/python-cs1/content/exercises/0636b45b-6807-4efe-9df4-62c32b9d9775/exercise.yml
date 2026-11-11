@@ -1,0 +1,21 @@
+id: 0636b45b-6807-4efe-9df4-62c32b9d9775
+type: mcq
+title: Plan the attendance calculation
+prompt: |
+  A festival program has attendance counts in a list named `attendance`. It needs to calculate the total without asking for new input or printing. Which function boundary best expresses that responsibility?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: d3d398e1-86ad-435b-bef8-fd20675cb7e4
+    text: "`total_attendance(attendance)` receives the list and returns its total."
+    correct: true
+    explanation: The calculation receives all of its information through a parameter and returns the result for its caller to use.
+  - id: 055f1dac-d7a6-4846-b00e-2459f332a06b
+    text: "`total_attendance()` asks the user for every value and prints the total."
+    correct: false
+    explanation: This mixes interaction, calculation, and presentation, so the calculation cannot easily be reused with an existing list.
+  - id: 263e959f-bc17-4eec-ba2f-e3f9042aa3eb
+    text: "`total_attendance(attendance)` changes every item in the list to the total."
+    correct: false
+    explanation: Calculating one total does not require destroying or replacing the stored attendance values.

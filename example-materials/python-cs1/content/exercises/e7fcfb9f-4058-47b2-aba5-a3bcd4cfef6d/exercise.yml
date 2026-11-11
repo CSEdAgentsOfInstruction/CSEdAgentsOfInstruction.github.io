@@ -1,0 +1,16 @@
+id: e7fcfb9f-4058-47b2-aba5-a3bcd4cfef6d
+type: mcq
+title: Looping over an empty sequence
+prompt: How many times does the body of a direct `for` loop run when its string or list is empty?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 3140cfc0-0d96-415f-8317-f9381d243fda
+    text: Zero times
+    correct: true
+    explanation: There is no item to assign to the loop variable.
+  - id: 1bc8699d-3980-449c-94a8-4b256610f858
+    text: Once
+    correct: false
+    explanation: A loop iteration requires an item, and an empty sequence has none.

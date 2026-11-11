@@ -1,0 +1,24 @@
+id: 58b4659e-4eb9-45bd-8420-fd82caf428fc
+type: mcq
+title: Collect titles until an empty line
+prompt: A program should keep asking for book titles until the user enters an empty line. The number of titles is not known in advance. Which form is clearest?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: fb5ee9f6-f9a0-4b05-a06a-df9f70658f1d
+    text: "`while True` with an empty-string check and `break`"
+    correct: true
+    explanation: The user's input determines when collection stops.
+  - id: cc07b5e3-fe83-4c90-a739-fb2587a43f91
+    text: "`for title in titles`"
+    correct: false
+    explanation: The titles have not yet been collected into the sequence this loop would need.
+  - id: 45b93928-cb80-479b-a011-c7bf65e6c608
+    text: "`for index in range(len(titles))`"
+    correct: false
+    explanation: The final list length is not known while the titles are still being entered.
+  - id: 5ec4bcb6-4c41-45c9-ad05-a33188b7e44b
+    text: "`for number in range(4)`"
+    correct: false
+    explanation: A fixed count would wrongly assume that every user enters exactly four titles.

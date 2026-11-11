@@ -1,0 +1,9 @@
+id: 4d1a2d73-044f-48d7-8f8a-0dd605605843
+type: python
+title: Repair the confirmation check
+prompt: |
+  The program reads a confirmation. Inputs such as `yes`, `YES`, and ` yes ` should all print `Confirmed`; every other input should print `Not confirmed`.
+
+  The starter handles only one form of `yes`. Identify and fix its one issue. Keep the input without a visible prompt and print only the applicable message.
+part: 1
+points: 5

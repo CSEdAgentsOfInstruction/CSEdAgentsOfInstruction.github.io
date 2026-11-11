@@ -1,0 +1,25 @@
+id: 6fc4da31-da75-40a3-a43a-e54574683eff
+type: mcq
+title: Reason about an empty string
+prompt: |
+  Which statement about this value is correct?
+
+  ```python
+  word = ""
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 92cba920-176f-45e2-87a8-fcb1d292be47
+    text: The string has no valid indexes.
+    correct: true
+    explanation: Its length is zero, so it contains no character that an index could select.
+  - id: 52b47c44-c809-4acc-8861-874a1947501e
+    text: Index `0` is valid and selects an empty character.
+    correct: false
+    explanation: Python has no empty character at index 0; trying that index raises `IndexError`.
+  - id: fbf3d917-9a67-46a2-9aaa-ab16a9622dec
+    text: The string has one valid index because its value is written with two quotation marks.
+    correct: false
+    explanation: The quotation marks delimit the string in Python code; they are not characters stored in the string.

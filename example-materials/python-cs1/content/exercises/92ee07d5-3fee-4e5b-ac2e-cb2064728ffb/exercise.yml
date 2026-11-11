@@ -1,0 +1,37 @@
+id: 92ee07d5-3fee-4e5b-ac2e-cb2064728ffb
+type: python
+title: Calculate a parcel delivery quote
+prompt: |
+  Write a program that reads four input lines without visible prompts:
+
+  1. the customer's name;
+  2. the destination: `local`, `national`, or `international`;
+  3. the parcel's weight in kilograms, which may contain a decimal point;
+  4. whether express delivery is wanted: `yes` or `no`.
+
+  Remove surrounding whitespace from the name. Normalize the destination and express answer with `.strip().lower()`, and convert the weight to a `float`.
+
+  The base price is 2.50 euros per kilogram. Classify the weight as follows:
+
+  - under 2 kg: `light`;
+  - 2 through 10 kg: `standard`;
+  - over 10 kg: `heavy`.
+
+  Add a destination surcharge of 0 euros for `local`, 4 euros for `national`, or 12 euros for `international`. Express delivery adds a separate surcharge of 6 euros. You may assume all inputs are valid.
+
+  Print exactly these six lines, replacing the example values with the calculated values:
+
+  ```text
+  Name: Ada
+  Destination: national
+  Weight class: standard
+  Base price: 8.75 euros
+  Delivery: standard
+  Total price: 12.75 euros
+  ```
+
+  Use `express` as the delivery value when express delivery was requested and `standard` otherwise. Format both prices with exactly two digits after the decimal point.
+
+  Pay particular attention to weights `2` and `10`, which both belong to the `standard` category. Use a separate decision for the express surcharge because it is independent of the destination and weight classification.
+part: 1
+points: 30

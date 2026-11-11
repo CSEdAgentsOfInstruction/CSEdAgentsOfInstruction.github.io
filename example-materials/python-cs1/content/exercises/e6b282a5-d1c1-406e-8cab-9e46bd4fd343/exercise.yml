@@ -1,0 +1,28 @@
+id: e6b282a5-d1c1-406e-8cab-9e46bd4fd343
+type: mcq
+title: Check the supplied scores
+prompt: |
+  Specification: `select_finalists(scores, minimum)` returns a new list of the scores that meet the minimum, leaving `scores` unchanged.
+
+  ```python
+  scores = [70, 90, 80]
+  finalists = select_finalists(scores, 80)
+  ```
+
+  Which assertion checks that the supplied list was left unchanged?
+part: 3
+points: 5
+multiple: false
+options:
+  - id: 2689b021-2c94-4d7c-9bf2-90d9586e868a
+    text: "`assert scores == [70, 90, 80]`"
+    correct: true
+    explanation: This compares the input list after the call with its original contents.
+  - id: a9436fba-54fe-4bad-bfa3-04a938666e22
+    text: "`assert finalists == [90, 80]`"
+    correct: false
+    explanation: This checks the returned values. A function could return these values while also changing scores.
+  - id: f57a7c23-14f7-4674-b5ad-69e16e92437b
+    text: "`assert len(finalists) == 2`"
+    correct: false
+    explanation: The result length does not tell us whether the function changed the input list.

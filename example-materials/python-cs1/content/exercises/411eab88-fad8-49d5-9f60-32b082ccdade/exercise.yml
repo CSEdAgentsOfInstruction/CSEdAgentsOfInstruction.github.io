@@ -1,0 +1,21 @@
+id: 411eab88-fad8-49d5-9f60-32b082ccdade
+type: mcq
+title: Is this value a string? Item 3
+prompt: |
+  Is this Python value a string?
+
+  ```python
+  "17 years"
+  ```
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 2fc2b2f6-13c9-49ee-8551-44940c453aea
+    text: String
+    correct: true
+    explanation: Everything between these quotation marks belongs to one text value.
+  - id: 1a4b58d4-3848-4724-9e7f-14cdbf85f409
+    text: Not a string
+    correct: false
+    explanation: A string may contain letters, digits, and spaces.

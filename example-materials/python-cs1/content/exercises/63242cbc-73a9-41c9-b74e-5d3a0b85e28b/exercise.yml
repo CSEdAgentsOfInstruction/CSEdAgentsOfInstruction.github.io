@@ -1,0 +1,21 @@
+id: 63242cbc-73a9-41c9-b74e-5d3a0b85e28b
+type: mcq
+title: Is this value a string? Item 1
+prompt: |
+  Is this Python value a string?
+
+  ```python
+  "17"
+  ```
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 945135ea-6d53-4771-8b30-457bede1cdd5
+    text: String
+    correct: true
+    explanation: The quotation marks make this a string, even though its characters are digits.
+  - id: cb634f80-0953-4a34-994a-59f620fb55b0
+    text: Not a string
+    correct: false
+    explanation: A value written between quotation marks is a string.

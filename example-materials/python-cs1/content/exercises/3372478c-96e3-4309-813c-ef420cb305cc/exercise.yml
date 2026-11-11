@@ -1,0 +1,21 @@
+id: 3372478c-96e3-4309-813c-ef420cb305cc
+type: mcq
+title: Review the display helper
+prompt: |
+  A program has already calculated the number of periods, the total attendance, and the number of busy periods. Which design gives `print_dashboard` one clear presentation responsibility?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: 459c251c-1a5e-41bb-ab9a-ae30329b6e9a
+    text: Receive the three calculated results as parameters and print them with descriptive labels.
+    correct: true
+    explanation: The caller performs the calculations, while this function presents the supplied results.
+  - id: d97785ef-1511-405c-a424-3adbc49edc5b
+    text: Ask the user to enter every attendance value again before printing.
+    correct: false
+    explanation: Repeating input inside the display function mixes data collection with presentation.
+  - id: 7e89536b-6127-4fe8-91f0-389b1501adce
+    text: Ignore the calculated results and use three fixed numbers in every report.
+    correct: false
+    explanation: A reusable presentation function must display the values its caller supplies.

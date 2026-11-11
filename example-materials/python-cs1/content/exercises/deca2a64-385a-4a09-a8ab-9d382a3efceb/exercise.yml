@@ -1,0 +1,47 @@
+id: deca2a64-385a-4a09-a8ab-9d382a3efceb
+type: mcq
+title: Check a refactor
+prompt: |
+  The original function counts sessions of at least `minimum_minutes`:
+
+  ```python
+  def count_long_sessions(sessions, minimum_minutes):
+      count = 0
+      for minutes in sessions:
+          if minutes >= minimum_minutes:
+              count = count + 1
+      return count
+  ```
+
+  During refactoring, the comparison is moved into this helper:
+
+  ```python
+  def is_long_session(minutes, minimum_minutes):
+      return minutes >= minimum_minutes
+
+
+  def count_long_sessions(sessions, minimum_minutes):
+      count = 0
+      for minutes in sessions:
+          if is_long_session(minutes, 30):
+              count = count + 1
+      return count
+  ```
+
+  Which assertion most directly reveals that the refactoring changed the required behavior?
+part: 3
+points: 3
+multiple: false
+options:
+  - id: 5e6ffec0-d5fb-4526-8ab0-e05c664db384
+    text: "`assert count_long_sessions([35], 40) == 0`"
+    correct: true
+    explanation: The refactored loop uses 30 instead of the supplied minimum. It counts 35 even when the caller asks for sessions of at least 40 minutes.
+  - id: 8af4abc4-4356-4214-85cf-1ec9c0456713
+    text: "`assert count_long_sessions([45], 40) == 1`"
+    correct: false
+    explanation: 45 meets both the requested minimum of 40 and the hard-coded minimum of 30, so both versions pass.
+  - id: 4d23f404-8c2d-4345-be39-6c59df5c8960
+    text: "`assert count_long_sessions([20], 40) == 0`"
+    correct: false
+    explanation: 20 is below both 30 and 40, so this case does not reveal that the refactored loop ignores the parameter.

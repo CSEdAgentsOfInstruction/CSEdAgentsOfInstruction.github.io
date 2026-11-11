@@ -1,0 +1,13 @@
+id: c7de8a34-6351-4dd5-bee6-3afb88b44a82
+type: python
+title: Check a calculation
+prompt: |
+  The supplied `triple(number)` function returns three times the integer `number`.
+
+  Complete `check_triple()`. Replace its placeholder assertion with assertions that check at least one positive integer, zero, and at least one negative integer. Choose the inputs yourself and compare the results from `triple` with the values expected from its rule.
+
+  Keep the supplied calculation function and the call to `check_triple()` after the definitions. Defining the check function does not run its assertions; the call runs them.
+
+  Run the program to try your checks. It should finish silently when every assertion passes. Do not ask for input or print a success message.
+part: 3
+points: 4

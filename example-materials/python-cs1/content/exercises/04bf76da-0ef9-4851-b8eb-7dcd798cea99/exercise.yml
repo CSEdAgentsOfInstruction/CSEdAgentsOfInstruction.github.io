@@ -1,0 +1,27 @@
+id: 04bf76da-0ef9-4851-b8eb-7dcd798cea99
+type: mcq
+title: Review the display phase
+prompt: A music-request kiosk has finished collecting song requests. The list `requests` contains all the saved requests, excluding the stopping word `done`. Which code most clearly displays every saved request once?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 8b7b25a2-1003-402c-bc83-4ba6d4d51b8f
+    text: |-
+      ```python
+      for request in requests:
+          print(request)
+      ```
+    correct: true
+    explanation: The completed list now provides exactly the sequence of values to display, so a direct `for` loop visits each saved request once.
+  - id: bad950c2-6286-46e0-90f3-3b7a212387a1
+    text: |-
+      ```python
+      while True:
+          request = input("Request: ")
+          if request == "done":
+              break
+          print(request)
+      ```
+    correct: false
+    explanation: This starts a new input phase instead of displaying the requests that have already been saved.

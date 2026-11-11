@@ -1,0 +1,16 @@
+id: c1061c87-03eb-461e-a6f5-4e497af12041
+type: mcq
+title: Not equal values
+prompt: What value does `10 != 10` produce?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 645e2b8f-a0ca-4934-b1f0-aabeab46d9bc
+    text: "True"
+    correct: false
+    explanation: The values are equal, so the not-equal comparison is not true.
+  - id: 444a3fa6-9245-409d-8aae-9b4a5ed74442
+    text: "False"
+    correct: true
+    explanation: Both sides are ten, so `!=` produces false.

@@ -1,0 +1,15 @@
+id: 21aa840b-2775-4971-977b-5af81480300f
+type: python
+title: Badge scanner audit
+prompt: |
+  The starter contains `has_access_code(codes, required_code)`. Its required behavior is:
+
+  > Return `True` when `required_code` occurs anywhere in the list `codes`. Return `False` when it does not occur or when `codes` is empty. Compare the strings exactly. Do not print anything or change `codes`.
+
+  The supplied test passes, but the implementation does not meet this specification. Find an input that reveals a problem and add an assertion for the expected result. Run it before repairing the function.
+
+  Repair the search and choose additional tests from the specification. Your tests should distinguish a correct search from one that gives wrong answers for some inputs. Practise the loop and return placement from [Building Functions with Lists](#/part-3/5-building-functions-with-lists?anchor=a-return-ends-the-current-call).
+
+  Keep the supplied assertion and put your additional assertions inside `check_access_codes()`. This function takes no arguments and runs your checks. Keep its call at the end of the program. The complete program should be silent when all tests pass.
+part: 3
+points: 20

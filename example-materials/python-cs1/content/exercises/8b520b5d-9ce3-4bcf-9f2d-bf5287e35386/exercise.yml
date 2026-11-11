@@ -1,0 +1,13 @@
+id: 8b520b5d-9ce3-4bcf-9f2d-bf5287e35386
+type: python
+title: Estimate a delivery route
+prompt: |
+  Define a function named `route_cost` with two parameters: `distance` and `cost_per_km`.
+
+  Return the route's cost, calculated as `distance * cost_per_km`. Do not print the result inside the function. For example, `route_cost(12, 1.5)` must return `18.0`.
+
+  Both arguments are non-negative numbers. They may be whole numbers or decimals, and either argument may be zero. Return the ordinary multiplication result without rounding it.
+
+  To test the function, temporarily add calls inside `print(...)`, such as `print(route_cost(1.5, 1.5))`, which should display `2.25`. Try several arguments, then remove the temporary calls before pressing **Check**. Leave only the function definition in the editor, without reading input; the automated checks call it with different whole-number and decimal arguments.
+part: 3
+points: 15

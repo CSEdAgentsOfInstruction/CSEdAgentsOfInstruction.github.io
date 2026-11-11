@@ -1,0 +1,36 @@
+id: 5fe88bcf-9fb3-4a15-9ad4-5538d8cc38cb
+type: mcq
+title: Follow a score
+prompt: |
+  What happens when this code runs as a complete program? A `NameError` means that Python cannot find a name used by the program.
+
+  ```python
+  def increase(score):
+      score = score + 1
+      return score
+
+  points = 10
+  updated = increase(points)
+  print(updated)
+  print(score)
+  ```
+part: 3
+points: 3
+multiple: false
+options:
+  - id: 8539d9fa-fd5c-494b-9663-015576326e56
+    text: It prints `11`, then raises `NameError` at `print(score)`.
+    correct: true
+    explanation: The returned value is stored as updated, so the first print succeeds. The parameter score is local to increase; the main program has no name score.
+  - id: dfd529f8-68a2-4b61-a85b-97b853136fe4
+    text: It prints `11` and then `10`.
+    correct: false
+    explanation: The main program's points still refers to 10, but the final statement asks for score. Passing points as an argument does not create an outside name score.
+  - id: 04d8cdd8-9ee5-4a6c-9a9c-5a1ea4de24e6
+    text: It raises `NameError` at `print(updated)` before printing anything.
+    correct: false
+    explanation: The call returns 11 and the assignment gives that value the name updated in the main program. The returned value can be used even though score is local to the call.
+  - id: 3e1d9cfb-4549-4e3e-bdc1-a71953f15e93
+    text: It prints `11` twice.
+    correct: false
+    explanation: Updating the local parameter does not make its name available in the main program. The final statement cannot use score to reach the returned value.

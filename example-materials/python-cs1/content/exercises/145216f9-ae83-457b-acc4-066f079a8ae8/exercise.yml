@@ -1,0 +1,27 @@
+id: 145216f9-ae83-457b-acc4-066f079a8ae8
+type: mcq
+title: Inspect the input helper
+prompt: |
+  The function `read_attendance` asks the user for attendance counts and returns them as a list. Consider this call:
+
+  ```python
+  attendance = read_attendance()
+  ```
+
+  The function contains calls to `input(...)`. Which description of this boundary is accurate?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: ffc06ad5-87e8-40a5-ad2f-288110171bc5
+    text: The caller passes no arguments; the function obtains user input and returns a list.
+    correct: true
+    explanation: Keyboard input is an interaction performed inside the function, not an argument supplied in the call.
+  - id: 1be41b14-4aef-4bd4-97ff-dd279bf33064
+    text: The user input is an invisible argument passed by the caller.
+    correct: false
+    explanation: Arguments are the values written between the parentheses of the call. There are none in `read_attendance()`.
+  - id: 4740c4e0-0134-4f87-874f-6802807bd2b8
+    text: No information enters or leaves the function because the call has empty parentheses.
+    correct: false
+    explanation: The function can still obtain information through `input(...)`, and its returned list leaves the function.

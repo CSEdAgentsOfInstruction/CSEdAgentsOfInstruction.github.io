@@ -1,0 +1,15 @@
+id: 3724c9ed-ab2c-4ba8-b247-d67f27066fed
+type: python
+title: Repair the continuation program
+prompt: |
+  This program is missing an opening quote and a closing parenthesis.
+
+  Fix one missing character first and run the program. Read the remaining error, make the second correction, and run the program again.
+
+  The final output must be exactly:
+
+  ```text
+  Ready to continue.
+  ```
+part: 1
+points: 5

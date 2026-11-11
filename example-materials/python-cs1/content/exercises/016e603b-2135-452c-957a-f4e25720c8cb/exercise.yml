@@ -1,0 +1,28 @@
+id: 016e603b-2135-452c-957a-f4e25720c8cb
+type: python
+title: Clean a cargo manifest
+prompt: |
+  Write a program that reads one line containing one or more cargo item names separated by commas. An item name can contain spaces, such as `oxygen tanks`. You may assume that every item contains at least one non-space character.
+
+  Use `.split(",")` to create a list called `items`. First print the number of items in this exact form:
+
+  ```text
+  Item count: 3
+  ```
+
+  Then use a direct `for` loop over `items` to print every item on its own line, in the original order. Apply `.strip()` to each item as you print it because delimiter-based splitting does not remove surrounding spaces. Use `input()` without a visible prompt.
+
+  Preserve the letter case and all whitespace inside each name, including repeated spaces. Only whitespace at the beginning or end of an item should be removed.
+
+  For input `oxygen tanks, repair kit, water`, the complete output must be:
+
+  ```text
+  Item count: 3
+  oxygen tanks
+  repair kit
+  water
+  ```
+
+  Your program must also work when there are no spaces around the commas, when an item has spaces on both sides, and when the manifest contains only one item.
+part: 2
+points: 10

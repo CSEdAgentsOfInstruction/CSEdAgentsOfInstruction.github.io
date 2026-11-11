@@ -1,0 +1,13 @@
+id: bda014e6-e688-483f-81d5-e48349137c16
+type: python
+title: Normalize an answer
+prompt: |
+  Complete the program so it stores a cleaned, lowercase version of the user's answer and prints it.
+
+  Use both `.strip()` and `.lower()`. The inputs `yes`, `YES`, and `   Yes  ` must all produce output ending with:
+
+  ```text
+  yes
+  ```
+part: 1
+points: 10

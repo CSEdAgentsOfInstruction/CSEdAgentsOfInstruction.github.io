@@ -1,0 +1,20 @@
+id: e6e89857-58c3-4a3e-9882-0410249733d0
+type: python
+title: Summarize reading sessions
+prompt: |
+  Write a program that reads the number of pages completed in an unknown number of reading sessions. Each page count is a whole number on its own input line. The word `done` ends data entry.
+
+  The stopping command is case insensitive and may have whitespace around it: `done`, `Done`, and ` DONE ` all end input. The command is not a page count and must not be stored.
+
+  Keep the work in two phases: first collect the page counts in a list, then calculate their total after input ends. Write a loop for each phase and calculate the total yourself; do not use `sum(...)`.
+
+  Use `input()` without a visible prompt. Print exactly these two lines:
+
+  ```text
+  Sessions: 3
+  Total pages: 47
+  ```
+
+  The example output is for page counts `12`, `20`, and `15` followed by `done`. If the first input is `done`, print zero sessions and zero total pages. You may assume every other input is a valid whole number.
+part: 2
+points: 20

@@ -1,0 +1,28 @@
+id: 51e43ea0-5a56-459d-8b4c-30cbd1cf0aab
+type: python
+title: Add up word lengths
+prompt: |
+  The starter reads a non-negative number of words, then that many words, one per line. Each word is nonempty and contains no whitespace. The input code is complete and stores the words in `words`.
+
+  Use a direct loop over `words` to find how many characters the words contain altogether. Store the result in `total_characters` for the supplied print statement. Its starting value is already provided.
+
+  For these inputs:
+
+  ```text
+  5
+  code
+  planet
+  sun
+  loops
+  program
+  ```
+
+  the output must be:
+
+  ```text
+  Total characters: 25
+  ```
+
+  Your program must work for other words and list lengths too. Count every occurrence of a repeated word. If the first input is `0`, there are no words to read and the total is zero.
+part: 2
+points: 10

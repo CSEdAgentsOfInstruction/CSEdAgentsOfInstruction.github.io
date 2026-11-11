@@ -1,0 +1,13 @@
+id: 55da8386-276f-429b-a161-4b77422a198a
+type: python
+title: Welcome card
+prompt: |
+  Write a program that outputs exactly the following text:
+
+  ```text
+  ********
+  Welcome!
+  ********
+  ```
+part: 1
+points: 10

@@ -1,0 +1,21 @@
+id: 00e59f79-6a30-44a5-b2ce-381432150163
+type: mcq
+title: Code or output? Item 2
+prompt: |
+  Is the following item Python source code or program output?
+
+  ```text
+  Hello, Python!
+  ```
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 8c729933-6c05-4809-863e-2bf7362852d2
+    text: Code
+    correct: false
+    explanation: This is the visible text produced by the instruction, without Python syntax such as `print(...)` or quotation marks.
+  - id: f9d54473-611b-4fc4-848d-bf25428f25af
+    text: Output
+    correct: true
+    explanation: This is the line produced when the source instruction runs.

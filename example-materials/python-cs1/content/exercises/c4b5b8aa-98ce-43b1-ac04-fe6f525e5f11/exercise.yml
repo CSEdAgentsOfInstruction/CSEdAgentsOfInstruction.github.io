@@ -1,0 +1,26 @@
+id: c4b5b8aa-98ce-43b1-ac04-fe6f525e5f11
+type: python
+title: Set the launch level
+prompt: |
+  Complete `read_bounded_integer(prompt, minimum, maximum)`. It must keep asking until the user enters an integer from `minimum` through `maximum`, including both boundaries. You may assume that `minimum` and `maximum` are integers with `minimum <= maximum`; a range may include zero or negative numbers.
+
+  Use `input(prompt)` for each attempt. If the text cannot be converted with `int`, print `Please enter an integer.` and ask again. If the integer is outside the range, print `Please enter a value from MINIMUM to MAXIMUM.` with the actual bounds and ask again. Return the first accepted integer without reading another response.
+
+  Keep the conversion in a focused `try` block and catch `ValueError` specifically. Check the converted value separately. The retry loop and `continue` from the chapter are useful here.
+
+  Keep `main()`. It must call `read_bounded_integer("", 1, 5)` and print the accepted value as:
+
+  ```text
+  Level: 4
+  ```
+
+  Calls to `input()` have no visible prompt in this program. For the inputs `high`, `-1`, `6`, and `5`, the complete output is:
+
+  ```text
+  Please enter an integer.
+  Please enter a value from 1 to 5.
+  Please enter a value from 1 to 5.
+  Level: 5
+  ```
+part: 3
+points: 25

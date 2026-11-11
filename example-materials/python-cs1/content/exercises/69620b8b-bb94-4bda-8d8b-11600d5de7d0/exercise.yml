@@ -1,0 +1,30 @@
+id: 69620b8b-bb94-4bda-8d8b-11600d5de7d0
+type: mcq
+title: Identify the indexed value's type
+prompt: |
+  After this code runs, what kind of value does `letter` contain?
+
+  ```python
+  word = "cat"
+  letter = word[0]
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 4b504492-4d9b-41db-8618-a0fdb00cdb9a
+    text: A string containing one character
+    correct: true
+    explanation: Indexing a Python string produces another string, here the one-character string `"c"`.
+  - id: 407af90a-abfa-49fc-a147-051260b95f04
+    text: A separate character type
+    correct: false
+    explanation: Python does not use a separate basic character type for this result.
+  - id: 265e465a-ce98-439d-a42e-3c2688f98d20
+    text: The integer `0`
+    correct: false
+    explanation: The index selects the value at position 0; the index itself is not assigned to `letter`.
+  - id: e7534a72-b26b-495c-9745-70f3b440a31b
+    text: A boolean value
+    correct: false
+    explanation: No comparison is performed, so this expression does not produce `True` or `False`.

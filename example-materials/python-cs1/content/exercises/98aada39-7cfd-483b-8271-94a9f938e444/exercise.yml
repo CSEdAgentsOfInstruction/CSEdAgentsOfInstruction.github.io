@@ -1,0 +1,13 @@
+id: 98aada39-7cfd-483b-8271-94a9f938e444
+type: python
+title: Restore the status panel
+prompt: |
+  Repair the function definition so the program runs and prints exactly:
+
+  ```text
+  ONLINE
+  ```
+
+  Keep the output inside `show_status` and keep the existing call.
+part: 3
+points: 4

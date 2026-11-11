@@ -1,0 +1,20 @@
+id: 6fcd1df0-9b9e-4fe9-9ea9-d61fb867d913
+type: python
+title: Give weather advice
+prompt: |
+  Write a program that reads two input lines:
+
+  1. a whole-number temperature;
+  2. whether it is raining, as `yes` or `no`.
+
+  Normalize the rain answer with `.strip().lower()`. Use one `if/elif/else` chain to print exactly one clothing recommendation:
+
+  - below 5: `Wear a coat.`
+  - 5 through 17: `Wear a jacket.`
+  - 18 or higher: `A light layer is enough.`
+
+  Then use a separate `if` statement to print `Take an umbrella.` when the normalized rain answer is `yes`. This advice is independent of the temperature category.
+
+  Use `input()` without visible prompts and print only the applicable advice lines.
+part: 1
+points: 15

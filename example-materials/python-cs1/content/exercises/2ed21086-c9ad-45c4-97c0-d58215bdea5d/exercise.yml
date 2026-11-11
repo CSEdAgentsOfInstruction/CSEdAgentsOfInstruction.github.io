@@ -1,0 +1,19 @@
+id: 2ed21086-c9ad-45c4-97c0-d58215bdea5d
+type: mcq
+title: Start a long-word count
+prompt: |
+  A list named `words` contains nonempty words as strings. The list may be empty.
+
+  A loop will increase `long_word_count` by one whenever a word has at least five characters. After the loop, this variable should tell how many words meet that rule. What value should `long_word_count` have before the loop begins?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 33a6aba2-398c-4d0d-b264-2bb8967c1976
+    text: "`0`"
+    correct: true
+    explanation: No matching item has been seen before the loop begins.
+  - id: d1b262d1-2d01-49f1-864e-f50a2a256634
+    text: "`1`"
+    correct: false
+    explanation: Starting from one would report a match that has not occurred.

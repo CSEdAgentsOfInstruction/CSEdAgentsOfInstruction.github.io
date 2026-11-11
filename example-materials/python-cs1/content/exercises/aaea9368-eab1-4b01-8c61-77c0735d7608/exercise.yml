@@ -1,0 +1,31 @@
+id: aaea9368-eab1-4b01-8c61-77c0735d7608
+type: mcq
+title: Trace the stopping iteration
+prompt: |
+  On the iteration that reads the empty string, which statement in the loop body does **not** execute?
+
+  ```python
+  words = []
+
+  while True:
+      word = input()
+      if word == "":
+          break
+      words.append(word)
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 43c4c18d-9cfa-4e14-bad8-27199f34ee79
+    text: "`words.append(word)`"
+    correct: true
+    explanation: Executing `break` leaves the loop immediately, so the later append is skipped.
+  - id: 91323c0a-b938-4cbf-8938-815268a9af93
+    text: "`word = input()`"
+    correct: false
+    explanation: The program must read the value before it can discover that the value is the sentinel.
+  - id: 07417dde-5479-46aa-ba08-39f709559fcb
+    text: '`if word == "":`'
+    correct: false
+    explanation: The stopping condition is evaluated and is what causes `break` to execute.

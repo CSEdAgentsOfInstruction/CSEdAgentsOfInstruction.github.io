@@ -1,0 +1,16 @@
+id: 301ed5ba-6806-49e3-a662-09f59a059319
+type: mcq
+title: Less than
+prompt: What value does `10 < 5` produce?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 8ec71ef2-3eb7-47f2-bfea-0be5d3eb4fb3
+    text: "True"
+    correct: false
+    explanation: Ten is greater than five, not less than five.
+  - id: 526f11c1-ac35-47ff-b309-04b4644fe353
+    text: "False"
+    correct: true
+    explanation: Ten is not less than five, so the comparison is false.

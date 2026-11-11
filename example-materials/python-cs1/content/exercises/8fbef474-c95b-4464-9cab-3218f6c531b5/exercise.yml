@@ -1,0 +1,15 @@
+id: 8fbef474-c95b-4464-9cab-3218f6c531b5
+type: python
+title: Personalized output
+prompt: |
+  Complete the program so it asks for a name and a hometown, then prints one sentence containing both entered values.
+
+  Use an f-string for the final output line.
+
+  If the user enters `Ada` and `London`, the final output line must be:
+
+  ```text
+  Ada is from London.
+  ```
+part: 1
+points: 10

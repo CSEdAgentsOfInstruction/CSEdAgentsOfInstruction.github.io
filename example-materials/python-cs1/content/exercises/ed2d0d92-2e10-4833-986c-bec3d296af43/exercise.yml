@@ -1,0 +1,9 @@
+id: ed2d0d92-2e10-4833-986c-bec3d296af43
+type: python
+title: Repair the result report
+prompt: |
+  The program reads a whole-number score. It should print `Pass` for a score of at least 70 and `Not yet` otherwise. After either result, it should also print `Result recorded.` on its own line.
+
+  The starter runs, but one line belongs outside its current block. Identify and fix the issue. Keep the input without a visible prompt and print only the two required lines.
+part: 1
+points: 5

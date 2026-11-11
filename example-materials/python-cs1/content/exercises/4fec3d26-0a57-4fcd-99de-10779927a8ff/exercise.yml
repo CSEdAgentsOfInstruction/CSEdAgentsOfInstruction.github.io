@@ -1,0 +1,36 @@
+id: 4fec3d26-0a57-4fcd-99de-10779927a8ff
+type: mcq
+title: Inspect a score loop
+prompt: |
+  The following program is intended to increase every stored score by one:
+
+  ```python
+  scores = [5, 8, 10]
+
+  for index in range(len(scores)):
+      scores[0] = scores[index] + 1
+
+  print(scores)
+  ```
+
+  Which statement describes what the program actually prints and why?
+part: 2
+points: 5
+multiple: false
+options:
+  - id: 5bc2b01d-4d77-4f00-a1ef-78bf9d7a82bc
+    text: It prints `[6, 9, 11]` because each iteration increases the item at the current index.
+    correct: false
+    explanation: That is the intended result, but the assignment never replaces the items at indexes `1` or `2`.
+  - id: 70734cf4-8415-4cfe-b3fb-231c8a5d2998
+    text: It prints `[11, 8, 10]` because every assignment replaces the first item while reading a value from the current index.
+    correct: true
+    explanation: After each iteration, the list is `[6, 8, 10]`, then `[9, 8, 10]`, then `[11, 8, 10]`. The destination stays at index `0`.
+  - id: 348499fa-6eb2-4f10-89e8-150d699824f1
+    text: It prints `[8, 8, 10]` because each of the three iterations adds one to the first item.
+    correct: false
+    explanation: That would happen if the right side always read `scores[0]`. Here, the value read changes with `index`.
+  - id: d283585c-8ec3-4112-bf5e-8dbaa45c4f4d
+    text: It prints `[6, 8, 10]` because only the iteration for index `0` changes a stored item.
+    correct: false
+    explanation: Every iteration executes the assignment. The later iterations replace the first item again, using the values at indexes `1` and `2`.

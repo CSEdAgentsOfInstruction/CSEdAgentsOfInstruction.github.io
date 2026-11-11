@@ -1,0 +1,42 @@
+id: 50ba6bd1-b2c0-49cd-adaf-4705e943f58c
+type: python
+title: Tournament shortlist
+prompt: |
+  Implement three functions for selecting tournament finalists and displaying their combined points. Scores and the minimum are integers; they may be positive, zero, or negative. The two calculation functions return their results without printing.
+
+  **`select_finalists(scores, minimum)`**
+
+  - Return a new list containing every score greater than or equal to `minimum`.
+  - Preserve the original order and repeated scores.
+  - Return `[]` when the input is empty or no score qualifies.
+  - Do not change `scores`.
+  - Practise building the result with a loop.
+
+  **`total_points(scores)`**
+
+  - Return the total of all scores. Practise calculating it with a loop rather than `sum(...)`.
+  - Return `0` for an empty list.
+  - Do not change `scores`.
+
+  **`print_shortlist(finalists, total)`**
+
+  - Print exactly `Finalists: LIST` and `Combined points: TOTAL` on separate lines, using the two values it receives.
+  - Leave `finalists` unchanged.
+
+  Write a meaningful short docstring inside each function. State what the function returns or prints rather than narrating the implementation line by line. For the two calculation functions, also mention an important empty-case or nonmutation promise.
+
+  Keep `main()`. It must use these values:
+
+  ```python
+  scores = [71, 84, 90, 84, 63]
+  minimum = 84
+  ```
+
+  Have `main()` call `select_finalists`, pass the returned list to `total_points`, and pass both results to `print_shortlist`. The output must be:
+
+  ```text
+  Finalists: [84, 90, 84]
+  Combined points: 258
+  ```
+part: 3
+points: 25

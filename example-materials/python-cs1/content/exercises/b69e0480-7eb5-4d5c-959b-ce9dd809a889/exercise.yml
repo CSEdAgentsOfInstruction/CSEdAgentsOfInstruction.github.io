@@ -1,0 +1,23 @@
+id: b69e0480-7eb5-4d5c-959b-ce9dd809a889
+type: mcq
+title: Start a lowest-reading search
+prompt: |
+  A non-empty list named `readings` contains whole-number temperatures. Its items may be positive, negative, or zero.
+
+  A loop will compare each reading with `lowest` and replace `lowest` whenever it finds a smaller reading. Which assignment before the loop makes this approach work for every permitted list?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: f5b1e4ad-6f69-4e95-81a5-4fa00f14fdaa
+    text: "`lowest = readings[0]`"
+    correct: true
+    explanation: The first item is a real candidate from the data.
+  - id: 3f219ab2-ffcc-4be2-a843-e8a5ba807ed7
+    text: "`lowest = 0`"
+    correct: false
+    explanation: Zero may not occur in the list and gives a wrong result for some inputs.
+  - id: 715206e4-f156-46ec-b1e9-d16450ca7b0d
+    text: "`lowest = []`"
+    correct: false
+    explanation: A list cannot serve as the current numeric candidate.

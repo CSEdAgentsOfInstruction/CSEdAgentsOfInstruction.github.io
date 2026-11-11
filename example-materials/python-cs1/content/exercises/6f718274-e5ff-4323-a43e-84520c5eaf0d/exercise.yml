@@ -1,0 +1,13 @@
+id: 6f718274-e5ff-4323-a43e-84520c5eaf0d
+type: python
+title: Classify a battery level
+prompt: |
+  Write a program that reads a whole-number battery percentage and prints exactly one message:
+
+  - below 20: `Low battery`
+  - 20 through 79: `Battery okay`
+  - 80 or higher: `Battery high`
+
+  Use an `if/elif/else` chain and `input()` without a visible prompt. Test the boundary values 19, 20, 79, and 80 carefully.
+part: 1
+points: 10

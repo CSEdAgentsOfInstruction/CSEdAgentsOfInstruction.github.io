@@ -1,0 +1,28 @@
+id: 2cbe60d1-3a00-4c57-b310-3014b8cc5d4a
+type: mcq
+title: What happens to the stopping command?
+prompt: |
+  The user enters `save` and then `quit`. What happens during the iteration that reads `quit`?
+
+  ```python
+  while True:
+      command = input().strip().lower()
+      print(f"You entered {command}")
+
+      if command == "quit":
+          break
+
+  print("Program finished.")
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 256e09f3-2954-4f24-a4a2-701025bd5810
+    text: The loop exits before `You entered quit` can be printed.
+    correct: false
+    explanation: The print runs before the stopping check. `break` skips later statements, but it cannot undo output that has already been printed.
+  - id: fa74e1ca-5bf5-434e-8889-5db557fc9e27
+    text: The program prints `You entered quit` and then exits the loop.
+    correct: true
+    explanation: The loop prints the entered command before checking whether it is `quit`, so the stopping command is printed too. The check then causes the loop to exit.

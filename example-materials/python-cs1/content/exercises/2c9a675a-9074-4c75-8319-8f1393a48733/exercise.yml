@@ -1,0 +1,35 @@
+id: 2c9a675a-9074-4c75-8319-8f1393a48733
+type: mcq
+title: Inspect one failed attempt
+prompt: |
+  On an iteration where `int(text)` raises `ValueError`, which statement is skipped because `continue` begins the next iteration?
+
+  ```python
+  while True:
+      text = input()
+
+      try:
+          number = int(text)
+      except ValueError:
+          print("retry")
+          continue
+
+      print("accepted")
+      break
+  ```
+part: 3
+points: 3
+multiple: false
+options:
+  - id: bdafbf60-693d-48eb-b718-c5686f70eb02
+    text: '`print("accepted")`'
+    correct: true
+    explanation: The `continue` statement skips everything remaining in that loop iteration, including this print and the following break.
+  - id: b1c8dcd5-34a0-438f-8b60-fd2d9588b231
+    text: '`print("retry")`'
+    correct: false
+    explanation: This statement runs before `continue` is reached.
+  - id: 2c0fdc57-1a52-4a1e-a374-e0c6c525a799
+    text: "`number = int(text)`"
+    correct: false
+    explanation: Python must attempt this conversion before it can raise `ValueError` and enter the handler.

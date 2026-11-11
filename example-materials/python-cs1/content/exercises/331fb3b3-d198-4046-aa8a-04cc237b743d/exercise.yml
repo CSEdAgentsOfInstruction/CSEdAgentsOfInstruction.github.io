@@ -1,0 +1,26 @@
+id: 331fb3b3-d198-4046-aa8a-04cc237b743d
+type: python
+title: Summarize an expedition route
+prompt: |
+  Implement four calculation functions for a route whose stage distances are stored in a list. Distances and the minimum distance are nonnegative numbers; they may include decimal fractions or zero.
+
+  1. `total_distance(distances)` uses an accumulator loop and returns the total. For an empty list, it returns `0`.
+  2. `average_distance(distances)` returns the average and must use `total_distance`. Its precondition is that `distances` is nonempty: callers must not call it with an empty list.
+  3. `count_long_stages(distances, minimum)` returns how many distances are greater than or equal to `minimum`. For an empty list, it returns `0`.
+  4. `summarize_route(distances, minimum)` returns a three-item list containing, in order, the total, average, and long-stage count. It must call the other three functions rather than repeat their loops. Its `distances` precondition is also nonempty.
+
+  For example:
+
+  ```python
+  summarize_route([4, 7, 3, 10], 7)
+  ```
+
+  returns:
+
+  ```text
+  [24, 6.0, 2]
+  ```
+
+  Use explicit loops for the total and count. Do not use `sum`, print results, or change `distances`. The automated checks call `average_distance` and `summarize_route` only with nonempty lists. Leave only the function definitions in the editor before pressing **Check**.
+part: 3
+points: 20

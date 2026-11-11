@@ -1,0 +1,23 @@
+id: 61d48d38-814e-41ce-a4cf-425fabb76e6f
+type: python
+title: Inspect a five-card rack
+prompt: |
+  The starter reads five whole-numbered cards, one per line, and stores them in `cards`.
+
+  A rack is strictly increasing when every card is smaller than the card immediately to its right. Equal neighboring cards do not count as increasing. Determine whether the rack is strictly increasing without changing the order of its cards.
+
+  For inputs `3`, `8`, `12`, `17`, and `21`, print:
+
+  ```text
+  Strictly increasing: True
+  ```
+
+  For inputs `3`, `8`, `8`, `17`, and `21`, print:
+
+  ```text
+  Strictly increasing: False
+  ```
+
+  Practise the neighboring-item loop and Boolean flag from the material. Before running your program, predict the result for equal neighbors, a decrease near the beginning, and a decrease in the final pair.
+part: 2
+points: 15

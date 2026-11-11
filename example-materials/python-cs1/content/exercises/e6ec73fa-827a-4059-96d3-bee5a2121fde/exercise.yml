@@ -1,0 +1,19 @@
+id: e6ec73fa-827a-4059-96d3-bee5a2121fde
+type: mcq
+title: Start an archive search
+prompt: |
+  A list named `titles` contains archive titles as strings. The program should collect every title containing a search term, ignoring letter case, into `matching_titles`. Keep the spelling and order of matching titles, and leave `titles` unchanged. The list of titles may be empty.
+
+  A loop will check each title and append it to `matching_titles` when it matches. What value should `matching_titles` have before the loop begins?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 31414d71-8d47-4b13-ade7-1ebed250a50a
+    text: "`[]`"
+    correct: true
+    explanation: The search has no matching titles before processing begins.
+  - id: cd1cb9a1-1b71-4c2d-b27c-2d1740da803a
+    text: "`0`"
+    correct: false
+    explanation: Zero is useful for a numeric total or count, not for collecting matching titles.

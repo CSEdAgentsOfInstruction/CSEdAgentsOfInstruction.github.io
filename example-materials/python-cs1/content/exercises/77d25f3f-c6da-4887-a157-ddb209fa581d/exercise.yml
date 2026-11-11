@@ -1,0 +1,32 @@
+id: 77d25f3f-c6da-4887-a157-ddb209fa581d
+type: python
+title: Search archive titles
+prompt: |
+  The starter reads a non-negative number of archive titles, then that many titles, and finally a search term. Each value is entered on its own line without a visible prompt. The input code is already complete.
+
+  Build a separate list called `matching_titles` containing every title that includes the search term. Ignore letter case when comparing, but preserve the original spelling, order, and repetitions of the titles. Leave `titles` unchanged.
+
+  For these inputs:
+
+  ```text
+  4
+  The Night Train
+  Signals at Dawn
+  Midnight Code
+  The Last Map
+  night
+  ```
+
+  the output must be:
+
+  ```text
+  Matches: ['The Night Train', 'Midnight Code']
+  ```
+
+  Use a direct loop, membership, `.lower()`, and `.append(...)` to practise filtering. You can normalize the search term once before the loop. Use the entered search term so the program works for other searches too.
+
+  Spaces in the search term are part of the search. For example, `" night "` matches `"A night train"` but not `"Midnight Code"`. Preserve those spaces when reading and comparing the term.
+
+  An empty archive or a search with no matches produces `Matches: []`. An empty search term matches every title: the empty string is contained in every string.
+part: 2
+points: 10

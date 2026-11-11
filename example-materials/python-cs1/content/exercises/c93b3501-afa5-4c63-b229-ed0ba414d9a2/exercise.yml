@@ -1,0 +1,33 @@
+id: c93b3501-afa5-4c63-b229-ed0ba414d9a2
+type: mcq
+title: Inspect the collection rule
+prompt: |
+  Specification: `qualifying_values(values, minimum)` returns a new list containing every value at least as large as `minimum`, in the original order and with repetitions preserved. It leaves `values` unchanged.
+
+  ```python
+  def qualifying_values(values, minimum):
+      selected = []
+      for value in values:
+          if value >= minimum:
+              if value not in selected:
+                  selected.append(value)
+      return selected
+  ```
+
+  Which assertion exposes a mismatch with the specification?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: 724cf194-6854-4e93-9978-42401c7ec80e
+    text: "`assert qualifying_values([80, 90, 80], 80) == [80, 90, 80]`"
+    correct: true
+    explanation: The membership check discards the second 80. The specification requires every qualifying occurrence, so the result should contain all three values.
+  - id: 0c95e495-468e-466b-bb0f-bbdf9d7dccf8
+    text: "`assert qualifying_values([70, 90], 80) == [90]`"
+    correct: false
+    explanation: The single qualifying value is retained, so this case passes even though repetitions would be lost.
+  - id: c8f3205f-bd0f-437c-a9d0-2f16ec2f0d7c
+    text: "`assert qualifying_values([60, 70], 80) == []`"
+    correct: false
+    explanation: No value qualifies. This case does not exercise how the function handles repeated qualifying values.

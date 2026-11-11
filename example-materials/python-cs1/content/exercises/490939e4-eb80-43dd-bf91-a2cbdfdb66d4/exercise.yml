@@ -1,0 +1,9 @@
+id: 490939e4-eb80-43dd-bf91-a2cbdfdb66d4
+type: python
+title: Repair the senior discount
+prompt: |
+  The program reads a whole-number age. It should print `Senior discount` for ages 65 and older and `Standard price` for lower ages.
+
+  The starter works for many ages but mishandles one important boundary. Identify and fix its one issue. Keep the input without a visible prompt and print only the applicable message.
+part: 1
+points: 5

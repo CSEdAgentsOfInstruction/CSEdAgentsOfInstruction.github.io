@@ -1,0 +1,16 @@
+id: 86726e7b-152c-420c-a037-126659d5b573
+type: python
+title: Prepare a launch display
+prompt: |
+  Define a function named `show_launch_display` with empty parentheses because it does not receive information when called. Its body must print these two lines:
+
+  ```text
+  LAUNCH CONTROL
+  READY
+  ```
+
+  After the definition, call `show_launch_display()` exactly once. Keep the display output inside the function body; the call in the main program is what makes it appear.
+
+  The complete program must produce exactly the two lines shown above.
+part: 3
+points: 10

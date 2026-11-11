@@ -1,0 +1,16 @@
+id: 9e622b03-34a8-4604-8951-a1b493a8df22
+type: mcq
+title: Age statement 1
+prompt: What does `age = 18` do?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 36266b40-237d-47cc-8624-29585e5a9ed5
+    text: Changes program state
+    correct: true
+    explanation: A single equals sign assigns the value 18 to the variable `age`.
+  - id: a92a29f6-0989-412e-81ba-1a403469031d
+    text: Asks a boolean question
+    correct: false
+    explanation: An equality question would use two equals signs, as in `age == 18`.

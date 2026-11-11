@@ -1,0 +1,16 @@
+id: a7c3c694-f9ca-4041-9686-546f825a908b
+type: mcq
+title: Name statement 2
+prompt: What does `name != "Grace"` do?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 40d2d5d0-bc3f-4485-b037-c1224f678684
+    text: Changes program state
+    correct: false
+    explanation: The not-equal operator compares the current value; it does not replace it.
+  - id: 4f51d4d2-7782-42e9-b224-3efe7c3d3743
+    text: Asks a boolean question
+    correct: true
+    explanation: The comparison asks whether the current value of `name` differs from `"Grace"`.

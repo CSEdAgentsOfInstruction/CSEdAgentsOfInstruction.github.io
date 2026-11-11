@@ -1,0 +1,21 @@
+id: b45cb13c-ad2f-4cb4-bf06-9a2cf8f41533
+type: mcq
+title: Challenge the search loop
+prompt: |
+  `contains_code(codes, wanted)` should return `True` if `wanted` occurs anywhere in `codes` and `False` otherwise. Which case is most likely to reveal a function that incorrectly decides after inspecting only the first item?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: 33913463-ff95-4ace-8bd6-0e8c850963a4
+    text: '`assert contains_code(["A", "B", "C"], "B") == True`'
+    correct: true
+    explanation: The first item does not match but a later one does, so the loop must continue searching.
+  - id: f950f46f-04c2-4d95-9f88-213a91e265a9
+    text: '`assert contains_code(["B", "A"], "B") == True`'
+    correct: false
+    explanation: A broken function that inspects only the first item can still pass this test.
+  - id: 2c6aacae-c74e-4c6d-b3e2-2d91ef1f5d47
+    text: '`assert contains_code(["A"], "B") == False`'
+    correct: false
+    explanation: This checks a no-match case, but the one-item list does not challenge an early decision inside a longer loop.

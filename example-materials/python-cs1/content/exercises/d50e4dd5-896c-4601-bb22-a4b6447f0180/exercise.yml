@@ -1,0 +1,26 @@
+id: d50e4dd5-896c-4601-bb22-a4b6447f0180
+type: mcq
+title: What is compared?
+prompt: |
+  What kind of values does `in` compare with `"Ada"` when it searches this list?
+
+  ```python
+  names = ["Ada", "Grace", "Linus"]
+  "Ada" in names
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 7b05dd2a-1ef0-4999-809c-3b7801d34d30
+    text: Complete list items, stopping when a match is found
+    correct: true
+    explanation: With a list, `in` asks whether any complete item equals the searched-for value. Here the first item matches, so the search stops there.
+  - id: 952f0f5f-12ad-4410-9330-10be2afa9222
+    text: Every individual character inside every name
+    correct: false
+    explanation: That would be a search inside the string items, not list membership.
+  - id: 8a73a1fd-4597-45fc-8c08-bece06613934
+    text: The numeric indexes of the list
+    correct: false
+    explanation: List membership compares the stored items with the searched-for value, not their index numbers.

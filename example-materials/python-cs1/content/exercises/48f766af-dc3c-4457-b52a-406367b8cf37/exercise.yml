@@ -1,0 +1,21 @@
+id: 48f766af-dc3c-4457-b52a-406367b8cf37
+type: python
+title: Search a radio log
+prompt: |
+  A radio log stores received messages as strings in a list. Define `contains_signal(messages, signal)` to check whether the list contains a requested signal string as one complete message.
+
+  Return `True` if any message equals `signal`, and `False` otherwise, including when the list is empty. Compare the strings exactly: letter case and spaces matter, and a matching fragment of a message is not enough.
+
+  Use a `for` loop for the search. Do not print, modify `messages`, or use `in` to replace the loop.
+
+  Examples:
+
+  ```python
+  contains_signal(["clear", "echo", "ready"], "echo")  # returns True
+  contains_signal(["clear", "ready"], "echo")          # returns False
+  contains_signal([], "echo")                            # returns False
+  ```
+
+  Leave only the function definition in the editor before pressing **Check**.
+part: 3
+points: 15

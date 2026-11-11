@@ -1,0 +1,15 @@
+id: 569b0b97-1aba-40e9-a12d-e8ade4a5a948
+type: python
+title: Collect three tasks
+prompt: |
+  Start with an empty list named `tasks`. Read three task names, one per input line and without visible prompts.
+
+  Use one `for` loop over `range(3)`. On each iteration, read one task and append it to `tasks`. After the loop, print the completed list in this form:
+
+  ```text
+  Tasks: ['Read', 'Code', 'Rest']
+  ```
+
+  The example assumes the three input lines are `Read`, `Code`, and `Rest`. Your program must work with other task names as well.
+part: 2
+points: 10

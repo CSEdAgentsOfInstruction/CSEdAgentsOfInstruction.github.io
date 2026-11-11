@@ -1,0 +1,16 @@
+id: 76355296-dfb8-4df9-b5dc-349c3d659271
+type: mcq
+title: Which sequence is mutable?
+prompt: Which statement accurately describes strings and lists?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 9d10607b-21d8-46a1-86a2-1f183fe50ce0
+    text: A list item can be replaced, but a string character cannot.
+    correct: true
+    explanation: Lists are mutable, while strings are immutable.
+  - id: 34c01e54-c2dc-42e3-8f94-7ff9fe1fe5cf
+    text: A string character can be replaced, but a list item cannot.
+    correct: false
+    explanation: This reverses the actual mutability of the two sequence types.

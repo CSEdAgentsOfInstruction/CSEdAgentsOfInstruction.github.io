@@ -1,0 +1,13 @@
+id: 2f84aa1a-b05a-4cf4-a19e-a9e797fe59af
+type: python
+title: Improve the variable names
+prompt: |
+  Rename the three variables without changing what the program does:
+
+  - rename `a` to `course_name`;
+  - rename `b` to `student_name`;
+  - rename `c` to `room`.
+
+  Update every use of the variables. Keep the existing prompts and final output behavior unchanged.
+part: 1
+points: 10

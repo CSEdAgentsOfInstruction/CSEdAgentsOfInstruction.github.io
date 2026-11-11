@@ -1,0 +1,1 @@
+Generated from ../python-cs1 with npm run package. Edit the source app, not this directory.

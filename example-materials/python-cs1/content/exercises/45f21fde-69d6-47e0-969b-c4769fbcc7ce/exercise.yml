@@ -1,0 +1,11 @@
+id: 45f21fde-69d6-47e0-969b-c4769fbcc7ce
+type: python
+title: Print one of two outcomes
+prompt: |
+  Write a program that reads a whole-number score from 0 through 100.
+
+  Print `Pass` if the score is at least 70. Otherwise, print `Not yet`.
+
+  Use `input()` without a visible prompt and print only the required message. Pay particular attention to the values 69, 70, and 71.
+part: 1
+points: 10

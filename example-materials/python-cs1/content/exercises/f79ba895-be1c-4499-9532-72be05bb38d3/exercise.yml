@@ -1,0 +1,22 @@
+id: f79ba895-be1c-4499-9532-72be05bb38d3
+type: python
+title: Build an access condition
+prompt: |
+  Write a program that reads two input lines:
+
+  1. the user's age as a whole number;
+  2. whether the user agreed to the rules, as `yes` or `no`.
+
+  Normalize the agreement text with `.strip().lower()`. Use these meaningful boolean variables:
+
+  - `old_enough`, which is true when the age is at least 16;
+  - `agreed_to_rules`, which is true when the normalized answer is `yes`;
+  - `may_access`, which combines the other two values using `and`.
+
+  Print only the value of `may_access`. Use `input()` without visible prompts. For the inputs `16` and `yes`, the output must be:
+
+  ```text
+  True
+  ```
+part: 1
+points: 10

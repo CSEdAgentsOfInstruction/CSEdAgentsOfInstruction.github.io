@@ -1,0 +1,34 @@
+id: 143c7e1b-2b39-4ccd-bb9a-79e1f542544c
+type: mcq
+title: Inspect a largest-value loop
+prompt: |
+  This program is meant to print the largest item in `values`:
+
+  ```python
+  values = [-7, -3, -12]
+  largest = 0
+
+  for value in values:
+      if value > largest:
+          largest = value
+
+  print(largest)
+  ```
+
+  Why does the program give an incorrect result?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 09637816-63ba-4578-b6f4-6a5371fdb903
+    text: None of the negative items can replace `0`, so the program reports a value that is not in the list.
+    correct: true
+    explanation: Starting from the first real item provides a valid candidate even when all values are negative.
+  - id: f02496ac-6dac-47bd-ba93-4ba5961789ca
+    text: A loop cannot compare negative numbers.
+    correct: false
+    explanation: Python compares negative numbers normally; the initial candidate is the problem.
+  - id: bba5f00e-0a2d-4549-ab08-0a0b64e388da
+    text: The list must be sorted before a largest-value loop can work.
+    correct: false
+    explanation: A best-so-far loop works regardless of the input order.

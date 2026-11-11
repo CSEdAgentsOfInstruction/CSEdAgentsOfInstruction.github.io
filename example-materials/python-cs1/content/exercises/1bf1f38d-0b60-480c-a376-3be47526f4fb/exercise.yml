@@ -1,0 +1,16 @@
+id: 1bf1f38d-0b60-480c-a376-3be47526f4fb
+type: mcq
+title: Evaluate the two-loop design
+prompt: A music-request kiosk reads song requests until the user enters `done`, saves the requests in a list, and then displays them. What is the main advantage of using a sentinel-controlled `while` loop to collect the requests and a direct `for` loop to display them afterward?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: b699b32c-bf0f-4f5c-b854-ecb536e16aa4
+    text: "Each phase uses the information it has: collection does not know the number of requests in advance, while display can traverse the completed list directly."
+    correct: true
+    explanation: The `while` loop provides flexible stopping during input, and the `for` loop makes the later one-pass traversal concise and clear.
+  - id: aec177c7-fd97-4585-893a-a358123cc337
+    text: The combination is required whenever a program uses a list, even if the list is already complete or the number of inputs is fixed.
+    correct: false
+    explanation: Loop choice depends on the work and the available information; using a list does not by itself require both loop forms.

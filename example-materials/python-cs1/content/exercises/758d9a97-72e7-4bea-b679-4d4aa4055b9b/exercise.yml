@@ -1,0 +1,16 @@
+id: 758d9a97-72e7-4bea-b679-4d4aa4055b9b
+type: mcq
+title: Greater than or equal to
+prompt: What value does `4 >= 7` produce?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: a87d0c6e-1dc0-4ce1-9208-e2114532840c
+    text: "True"
+    correct: false
+    explanation: Four is neither greater than nor equal to seven.
+  - id: b20a26ba-b64d-4f22-9ffb-8822d7d4abe0
+    text: "False"
+    correct: true
+    explanation: Four is less than seven, so the comparison is false.

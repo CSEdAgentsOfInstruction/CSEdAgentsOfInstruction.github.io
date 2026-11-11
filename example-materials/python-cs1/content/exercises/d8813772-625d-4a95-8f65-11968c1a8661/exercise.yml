@@ -1,0 +1,9 @@
+id: d8813772-625d-4a95-8f65-11968c1a8661
+type: python
+title: Repair the freezing check
+prompt: |
+  The program reads a whole-number temperature. It should print `Below freezing` for a negative temperature and `Not below freezing` otherwise.
+
+  The starter does not run successfully. Identify and fix its one issue. Keep the input without a visible prompt and print only the applicable message.
+part: 1
+points: 5

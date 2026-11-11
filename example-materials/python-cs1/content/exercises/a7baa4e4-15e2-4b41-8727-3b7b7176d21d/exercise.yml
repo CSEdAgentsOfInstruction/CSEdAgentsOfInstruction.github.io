@@ -1,0 +1,24 @@
+id: a7baa4e4-15e2-4b41-8727-3b7b7176d21d
+type: mcq
+title: Replace negative balances
+prompt: A list called `balances` already exists. Every negative item must be replaced with zero in the same list. Which form is clearest?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: c641e25e-2b56-4ccf-9109-0178ac851503
+    text: "`for index in range(len(balances))`"
+    correct: true
+    explanation: Replacing an item in the original list requires the position where the replacement should be stored.
+  - id: d2ed8228-81c0-462e-85f9-61649eb5ae61
+    text: "`for balance in balances` followed by `balance = 0`"
+    correct: false
+    explanation: Reassigning the loop variable does not replace the corresponding item in `balances`.
+  - id: 37257c6e-64c5-412a-ab54-1eeb78e91bae
+    text: "`for number in range(3)`"
+    correct: false
+    explanation: A fixed count of three does not adapt to the actual length of the list.
+  - id: c0a74dc1-1a81-4f4c-85d6-0514b64a925b
+    text: "`while True` with an input sentinel"
+    correct: false
+    explanation: The task changes an existing list and does not collect input until a stopping command.

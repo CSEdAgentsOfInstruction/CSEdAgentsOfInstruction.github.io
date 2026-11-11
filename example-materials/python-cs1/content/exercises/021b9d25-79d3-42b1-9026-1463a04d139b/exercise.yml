@@ -1,0 +1,35 @@
+id: 021b9d25-79d3-42b1-9026-1463a04d139b
+type: python
+title: Festival dashboard
+prompt: |
+  The starter is a working festival attendance dashboard. Refactor it into functions while keeping its input and output the same.
+
+  Move the calculations into `attendance_summary(attendance, minimum)`. It receives a list of nonnegative integer attendance counts and a nonnegative integer boundary. It returns a new list containing three results in this order:
+
+  - the number of attendance counts;
+  - the total number of visitors;
+  - the number of counts greater than or equal to `minimum`.
+
+  For example, `attendance_summary([120, 85, 150], 100)` returns `[3, 355, 2]`. For an empty list it returns `[0, 0, 0]`. The function must not print anything or change `attendance`.
+
+  Choose at least one smaller calculation to give its own helper function. Decide its name, parameters, and return value, and use it from `attendance_summary`. Add a short comment explaining why this is a useful responsibility to separate. Use the loops and accumulators you have practised.
+
+  Put the input and printing in a function named `main()`, then call `main()` at the end of the program. It reads one line without a visible prompt. The line contains zero or more valid nonnegative integers separated by whitespace. Use `attendance_summary` with a busy-period boundary of `100`, and print its results in the existing format.
+
+  For input
+
+  ```text
+  120 85 150 90 150
+  ```
+
+  print exactly:
+
+  ```text
+  Periods: 5
+  Total visitors: 595
+  Busy periods: 3
+  ```
+
+  For an empty input line, all three reported numbers are `0`. Run the starter with a few inputs before editing it, then check the same inputs after each change.
+part: 3
+points: 30

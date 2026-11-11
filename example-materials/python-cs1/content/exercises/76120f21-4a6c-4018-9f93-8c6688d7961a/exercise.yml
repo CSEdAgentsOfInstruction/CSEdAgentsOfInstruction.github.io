@@ -1,0 +1,29 @@
+id: 76120f21-4a6c-4018-9f93-8c6688d7961a
+type: python
+title: Parse and count temperatures
+prompt: |
+  Write a program that reads one line containing zero or more whitespace-separated whole-number temperatures. You may assume every text piece is a valid whole number.
+
+  Print the temperatures as a list of integers in input order, followed by the number of values below zero. A temperature of exactly zero is not below zero. Keep repeated values.
+
+  Inputs may include a leading `+` or `-` sign or leading zeros. Compare the numeric values after conversion: for example, `-0` is zero and `+3` is positive.
+
+  For input `-3 0 8 -1`, print:
+
+  ```text
+  Temperatures: [-3, 0, 8, -1]
+  Below zero: 2
+  ```
+
+  For an empty line or a line containing only whitespace, print:
+
+  ```text
+  Temperatures: []
+  Below zero: 0
+  ```
+
+  Use `input()` without a visible prompt. The starter splits the input into text pieces. Decide how to turn those pieces into numbers, which loop form fits, and when to update the count. You may count during conversion or process the completed list afterwards.
+
+  Before coding, describe what your loop or loops will do. Then test a single zero, several negative values, repeated values, and input containing extra spaces or tabs.
+part: 2
+points: 20

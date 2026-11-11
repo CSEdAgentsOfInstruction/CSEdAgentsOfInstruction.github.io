@@ -1,0 +1,16 @@
+id: 95f1bed4-492b-4c3d-9461-e55c477995b5
+type: mcq
+title: Equal boundary
+prompt: What value does `3 <= 3` produce?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: dff9c508-0473-4058-9b26-95bd27ec92e3
+    text: "True"
+    correct: true
+    explanation: Less than or equal to includes equality, and three equals three.
+  - id: 86fd7a1c-22fa-4edc-a3c9-e2ec3aa31cd9
+    text: "False"
+    correct: false
+    explanation: The `=` in `<=` means an equal value satisfies the comparison.

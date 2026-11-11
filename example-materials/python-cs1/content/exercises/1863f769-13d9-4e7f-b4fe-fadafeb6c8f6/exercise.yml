@@ -1,0 +1,28 @@
+id: 1863f769-13d9-4e7f-b4fe-fadafeb6c8f6
+type: python
+title: Count long words
+prompt: |
+  The starter reads a non-negative number of words, then that many words, one per line. Each word is nonempty and contains no whitespace. The input code is complete and stores the words in `words`.
+
+  How many of the words have at least five characters? Use a direct loop over `words` and store the answer in `long_word_count` for the supplied print statement.
+
+  For these inputs:
+
+  ```text
+  5
+  code
+  planet
+  sun
+  loops
+  program
+  ```
+
+  the output must be:
+
+  ```text
+  Words with at least 5 characters: 3
+  ```
+
+  Your program must work for other words and list lengths too. A word of exactly five characters counts, and each occurrence of a repeated word counts separately. If the first input is `0`, there are no words to read. An empty list or a list with no qualifying words has a count of zero.
+part: 2
+points: 10

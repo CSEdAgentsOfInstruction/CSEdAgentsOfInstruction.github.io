@@ -1,0 +1,18 @@
+id: d8674a87-3525-49b6-a6a6-6e205ee1e50f
+type: python
+title: Convert minutes into hours and minutes
+prompt: |
+  Write a program that reads a whole number of minutes and separates it into complete hours and leftover minutes.
+
+  Use `//` to calculate the hours and `%` to calculate the leftover minutes. Store the entered value in `total_minutes`, the complete hours in `hours`, and the remainder in `minutes`.
+
+  Print exactly two lines. The hours line must come first:
+
+  ```text
+  Hours: 2
+  Minutes: 15
+  ```
+
+  The example above is the required output for input `135`. Use `input()` without a visible prompt so the output contains only these two lines. You may assume the input is a valid non-negative whole number.
+part: 1
+points: 10

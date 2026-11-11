@@ -1,0 +1,21 @@
+id: c4e6e50b-6991-46a9-b834-8058ca9f4dde
+type: mcq
+title: Assess the helper proposal
+prompt: |
+  A program calculates a parcel's postage from its weight and destination. The calculation has several pricing rules. A proposed refactor puts those rules in `postage_cost(weight, destination)`, which returns the price. The program calls it only once. Which review best considers whether this function is useful?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: 5ce569ef-2ea5-45f3-9c32-3970673c7040
+    text: The function can make the pricing rules easier to understand and test even though the program calls it only once.
+    correct: true
+    explanation: A named calculation can be a useful responsibility even without repeated calls. Here it also lets the pricing rules be tested separately from the rest of the program.
+  - id: db4bf1f3-3b5f-4ad8-8bc5-35e359944245
+    text: The function is useful only if the program calls it at least twice.
+    correct: false
+    explanation: Reuse is one reason for a function, but a clear name and a separately testable calculation can also justify one.
+  - id: 93f49d2b-0919-443c-8ec8-493550cd5d16
+    text: A function is useful only when it contains a loop.
+    correct: false
+    explanation: Functions can express many meaningful responsibilities; a loop is not required.

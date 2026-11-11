@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#173f48" />
+    <meta name="description" content="A browser-based introduction to Python: lessons, multiple-choice questions, and programming exercises for the Agents of Instruction tutorial." />
+    <title>Introduction to Programming · Workshop edition</title>
+    <script type="module" crossorigin src="./assets/index-B7aUpSZf.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-juo6HTSV.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to lesson</a>
+    <div id="app"></div>
+    <section id="local-file-help" hidden style="max-width: 42rem; margin: 3rem auto; padding: 0 1.5rem; font: 1.1rem/1.6 system-ui, sans-serif; color: #173f48;">
+      <h1>Start the course from a local web address</h1>
+      <p>You opened this file directly from your computer. To run the course locally, open a terminal in the <strong>python-cs1</strong> folder and run:</p>
+      <pre><code>npm ci
+npm run dev</code></pre>
+      <p>Then open the local web address printed in the terminal. Keep the terminal running while you use the course.</p>
+    </section>
+    <script>
+      if (window.location.protocol === 'file:') {
+        document.getElementById('local-file-help').hidden = false;
+        document.getElementById('app').hidden = true;
+        document.querySelector('.skip-link').hidden = true;
+      }
+    </script>
+  </body>
+</html>

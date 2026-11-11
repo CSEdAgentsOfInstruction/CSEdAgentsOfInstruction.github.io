@@ -1,0 +1,29 @@
+id: 4f57f074-6cfe-46f8-b77a-27d449b8527f
+type: mcq
+title: What does the one-liner compute?
+prompt: |
+  What does this program print for a non-negative number of minutes?
+
+  ```python
+  print((int(input("Minutes: ")) // 60) * 60)
+  ```
+part: 1
+points: 3
+multiple: false
+options:
+  - id: e29228a7-66a8-40af-9981-73e7860c32f2
+    text: The minutes contained in all complete hours, with leftover minutes discarded.
+    correct: true
+    explanation: Floor division counts complete hours, and multiplying that count by 60 converts those complete hours back to minutes.
+  - id: b42965aa-5d9d-42d8-8335-52203dcbdd29
+    text: The original number of minutes unchanged.
+    correct: false
+    explanation: Floor division discards any incomplete hour, so the result can be smaller than the original input.
+  - id: 7fc0f070-b670-42cb-aacb-0e038c7b0f76
+    text: Only the minutes left over after complete hours.
+    correct: false
+    explanation: Leftover minutes would be calculated with `% 60`; this expression uses floor division and multiplication.
+  - id: abe12f49-503f-4b6a-b230-df04f59a8add
+    text: The number of complete hours.
+    correct: false
+    explanation: The intermediate floor-division result is a number of hours, but multiplying it by 60 changes the final value back to minutes.

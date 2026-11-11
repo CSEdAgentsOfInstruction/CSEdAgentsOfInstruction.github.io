@@ -1,0 +1,31 @@
+id: 7012827e-ca6e-4d8c-9653-292d120db632
+type: mcq
+title: Follow the second test run
+prompt: |
+  What happens when this program runs?
+
+  ```python
+  def double(number):
+      return number * 2
+
+
+  assert double(2) == 4
+  assert double(0) == 1
+  print("done")
+  ```
+part: 3
+points: 4
+multiple: false
+options:
+  - id: c7a1477c-368f-4fda-a3db-0f02965a1257
+    text: The first assertion passes, the second raises `AssertionError`, and `done` is not printed.
+    correct: true
+    explanation: A failed assertion interrupts normal execution before the later print statement.
+  - id: 7f6f761d-1c7e-4de3-ba44-68ba2452dc60
+    text: Both assertions print their boolean values, and then `done` is printed.
+    correct: false
+    explanation: Assertions do not print passing values, and the second expectation is false.
+  - id: 2681b5c8-a247-4211-ae0b-7c2d682913cd
+    text: Python changes `double(0)` to `1` so that the second assertion can pass.
+    correct: false
+    explanation: An assertion checks behavior; it does not modify the function or its return value.

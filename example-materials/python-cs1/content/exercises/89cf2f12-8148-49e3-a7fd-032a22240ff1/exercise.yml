@@ -1,0 +1,21 @@
+id: 89cf2f12-8148-49e3-a7fd-032a22240ff1
+type: python
+title: Name and age
+prompt: |
+  Write a program that first asks for the user's name and then asks for their age.
+
+  Store the name in a variable called `name`. Convert the entered age to an integer and store it in a variable called `age`. You may assume that the entered age is a valid whole number.
+
+  Finally, print a greeting in exactly this format:
+
+  ```text
+  Hello {name}! You are {age} years old.
+  ```
+
+  For example, if the name is `Ada` and the age is `37`, the greeting is:
+
+  ```text
+  Hello Ada! You are 37 years old.
+  ```
+part: 1
+points: 10

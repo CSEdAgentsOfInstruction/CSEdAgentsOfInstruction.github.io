@@ -1,0 +1,19 @@
+id: babaac83-2992-4e7f-a537-e58f725a7f5f
+type: python
+title: Compare two texts
+prompt: |
+  Write a program that reads two lines of text and counts the positions where they contain the same word. You may assume that the two lines contain the same number of words.
+
+  Ignore letter case and repeated or surrounding whitespace. The starter prepares the two word lists for you. Preserve the word order: a word in the wrong position does not count as a match.
+
+  Use a loop to compare the corresponding positions and calculate the count.
+
+  For the two lines `red green blue` and `RED blue green`, print:
+
+  ```text
+  Correct positions: 1 of 3
+  ```
+
+  Use `input()` without visible prompts and print only the result in this format. Your program must also handle two empty or whitespace-only input lines, producing `Correct positions: 0 of 0`.
+part: 2
+points: 15

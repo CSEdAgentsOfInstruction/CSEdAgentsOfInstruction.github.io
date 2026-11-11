@@ -1,0 +1,31 @@
+id: 458fd1bc-6975-47d8-8b0c-75a860a35f17
+type: mcq
+title: Inspect the cleaned readings
+prompt: |
+  Specification: `without_negatives(values)` returns a **new list** where each negative value is replaced by zero, and it leaves `values` unchanged.
+
+  ```python
+  def without_negatives(values):
+      for index in range(len(values)):
+          if values[index] < 0:
+              values[index] = 0
+      return values
+  ```
+
+  Which requirements does this implementation violate?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: 91ea08b9-2a5a-4802-ad62-0e810492cea6
+    text: It changes the caller's original list and returns that same list object instead of a new list.
+    correct: true
+    explanation: Replacing `values[index]` mutates the object supplied by the caller, and `return values` returns that same object rather than a newly created list.
+  - id: ab75887c-6ae8-4767-bd6c-77c785245b45
+    text: It leaves the input unchanged, but returns that original list instead of a new one.
+    correct: false
+    explanation: Assigning to values[index] changes the original list before it is returned. Both promises are violated.
+  - id: a0b8f2f6-18c5-4145-a7fe-c266797780a0
+    text: It changes the input, but returning values creates a new list with the changed contents.
+    correct: false
+    explanation: Returning a list does not copy it. The caller receives the same list that the function changed.

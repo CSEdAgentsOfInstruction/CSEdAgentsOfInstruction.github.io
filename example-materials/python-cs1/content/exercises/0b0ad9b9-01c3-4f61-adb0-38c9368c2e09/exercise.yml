@@ -1,0 +1,29 @@
+id: 0b0ad9b9-01c3-4f61-adb0-38c9368c2e09
+type: mcq
+title: Inspect the announcer check
+prompt: |
+  What happens here?
+
+  ```python
+  def announce_double(number):
+      print(number * 2)
+
+
+  assert announce_double(4) == 8
+  ```
+part: 3
+points: 4
+multiple: false
+options:
+  - id: c41089a4-7879-4193-a941-00aa945f61bc
+    text: The function prints `8`, and then the assertion fails because the call returns `None`.
+    correct: true
+    explanation: Printing a value does not return it. A function with no explicit return produces `None`.
+  - id: f82b9c3a-2901-4a64-b5a5-befbaa3c17be
+    text: The assertion passes because the printed value is `8`.
+    correct: false
+    explanation: The assertion compares the return value, not text printed during the call.
+  - id: e798fc48-7669-4917-9ce3-f911a7c6c340
+    text: Nothing is printed because functions called by assertions cannot print.
+    correct: false
+    explanation: The function call runs normally before its returned value is compared, so its print statement executes.

@@ -1,0 +1,17 @@
+id: f95811c5-c5fe-41eb-80f9-3eec58db390a
+type: python
+title: Repair a score loop
+prompt: |
+  The starter reads a non-negative number of scores, then that many whole-number scores, one per line. The input code is complete.
+
+  Repair the program so it increases every stored score by one. Keep the final `print(scores)` statement.
+
+  For inputs `3`, `5`, `8`, and `10`, the output must be:
+
+  ```text
+  [6, 9, 11]
+  ```
+
+  The program must also handle other list lengths, including zero items, and keep repeated values in their original order.
+part: 2
+points: 5

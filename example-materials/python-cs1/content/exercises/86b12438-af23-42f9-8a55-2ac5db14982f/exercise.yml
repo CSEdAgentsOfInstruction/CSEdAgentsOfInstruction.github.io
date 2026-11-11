@@ -1,0 +1,16 @@
+id: 86b12438-af23-42f9-8a55-2ac5db14982f
+type: python
+title: Build a highlighted word
+prompt: |
+  Complete the program so it reads one word without a visible input prompt and builds a highlighted version of it.
+
+  Normalize the word with `.strip().lower()`. Initialize `highlighted` to an empty string before a direct loop over `word`. During each iteration:
+
+  - join the uppercase version of the character onto `highlighted` with `+` when it is a vowel;
+  - otherwise join the character unchanged onto `highlighted`.
+
+  **Hint:** You can create a variable such as `vowels = "aeiou"`. As you go through the characters in `word`, use membership to check whether the current character is in `vowels`.
+
+  Print the completed `highlighted` value once, after the loop. For example, `education` becomes `EdUcAtIOn`, while `rhythm` remains `rhythm`.
+part: 2
+points: 15

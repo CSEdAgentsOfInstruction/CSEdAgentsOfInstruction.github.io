@@ -1,0 +1,21 @@
+id: dd83d776-6731-4b23-8ef5-4694f8f3349f
+type: mcq
+title: Check the age rule
+prompt: |
+  Required behavior: `can_join(age)` returns `True` when `age` is **at least 12** and `False` otherwise. Which single test most directly checks the boundary wording?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: 6a263934-0415-4065-94cb-ad22201d7e87
+    text: "`assert can_join(12) == True`"
+    correct: true
+    explanation: The result changes at 12, and “at least” says that the boundary itself must be included.
+  - id: ada42c98-7dd4-4e1f-baa9-2877ba9d34a3
+    text: "`assert can_join(20) == True`"
+    correct: false
+    explanation: This is a useful ordinary case, but both `>= 12` and the mistaken `> 12` pass it.
+  - id: 13e8f8ee-c9c5-4541-ab03-f7a3e72a2ce9
+    text: "`assert can_join(5) == False`"
+    correct: false
+    explanation: This checks a value below the boundary but does not distinguish `>= 12` from `> 12`.

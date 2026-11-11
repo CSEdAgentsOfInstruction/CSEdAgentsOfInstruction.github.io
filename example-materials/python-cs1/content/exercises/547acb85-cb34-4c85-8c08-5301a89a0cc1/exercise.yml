@@ -1,0 +1,26 @@
+id: 547acb85-cb34-4c85-8c08-5301a89a0cc1
+type: python
+title: Correct the color list
+prompt: |
+  The starter reads three color names into a list called `colors`. It then reads a replacement color. Each value is entered on its own line without a visible prompt.
+
+  Replace the middle item by assigning to its index, then print the complete list. Keep the first and last items unchanged, even if they have the same name as the middle item.
+
+  For these inputs:
+
+  ```text
+  red
+  green
+  blue
+  yellow
+  ```
+
+  the output must be:
+
+  ```text
+  ['red', 'yellow', 'blue']
+  ```
+
+  Your program must work with other color names and replacement values. Preserve the names as entered. A name may contain spaces, and the replacement may be the same as the current middle item.
+part: 2
+points: 10

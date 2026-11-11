@@ -1,0 +1,17 @@
+id: 8a67139a-e13c-46b9-9ca8-e43f127426b4
+type: python
+title: Clean up energy readings
+prompt: |
+  The starter reads a non-negative number of energy readings, then that many whole-number readings, one per line. It stores them in `energy_levels`. The input code is already complete.
+
+  Treat negative readings as invalid. Write an indexed loop that replaces each negative item with `0` and leaves non-negative items unchanged. Keep the final statement that prints the complete list.
+
+  For inputs `4`, `80`, `-15`, `45`, and `-4`, print:
+
+  ```text
+  [80, 0, 45, 0]
+  ```
+
+  Your loop must also work for other readings and list lengths. If the number of readings is zero, print `[]`. Change the items in `energy_levels` itself.
+part: 2
+points: 10

@@ -1,0 +1,41 @@
+id: f319904c-9860-4541-8b9d-a00ba869b583
+type: mcq
+title: Identify the accurate observations
+prompt: |
+  Read the program and the explanation:
+
+  ```python
+  minutes = 75
+  hours = minutes / 60
+
+  if hours >= 1:
+      print("At least an hour")
+  ```
+
+  > "The program changes 75 minutes into 1 hour and then checks whether the minutes are at least 1."
+
+  Select every statement that accurately evaluates the program or the explanation.
+part: 1
+points: 3
+multiple: true
+options:
+  - id: e063f9a3-5130-482a-b9ab-4f2893ce33a6
+    text: Dividing 75 by 60 stores `1.25` in `hours`.
+    correct: true
+    explanation: Ordinary division preserves the fractional part, so the result is 1.25 hours.
+  - id: b78c9ce3-e782-45cc-ad63-b528e138dbb5
+    text: The value of `minutes` remains `75`.
+    correct: true
+    explanation: The calculation assigns a new value to `hours`; it does not reassign `minutes`.
+  - id: 3dc6f1b5-fb22-4836-99a6-bd0c31d22da5
+    text: The condition checks whether `hours` is at least `1`.
+    correct: true
+    explanation: The left side of the comparison is `hours`, not `minutes`.
+  - id: b36e1e41-6dd6-434f-b41b-f4a651c263ac
+    text: The phrase "changes 75 minutes into 1 hour" is numerically exact.
+    correct: false
+    explanation: Seventy-five minutes is 1.25 hours, so saying exactly one hour loses the remaining 15 minutes.
+  - id: f7fcd574-cbaf-4e26-b008-86f30abf8596
+    text: The condition checks whether `minutes >= 1`.
+    correct: false
+    explanation: The program compares `hours` with 1.

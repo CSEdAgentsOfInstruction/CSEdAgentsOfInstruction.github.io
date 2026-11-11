@@ -1,0 +1,21 @@
+id: becf1d5c-58ea-4681-81a4-7e9c29bb0b54
+type: python
+title: Print one conditional message
+prompt: |
+  Write a program that reads a whole-number temperature.
+
+  If the temperature is below zero, print:
+
+  ```text
+  Warning: below freezing.
+  ```
+
+  After the conditional, always print:
+
+  ```text
+  Temperature checked.
+  ```
+
+  Use `input()` without a visible prompt. A non-negative temperature must therefore produce only the final line.
+part: 1
+points: 10

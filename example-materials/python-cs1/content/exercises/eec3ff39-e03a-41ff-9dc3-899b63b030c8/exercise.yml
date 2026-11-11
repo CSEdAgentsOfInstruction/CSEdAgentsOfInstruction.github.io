@@ -1,0 +1,30 @@
+id: eec3ff39-e03a-41ff-9dc3-899b63b030c8
+type: python
+title: Print selected temperatures
+prompt: |
+  The starter reads a non-negative number of temperatures, then that many whole-number temperatures, one per line. It stores the temperatures in a list. The input code is already complete.
+
+  Use a direct `for` loop to print only the temperatures that are at least `20`, one per line. Preserve their order and repetitions. A temperature of exactly `20` must be included.
+
+  For these inputs:
+
+  ```text
+  5
+  18
+  21
+  17
+  23
+  20
+  ```
+
+  the output must be:
+
+  ```text
+  21
+  23
+  20
+  ```
+
+  Print nothing if the list is empty or no temperature meets the condition. Use the values in the list so the program also works for other temperatures and list lengths.
+part: 2
+points: 10

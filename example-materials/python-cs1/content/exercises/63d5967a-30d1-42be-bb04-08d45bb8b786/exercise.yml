@@ -1,0 +1,17 @@
+id: 63d5967a-30d1-42be-bb04-08d45bb8b786
+type: mcq
+title: Two possible warnings
+prompt: |
+  A program should print both `Low battery` and `No network` when both problems are present. Which structure is more appropriate?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 65098818-140d-4041-9bff-7e881e28e58e
+    text: Separate `if` statements
+    correct: true
+    explanation: The warnings describe independent problems, so either or both conditions may produce output.
+  - id: 78b9f061-943e-4f39-bfbe-039db8f0820d
+    text: One `if/elif/else` chain
+    correct: false
+    explanation: A chain would stop after one warning and hide the other problem when both are present.

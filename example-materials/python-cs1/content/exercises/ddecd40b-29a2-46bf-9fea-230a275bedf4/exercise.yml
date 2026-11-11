@@ -1,0 +1,13 @@
+id: ddecd40b-29a2-46bf-9fea-230a275bedf4
+type: python
+title: Find the greeting problems
+prompt: |
+  The program should ask for a name and print a personalized greeting, but its output line contains two mistakes.
+
+  Correct the program so it uses the assigned variable and an f-string. If the user enters `Ada`, the output must end with:
+
+  ```text
+  Hello, Ada!
+  ```
+part: 1
+points: 10

@@ -1,0 +1,16 @@
+id: 13bc3c96-e898-4a7b-b9cd-2899c0439e6a
+type: mcq
+title: Greater than
+prompt: What value does `10 > 5` produce?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 3dda3528-c25a-4b67-a2a5-abaad4323e1f
+    text: "True"
+    correct: true
+    explanation: Ten is greater than five, so the comparison is true.
+  - id: 21be0fad-17dd-41e5-bbdf-5ec90fd5fd54
+    text: "False"
+    correct: false
+    explanation: This would be false only if ten were not greater than five.

@@ -1,0 +1,49 @@
+id: 0dd5abed-9b40-4866-8fab-e95f0ebfe435
+type: python
+title: Analyze rainfall measurements
+prompt: |
+  Write a program that records, filters, and summarizes rainfall measurements.
+
+  Read input lines without visible prompts. You may assume each line can be converted to a number. The numeric value `9999` stops input and is not a measurement. Equivalent numeric forms, such as `9999.0`, must also stop input.
+
+  Complete the program in three phases:
+
+  1. Collect every measurement in a list, including negative measurements, until the user enters the sentinel.
+  2. Build a second list containing the valid measurements from the first list. Negative measurements are invalid; zero is valid rainfall.
+  3. Calculate the total and average of the valid measurements. If there are none, the total is zero and the average is the text `none`.
+
+  Write an explicit loop for each phase and calculate the total yourself; do not use `sum(...)`. Keep the original measurements so that you can report both how many were entered and how many were valid.
+
+  For this input:
+
+  ```text
+  5.5
+  -2
+  0
+  6.5
+  9999
+  ```
+
+  print:
+
+  ```text
+  Measurements entered: 4
+  Valid readings: 3
+  Total rainfall: 12.0
+  Average rainfall: 4.0
+  ```
+
+  If the input contains only `-2`, `-4`, and then `9999`, print:
+
+  ```text
+  Measurements entered: 2
+  Valid readings: 0
+  Total rainfall: 0
+  Average rainfall: none
+  ```
+
+  Use the four labels exactly as shown. Print the ordinary result of Python's arithmetic without rounding it. Equivalent numeric spellings such as `0` and `0.0` are accepted.
+
+  Test immediate stopping, only negative measurements, zero rainfall, decimal measurements, and a sentinel written as `9999.0`.
+part: 2
+points: 30

@@ -1,0 +1,16 @@
+id: 65fc3c5d-d415-44ac-b539-97fac9ec02d7
+type: mcq
+title: Age statement 2
+prompt: What does `age == 18` do?
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 253f4738-3e3c-4c32-bb30-0d84800b5654
+    text: Changes program state
+    correct: false
+    explanation: The two equals signs compare values; they do not assign a new value to `age`.
+  - id: 8039ef35-070b-4564-b8a2-335cc98997a4
+    text: Asks a boolean question
+    correct: true
+    explanation: The equality comparison asks whether `age` currently contains 18.

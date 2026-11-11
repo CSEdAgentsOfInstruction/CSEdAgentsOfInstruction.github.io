@@ -1,0 +1,15 @@
+id: c2b1f1d0-dcc4-4e3e-aacd-df37e03079f4
+type: python
+title: Repair the departure-advice branch order
+prompt: |
+  The starter program reads the whole number of minutes until departure and is intended to print exactly one message:
+
+  - fewer than 10 minutes: `Leave now.`
+  - 10 through 29 minutes: `Get ready.`
+  - 30 minutes or more: `Plenty of time.`
+
+  The narrowest case is currently unreachable because a broader condition appears first. Repair the branch order while keeping an `if/elif/else` chain. You do not need to combine conditions.
+
+  Use `input()` without a visible prompt and print only the required result.
+part: 1
+points: 10

@@ -1,0 +1,9 @@
+id: f85d4c81-51e8-46ec-80ae-fde5d245da4d
+type: python
+title: Print the vowels
+prompt: |
+  Complete the program so it reads one word without a visible input prompt, normalizes it with `.strip().lower()`, and prints each vowel on its own line.
+
+  Use a direct `for` loop over the word. Inside the loop, use membership in the string `"aeiou"` to decide whether to print the current character. Preserve the vowels' order and repetitions. If the word contains no vowels, print nothing.
+part: 2
+points: 10

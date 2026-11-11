@@ -1,0 +1,27 @@
+id: 9480f91d-a52d-42a0-a0ec-7290c3c9341a
+type: mcq
+title: Review the collection phase
+prompt: |
+  A music-request kiosk should collect song requests until the user enters `done`. The number of requests is not known in advance. A programmer starts the collection phase like this:
+
+  ```python
+  requests = []
+
+  for request in requests:
+      request = input("Request: ")
+      requests.append(request)
+  ```
+
+  The program never asks for a request. Which explanation also identifies a suitable repair?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: bbb248fe-eae9-42c8-9072-87dc0953e1e4
+    text: "`requests` starts empty, so the `for` loop has no items to visit. Use `while True`, read a request, and use `break` when the request is `done`."
+    correct: true
+    explanation: Because `requests` starts empty, this loop never reaches `input()`. Adding an initial item would not repair the design, because each appended request could make the loop continue without a stopping check. Here the user decides how many requests to enter, so a sentinel-controlled `while` loop fits the collection phase.
+  - id: 3ff163e3-11a7-4eef-b647-bb9c8943b91a
+    text: A `for` loop always runs its body once before checking the list. Move `requests.append(request)` above `input` to make it begin.
+    correct: false
+    explanation: A `for` loop over an empty list runs zero times, and there is no request available to append before the program has read one.

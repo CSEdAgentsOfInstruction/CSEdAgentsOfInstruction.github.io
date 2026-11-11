@@ -1,0 +1,1723 @@
+{
+  "edition": "current English introduction-to-programming",
+  "omittedChapters": [
+    "part-1/8-decisions-and-games",
+    "part-2/8-repetition-and-games",
+    "part-3/10-functions-and-games"
+  ],
+  "lessons": [
+    {
+      "id": "part-1/1-overview",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-1/1-overview.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-1/2-programs-and-the-programming-workflow",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-1/2-programs-and-the-programming-workflow.mdx",
+      "examples": 4,
+      "steppers": 0
+    },
+    {
+      "id": "part-1/3-talking-with-a-program",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-1/3-talking-with-a-program.mdx",
+      "examples": 4,
+      "steppers": 0
+    },
+    {
+      "id": "part-1/4-values-variables-and-types",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-1/4-values-variables-and-types.mdx",
+      "examples": 1,
+      "steppers": 1
+    },
+    {
+      "id": "part-1/5-numbers-and-expressions",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-1/5-numbers-and-expressions.mdx",
+      "examples": 1,
+      "steppers": 0
+    },
+    {
+      "id": "part-1/6-making-decisions",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-1/6-making-decisions.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-1/7-reading-tracing-and-explaining-programs",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-1/7-reading-tracing-and-explaining-programs.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-1/8-recap-and-feedback",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-1/9-recap-and-feedback.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-2/1-overview",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-2/1-overview.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-2/2-strings-as-sequences",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-2/2-strings-as-sequences.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-2/3-repeating-over-a-sequence",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-2/3-repeating-over-a-sequence.mdx",
+      "examples": 1,
+      "steppers": 0
+    },
+    {
+      "id": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-2/4-lists-remembering-several-values.mdx",
+      "examples": 1,
+      "steppers": 1
+    },
+    {
+      "id": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-2/5-processing-and-changing-lists.mdx",
+      "examples": 2,
+      "steppers": 2
+    },
+    {
+      "id": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-2/6-repeating-until-we-decide-to-stop.mdx",
+      "examples": 1,
+      "steppers": 0
+    },
+    {
+      "id": "part-2/7-choosing-and-combining-repetition",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-2/7-choosing-and-combining-repetition.mdx",
+      "examples": 1,
+      "steppers": 0
+    },
+    {
+      "id": "part-2/8-recap-and-feedback",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-2/9-recap-and-feedback.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-3/1-overview",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/1-overview.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-3/2-defining-and-calling-functions",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/2-defining-and-calling-functions.mdx",
+      "examples": 2,
+      "steppers": 0
+    },
+    {
+      "id": "part-3/3-parameters-and-return-values",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/3-parameters-and-return-values.mdx",
+      "examples": 3,
+      "steppers": 3
+    },
+    {
+      "id": "part-3/4-names-objects-and-mutable-lists",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/4-names-objects-and-mutable-lists.mdx",
+      "examples": 3,
+      "steppers": 2
+    },
+    {
+      "id": "part-3/5-building-functions-with-lists",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/5-building-functions-with-lists.mdx",
+      "examples": 1,
+      "steppers": 0
+    },
+    {
+      "id": "part-3/6-designing-programs-from-functions",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/6-designing-programs-from-functions.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-3/7-testing-functions",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/7-testing-functions.mdx",
+      "examples": 1,
+      "steppers": 0
+    },
+    {
+      "id": "part-3/8-validation-and-errors",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/8-validation-and-errors.mdx",
+      "examples": 2,
+      "steppers": 1
+    },
+    {
+      "id": "part-3/9-specifications-verification-and-ai",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/9-specifications-verification-and-ai.mdx",
+      "examples": 0,
+      "steppers": 0
+    },
+    {
+      "id": "part-3/10-recap-and-feedback",
+      "source": "opencs-materials/courses/en/introduction-to-programming/part-3/11-recap-and-feedback.mdx",
+      "examples": 0,
+      "steppers": 0
+    }
+  ],
+  "exercises": [
+    {
+      "id": "45696958-a59c-4479-8188-f7fb9ac70e67",
+      "lesson": "part-1/2-programs-and-the-programming-workflow",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-2-2-code-or-output/sequence-config.yml",
+      "sequence": "799261a2-8b7b-495b-af1c-fe1e94bfed4e"
+    },
+    {
+      "id": "00e59f79-6a30-44a5-b2ce-381432150163",
+      "lesson": "part-1/2-programs-and-the-programming-workflow",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-2-2-code-or-output/sequence-config.yml",
+      "sequence": "799261a2-8b7b-495b-af1c-fe1e94bfed4e"
+    },
+    {
+      "id": "7edbc312-2dd5-4f95-9b63-ee4158920d51",
+      "lesson": "part-1/2-programs-and-the-programming-workflow",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-2-3-fix-one-thing-at-a-time/sequence-config.yml",
+      "sequence": "afaf3d92-cfd8-42e6-853e-d284fc196177",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-2-3-fix-one-thing-at-a-time/1"
+    },
+    {
+      "id": "3724c9ed-ab2c-4ba8-b247-d67f27066fed",
+      "lesson": "part-1/2-programs-and-the-programming-workflow",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-2-3-fix-one-thing-at-a-time/sequence-config.yml",
+      "sequence": "afaf3d92-cfd8-42e6-853e-d284fc196177",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-2-3-fix-one-thing-at-a-time/2"
+    },
+    {
+      "id": "55da8386-276f-429b-a161-4b77422a198a",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-1-welcome-card/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-1-welcome-card"
+    },
+    {
+      "id": "63242cbc-73a9-41c9-b74e-5d3a0b85e28b",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-2-which-values-are-text/sequence-config.yml",
+      "sequence": "70b23a78-6411-4870-81fa-5f32685f000a"
+    },
+    {
+      "id": "a8f68299-e25e-4e51-b541-6374a4f40291",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-2-which-values-are-text/sequence-config.yml",
+      "sequence": "70b23a78-6411-4870-81fa-5f32685f000a"
+    },
+    {
+      "id": "411eab88-fad8-49d5-9f60-32b082ccdade",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-2-which-values-are-text/sequence-config.yml",
+      "sequence": "70b23a78-6411-4870-81fa-5f32685f000a"
+    },
+    {
+      "id": "83daca35-b05f-4867-9daa-119ff29fd2ef",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-2-which-values-are-text/sequence-config.yml",
+      "sequence": "70b23a78-6411-4870-81fa-5f32685f000a"
+    },
+    {
+      "id": "04de5bac-f771-4b81-a629-d0df39ac3fee",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-3-ask-and-repeat/sequence-config.yml",
+      "sequence": "ae09fcd3-bf67-4dbd-a744-5db8f79554b1",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-3-ask-and-repeat/1"
+    },
+    {
+      "id": "fef85ec1-39d9-42b4-a401-11fc449913ac",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-3-ask-and-repeat/sequence-config.yml",
+      "sequence": "ae09fcd3-bf67-4dbd-a744-5db8f79554b1",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-3-ask-and-repeat/2"
+    },
+    {
+      "id": "8fbef474-c95b-4464-9cab-3218f6c531b5",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-4-personalized-output/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-4-personalized-output"
+    },
+    {
+      "id": "bda014e6-e688-483f-81d5-e48349137c16",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-5-normalize-answer/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-5-normalize-answer"
+    },
+    {
+      "id": "556a9ff6-5cb8-497f-94b6-46412d399144",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-6-change-a-profile-program-with-intent/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-6-change-a-profile-program-with-intent"
+    },
+    {
+      "id": "ddecd40b-29a2-46bf-9fea-230a275bedf4",
+      "lesson": "part-1/3-talking-with-a-program",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-7-find-the-greeting-problems/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-3-7-find-the-greeting-problems"
+    },
+    {
+      "id": "2f84aa1a-b05a-4cf4-a19e-a9e797fe59af",
+      "lesson": "part-1/4-values-variables-and-types",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-4-1-improve-the-names/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-4-1-improve-the-names"
+    },
+    {
+      "id": "3c8c9440-6f9b-4abd-b62f-d1245cbe778d",
+      "lesson": "part-1/4-values-variables-and-types",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-4-4-investigate-identical-looking-output/sequence-config.yml",
+      "sequence": "8f289f57-e1f3-46ba-a090-8f373123c482"
+    },
+    {
+      "id": "302307fd-e330-4edb-943f-b26497954dec",
+      "lesson": "part-1/4-values-variables-and-types",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-4-4-investigate-identical-looking-output/sequence-config.yml",
+      "sequence": "8f289f57-e1f3-46ba-a090-8f373123c482"
+    },
+    {
+      "id": "89cf2f12-8148-49e3-a7fd-032a22240ff1",
+      "lesson": "part-1/4-values-variables-and-types",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-4-6-name-and-age/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-4-6-name-and-age"
+    },
+    {
+      "id": "d8674a87-3525-49b6-a6a6-6e205ee1e50f",
+      "lesson": "part-1/5-numbers-and-expressions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-5-1-time-conversion/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-5-1-time-conversion"
+    },
+    {
+      "id": "98906656-32a2-46ad-af2c-d1cf284d7790",
+      "lesson": "part-1/5-numbers-and-expressions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-5-2-price-with-tax/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-5-2-price-with-tax"
+    },
+    {
+      "id": "4f57f074-6cfe-46f8-b77a-27d449b8527f",
+      "lesson": "part-1/5-numbers-and-expressions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-5-5-unpack-the-one-liner/sequence-config.yml",
+      "sequence": "cde03376-e865-4416-bd06-94d3d7efd9c5"
+    },
+    {
+      "id": "c614d7ea-b627-4758-b481-00d4366473d3",
+      "lesson": "part-1/5-numbers-and-expressions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-5-6-average-speed/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-5-6-average-speed"
+    },
+    {
+      "id": "9a2d50e6-5c33-4fe0-bbef-64b650d6e8ca",
+      "lesson": "part-1/5-numbers-and-expressions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-5-7-repair-numeric-input/sequence-config.yml",
+      "sequence": "8871553c-dc9b-4f79-a9d0-d1b31526f1f4",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-5-7-repair-numeric-input/1"
+    },
+    {
+      "id": "17571978-8f7a-4cce-8650-212c92e085d1",
+      "lesson": "part-1/5-numbers-and-expressions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-5-8-pizzas-to-order/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-5-8-pizzas-to-order"
+    },
+    {
+      "id": "13bc3c96-e898-4a7b-b9cd-2899c0439e6a",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-1-predict-the-booleans/sequence-config.yml",
+      "sequence": "d2f3c682-2bad-44db-a4c4-d0f670f77eb5"
+    },
+    {
+      "id": "301ed5ba-6806-49e3-a662-09f59a059319",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-1-predict-the-booleans/sequence-config.yml",
+      "sequence": "d2f3c682-2bad-44db-a4c4-d0f670f77eb5"
+    },
+    {
+      "id": "de5f1b27-289f-49fb-a318-65fb5023fafb",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-1-predict-the-booleans/sequence-config.yml",
+      "sequence": "d2f3c682-2bad-44db-a4c4-d0f670f77eb5"
+    },
+    {
+      "id": "c1061c87-03eb-461e-a6f5-4e497af12041",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-1-predict-the-booleans/sequence-config.yml",
+      "sequence": "d2f3c682-2bad-44db-a4c4-d0f670f77eb5"
+    },
+    {
+      "id": "95f1bed4-492b-4c3d-9461-e55c477995b5",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-1-predict-the-booleans/sequence-config.yml",
+      "sequence": "d2f3c682-2bad-44db-a4c4-d0f670f77eb5"
+    },
+    {
+      "id": "758d9a97-72e7-4bea-b679-4d4aa4055b9b",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-1-predict-the-booleans/sequence-config.yml",
+      "sequence": "d2f3c682-2bad-44db-a4c4-d0f670f77eb5"
+    },
+    {
+      "id": "9e622b03-34a8-4604-8951-a1b493a8df22",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-2-assignment-or-question/sequence-config.yml",
+      "sequence": "e12a6893-3b0c-467f-9078-c8d9cac91263"
+    },
+    {
+      "id": "65fc3c5d-d415-44ac-b539-97fac9ec02d7",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-2-assignment-or-question/sequence-config.yml",
+      "sequence": "e12a6893-3b0c-467f-9078-c8d9cac91263"
+    },
+    {
+      "id": "7356a7ac-9030-4e40-b376-0ca997b206f8",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-2-assignment-or-question/sequence-config.yml",
+      "sequence": "e12a6893-3b0c-467f-9078-c8d9cac91263"
+    },
+    {
+      "id": "a7c3c694-f9ca-4041-9686-546f825a908b",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-2-assignment-or-question/sequence-config.yml",
+      "sequence": "e12a6893-3b0c-467f-9078-c8d9cac91263"
+    },
+    {
+      "id": "becf1d5c-58ea-4681-81a4-7e9c29bb0b54",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-3-one-conditional-message/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-3-one-conditional-message"
+    },
+    {
+      "id": "45f21fde-69d6-47e0-969b-c4769fbcc7ce",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-4-print-one-of-two-outcomes/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-4-print-one-of-two-outcomes"
+    },
+    {
+      "id": "6f718274-e5ff-4323-a43e-84520c5eaf0d",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-5-classify-battery-level/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-5-classify-battery-level"
+    },
+    {
+      "id": "c2b1f1d0-dcc4-4e3e-aacd-df37e03079f4",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-6-repair-departure-advice-branch-order/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-6-repair-departure-advice-branch-order"
+    },
+    {
+      "id": "a0176a21-37c4-42a2-a23f-9acb082063ac",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-7-trace-classification-boundaries/sequence-config.yml",
+      "sequence": "5aebc466-a87f-4347-8a8a-2f48c83829e8"
+    },
+    {
+      "id": "52098685-96dc-4fbb-9b38-718168852124",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-8-independent-or-exclusive/sequence-config.yml",
+      "sequence": "cab0495e-1569-4b46-990c-c9860b82c02b"
+    },
+    {
+      "id": "be733765-827c-4c5d-a2b6-a801c697a088",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-8-independent-or-exclusive/sequence-config.yml",
+      "sequence": "cab0495e-1569-4b46-990c-c9860b82c02b"
+    },
+    {
+      "id": "63d5967a-30d1-42be-bb04-08d45bb8b786",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-8-independent-or-exclusive/sequence-config.yml",
+      "sequence": "cab0495e-1569-4b46-990c-c9860b82c02b"
+    },
+    {
+      "id": "f79ba895-be1c-4499-9532-72be05bb38d3",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-11-build-an-access-condition/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-11-build-an-access-condition"
+    },
+    {
+      "id": "6fcd1df0-9b9e-4fe9-9ea9-d61fb867d913",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-12-weather-advice/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-6-12-weather-advice"
+    },
+    {
+      "id": "b437acf7-d0c5-4043-932f-7681428f7315",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/sequence-config.yml",
+      "sequence": "62cd55af-66ff-4ac6-9ffe-26a984e6b3f8",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/1"
+    },
+    {
+      "id": "d8813772-625d-4a95-8f65-11968c1a8661",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/sequence-config.yml",
+      "sequence": "62cd55af-66ff-4ac6-9ffe-26a984e6b3f8",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/2"
+    },
+    {
+      "id": "ed2d0d92-2e10-4833-986c-bec3d296af43",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/sequence-config.yml",
+      "sequence": "62cd55af-66ff-4ac6-9ffe-26a984e6b3f8",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/3"
+    },
+    {
+      "id": "4d1a2d73-044f-48d7-8f8a-0dd605605843",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/sequence-config.yml",
+      "sequence": "62cd55af-66ff-4ac6-9ffe-26a984e6b3f8",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/4"
+    },
+    {
+      "id": "490939e4-eb80-43dd-bf91-a2cbdfdb66d4",
+      "lesson": "part-1/6-making-decisions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/sequence-config.yml",
+      "sequence": "62cd55af-66ff-4ac6-9ffe-26a984e6b3f8",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/5"
+    },
+    {
+      "id": "f319904c-9860-4541-8b9d-a00ba869b583",
+      "lesson": "part-1/7-reading-tracing-and-explaining-programs",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-7-4-critique-and-replace-an-explanation/sequence-config.yml",
+      "sequence": "959c28a9-b3e6-40a8-bf88-361610e55163"
+    },
+    {
+      "id": "92ee07d5-3fee-4e5b-ac2e-cb2064728ffb",
+      "lesson": "part-1/8-recap-and-feedback",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-9-1-parcel-delivery-quote/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/1-9-1-parcel-delivery-quote"
+    },
+    {
+      "id": "4259f1b2-6536-4be8-b002-38abbc73e213",
+      "lesson": "part-2/2-strings-as-sequences",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-2-2-length-and-index-boundaries/sequence-config.yml",
+      "sequence": "f0db3a5d-5103-4583-a561-1409130c56b3"
+    },
+    {
+      "id": "6fc4da31-da75-40a3-a43a-e54574683eff",
+      "lesson": "part-2/2-strings-as-sequences",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-2-2-length-and-index-boundaries/sequence-config.yml",
+      "sequence": "f0db3a5d-5103-4583-a561-1409130c56b3"
+    },
+    {
+      "id": "f0a58c8c-ba6e-4b8b-831f-845247168eb9",
+      "lesson": "part-2/2-strings-as-sequences",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-2-3-count-from-the-end/sequence-config.yml",
+      "sequence": "644979c5-b5c9-4df0-a2ec-190510423aab"
+    },
+    {
+      "id": "6adfc743-a5ca-42d5-8b49-bdcb6b13e941",
+      "lesson": "part-2/2-strings-as-sequences",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-2-4-check-for-a-letter/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-2-4-check-for-a-letter"
+    },
+    {
+      "id": "69620b8b-bb94-4bda-8d8b-11600d5de7d0",
+      "lesson": "part-2/2-strings-as-sequences",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-2-5-a-character-is-a-string/sequence-config.yml",
+      "sequence": "da2868bc-7b2e-4099-9459-ca412cdf5057"
+    },
+    {
+      "id": "9e39e8ac-a171-44f8-8638-35302a7b6084",
+      "lesson": "part-2/2-strings-as-sequences",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-2-5-a-character-is-a-string/sequence-config.yml",
+      "sequence": "da2868bc-7b2e-4099-9459-ca412cdf5057",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-2-5-a-character-is-a-string/3"
+    },
+    {
+      "id": "e2ef5689-6c01-4fd0-b23c-25e0a99e57b4",
+      "lesson": "part-2/3-repeating-over-a-sequence",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-3-1-print-every-character/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-3-1-print-every-character"
+    },
+    {
+      "id": "f85d4c81-51e8-46ec-80ae-fde5d245da4d",
+      "lesson": "part-2/3-repeating-over-a-sequence",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-3-3-print-the-vowels/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-3-3-print-the-vowels"
+    },
+    {
+      "id": "3d7dff78-639d-4f39-8797-a8e309b07c65",
+      "lesson": "part-2/3-repeating-over-a-sequence",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-3-4-remember-across-iterations/sequence-config.yml",
+      "sequence": "940345d4-7371-4f13-a55d-27c5c2949892",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-3-4-remember-across-iterations/2"
+    },
+    {
+      "id": "9a358f00-190c-4f88-aab5-737b4d4e752c",
+      "lesson": "part-2/3-repeating-over-a-sequence",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-3-4-remember-across-iterations/sequence-config.yml",
+      "sequence": "940345d4-7371-4f13-a55d-27c5c2949892",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-3-4-remember-across-iterations/3"
+    },
+    {
+      "id": "86b12438-af23-42f9-8a55-2ac5db14982f",
+      "lesson": "part-2/3-repeating-over-a-sequence",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-3-5-build-a-highlighted-word/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-3-5-build-a-highlighted-word"
+    },
+    {
+      "id": "8e84578a-f8cb-473c-8bfd-a628db413ec3",
+      "lesson": "part-2/3-repeating-over-a-sequence",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-3-7-five-message-announcer/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-3-7-five-message-announcer"
+    },
+    {
+      "id": "fadc5e6a-ce91-4a0c-83e1-b5de8d8012ce",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-4-1-build-and-inspect-a-list/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-4-1-build-and-inspect-a-list"
+    },
+    {
+      "id": "b3655937-e2d2-4bd1-97d5-c41eed03f523",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-4-2-whole-item-membership/sequence-config.yml",
+      "sequence": "91bb90e6-3165-4e35-936c-5a2b5a2a1774"
+    },
+    {
+      "id": "6631fcb9-75f1-488e-9d71-d1bba6256ba5",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-4-2-whole-item-membership/sequence-config.yml",
+      "sequence": "91bb90e6-3165-4e35-936c-5a2b5a2a1774"
+    },
+    {
+      "id": "d50e4dd5-896c-4601-bb22-a4b6447f0180",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-4-2-whole-item-membership/sequence-config.yml",
+      "sequence": "91bb90e6-3165-4e35-936c-5a2b5a2a1774"
+    },
+    {
+      "id": "547acb85-cb34-4c85-8c08-5301a89a0cc1",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-4-3-replace-a-list-item/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-4-3-replace-a-list-item"
+    },
+    {
+      "id": "569b0b97-1aba-40e9-a12d-e8ade4a5a948",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-4-4-collect-three-tasks/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-4-4-collect-three-tasks"
+    },
+    {
+      "id": "eec3ff39-e03a-41ff-9dc3-899b63b030c8",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-4-5-print-selected-temperatures/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-4-5-print-selected-temperatures"
+    },
+    {
+      "id": "92a0878a-40c8-4a87-af77-a4977296a806",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-4-7-compare-strings-and-lists/sequence-config.yml",
+      "sequence": "b5aa2060-1995-4774-9256-1ce6aa4673d7"
+    },
+    {
+      "id": "76355296-dfb8-4df9-b5dc-349c3d659271",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-4-7-compare-strings-and-lists/sequence-config.yml",
+      "sequence": "b5aa2060-1995-4774-9256-1ce6aa4673d7"
+    },
+    {
+      "id": "9769580d-5642-40cd-8b48-e0f0b44e45ae",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-4-7-compare-strings-and-lists/sequence-config.yml",
+      "sequence": "b5aa2060-1995-4774-9256-1ce6aa4673d7"
+    },
+    {
+      "id": "e7fcfb9f-4058-47b2-aba5-a3bcd4cfef6d",
+      "lesson": "part-2/4-lists-remembering-several-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-4-7-compare-strings-and-lists/sequence-config.yml",
+      "sequence": "b5aa2060-1995-4774-9256-1ce6aa4673d7"
+    },
+    {
+      "id": "51e43ea0-5a56-459d-8b4c-30cbd1cf0aab",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-5-1-profile-message-total/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-5-1-profile-message-total"
+    },
+    {
+      "id": "1863f769-13d9-4e7f-b4fe-fadafeb6c8f6",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-5-2-count-long-message-words/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-5-2-count-long-message-words"
+    },
+    {
+      "id": "143c7e1b-2b39-4ccd-bb9a-79e1f542544c",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-3-best-so-far-and-negative-values/sequence-config.yml",
+      "sequence": "01444dee-580b-4bc8-9805-d78b9c2aece4"
+    },
+    {
+      "id": "2ed4d5be-5914-46e4-8c89-ce67675f0f3e",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-3-best-so-far-and-negative-values/sequence-config.yml",
+      "sequence": "01444dee-580b-4bc8-9805-d78b9c2aece4",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-3-best-so-far-and-negative-values/3"
+    },
+    {
+      "id": "77d25f3f-c6da-4887-a157-ddb209fa581d",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-5-4-search-archive-titles/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-5-4-search-archive-titles"
+    },
+    {
+      "id": "c9396cd1-7c29-48c2-80ad-0f8e51be968d",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-5-choose-the-remembered-state/sequence-config.yml",
+      "sequence": "8f246040-e68e-42e7-bea4-c8320944cf60"
+    },
+    {
+      "id": "2ed21086-c9ad-45c4-97c0-d58215bdea5d",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-5-choose-the-remembered-state/sequence-config.yml",
+      "sequence": "8f246040-e68e-42e7-bea4-c8320944cf60"
+    },
+    {
+      "id": "b69e0480-7eb5-4d5c-959b-ce9dd809a889",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-5-choose-the-remembered-state/sequence-config.yml",
+      "sequence": "8f246040-e68e-42e7-bea4-c8320944cf60"
+    },
+    {
+      "id": "e6ec73fa-827a-4059-96d3-bee5a2121fde",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-5-choose-the-remembered-state/sequence-config.yml",
+      "sequence": "8f246040-e68e-42e7-bea4-c8320944cf60"
+    },
+    {
+      "id": "9c4adb6e-a798-49cf-a3d5-9a40a0b46a47",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-6-check-a-boolean-flag/sequence-config.yml",
+      "sequence": "1490cd10-30e7-4b11-ae27-d313da001ed0"
+    },
+    {
+      "id": "8a67139a-e13c-46b9-9ca8-e43f127426b4",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-7-trace-and-replace-by-index/sequence-config.yml",
+      "sequence": "e588b32c-784b-4dbc-a0ec-b13a00217435",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-7-trace-and-replace-by-index/2"
+    },
+    {
+      "id": "f95811c5-c5fe-41eb-80f9-3eec58db390a",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/sequence-config.yml",
+      "sequence": "6d201dab-8e60-4073-a03e-a6564d7ead21",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/1"
+    },
+    {
+      "id": "4fec3d26-0a57-4fcd-99de-10779927a8ff",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/sequence-config.yml",
+      "sequence": "6d201dab-8e60-4073-a03e-a6564d7ead21"
+    },
+    {
+      "id": "40923a1b-d083-4e0a-be4a-ee07846e402b",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/sequence-config.yml",
+      "sequence": "6d201dab-8e60-4073-a03e-a6564d7ead21",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/3"
+    },
+    {
+      "id": "36ebd9b2-4821-40e7-a607-9edc138a4ac2",
+      "lesson": "part-2/5-processing-and-changing-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/sequence-config.yml",
+      "sequence": "6d201dab-8e60-4073-a03e-a6564d7ead21",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/4"
+    },
+    {
+      "id": "ab77eb58-fd0b-49d6-a0c9-e090c8c66a26",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-6-1-trace-a-sentinel-loop/sequence-config.yml",
+      "sequence": "00a1038c-05c7-4da2-8b99-b3c12f3d2588"
+    },
+    {
+      "id": "aaea9368-eab1-4b01-8c61-77c0735d7608",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-6-1-trace-a-sentinel-loop/sequence-config.yml",
+      "sequence": "00a1038c-05c7-4da2-8b99-b3c12f3d2588"
+    },
+    {
+      "id": "7accfc72-b984-4c72-a9e1-d40b4d360ffc",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-6-2-keep-the-sentinel-out/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-6-2-keep-the-sentinel-out"
+    },
+    {
+      "id": "e9fe994b-d577-4f49-8e4d-b924e4e19731",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-6-3-collect-scores-until-stop/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-6-3-collect-scores-until-stop"
+    },
+    {
+      "id": "9480f91d-a52d-42a0-a0ec-7290c3c9341a",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-6-4-match-loops-to-jobs/sequence-config.yml",
+      "sequence": "58108f2e-cbf3-42d0-8fd7-955c15e7773d"
+    },
+    {
+      "id": "04bf76da-0ef9-4851-b8eb-7dcd798cea99",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-6-4-match-loops-to-jobs/sequence-config.yml",
+      "sequence": "58108f2e-cbf3-42d0-8fd7-955c15e7773d"
+    },
+    {
+      "id": "1bf1f38d-0b60-480c-a376-3be47526f4fb",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-6-4-match-loops-to-jobs/sequence-config.yml",
+      "sequence": "58108f2e-cbf3-42d0-8fd7-955c15e7773d"
+    },
+    {
+      "id": "e6e89857-58c3-4a3e-9882-0410249733d0",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-6-5-summarize-reading-sessions/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-6-5-summarize-reading-sessions"
+    },
+    {
+      "id": "2cbe60d1-3a00-4c57-b310-3014b8cc5d4a",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-6-6-trace-break-and-after-the-loop/sequence-config.yml",
+      "sequence": "fea9d948-e7cf-407b-996d-9dad4ac93160"
+    },
+    {
+      "id": "016e603b-2135-452c-957a-f4e25720c8cb",
+      "lesson": "part-2/7-choosing-and-combining-repetition",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-7-2-clean-cargo-manifest/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-7-2-clean-cargo-manifest"
+    },
+    {
+      "id": "ada2f4c6-bb76-4478-8556-7bb62752d3c9",
+      "lesson": "part-2/7-choosing-and-combining-repetition",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-7-3-choose-a-repetition-form/sequence-config.yml",
+      "sequence": "869c276a-8edb-4b42-99a8-26e1a2c03d81"
+    },
+    {
+      "id": "a7baa4e4-15e2-4b41-8727-3b7b7176d21d",
+      "lesson": "part-2/7-choosing-and-combining-repetition",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-7-3-choose-a-repetition-form/sequence-config.yml",
+      "sequence": "869c276a-8edb-4b42-99a8-26e1a2c03d81"
+    },
+    {
+      "id": "87cb3119-0089-4b70-9c0f-239fadb0d7dc",
+      "lesson": "part-2/7-choosing-and-combining-repetition",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-7-3-choose-a-repetition-form/sequence-config.yml",
+      "sequence": "869c276a-8edb-4b42-99a8-26e1a2c03d81"
+    },
+    {
+      "id": "58b4659e-4eb9-45bd-8420-fd82caf428fc",
+      "lesson": "part-2/7-choosing-and-combining-repetition",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-7-3-choose-a-repetition-form/sequence-config.yml",
+      "sequence": "869c276a-8edb-4b42-99a8-26e1a2c03d81"
+    },
+    {
+      "id": "76120f21-4a6c-4018-9f93-8c6688d7961a",
+      "lesson": "part-2/7-choosing-and-combining-repetition",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-7-4-parse-and-count-temperatures/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-7-4-parse-and-count-temperatures"
+    },
+    {
+      "id": "babaac83-2992-4e7f-a537-e58f725a7f5f",
+      "lesson": "part-2/7-choosing-and-combining-repetition",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-7-5-check-typing-accuracy/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-7-5-check-typing-accuracy"
+    },
+    {
+      "id": "61d48d38-814e-41ce-a4cf-425fabb76e6f",
+      "lesson": "part-2/7-choosing-and-combining-repetition",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-5-9-check-an-increasing-card-rack/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-5-9-check-an-increasing-card-rack"
+    },
+    {
+      "id": "0dd5abed-9b40-4866-8fab-e95f0ebfe435",
+      "lesson": "part-2/8-recap-and-feedback",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-9-1-rainfall-analysis/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/2-9-1-rainfall-analysis"
+    },
+    {
+      "id": "86726e7b-152c-420c-a037-126659d5b573",
+      "lesson": "part-3/2-defining-and-calling-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-2-2-prepare-launch-display/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-2-2-prepare-launch-display"
+    },
+    {
+      "id": "a04d56ee-1180-4e3c-aaa6-e32f0eb995a8",
+      "lesson": "part-3/2-defining-and-calling-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-2-3-arrange-dashboard/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-2-3-arrange-dashboard"
+    },
+    {
+      "id": "98aada39-7cfd-483b-8271-94a9f938e444",
+      "lesson": "part-3/2-defining-and-calling-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-2-4-restore-function-panels/sequence-config.yml",
+      "sequence": "64a5197a-b7df-4ca0-99ea-48d807dfbad1",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-2-4-restore-function-panels/1"
+    },
+    {
+      "id": "5ae8f985-128c-4205-89f6-c7f2f757b1d6",
+      "lesson": "part-3/2-defining-and-calling-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-2-4-restore-function-panels/sequence-config.yml",
+      "sequence": "64a5197a-b7df-4ca0-99ea-48d807dfbad1",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-2-4-restore-function-panels/2"
+    },
+    {
+      "id": "0c367bd1-22fc-4668-9792-960185d1de7f",
+      "lesson": "part-3/2-defining-and-calling-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-2-4-restore-function-panels/sequence-config.yml",
+      "sequence": "64a5197a-b7df-4ca0-99ea-48d807dfbad1",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-2-4-restore-function-panels/3"
+    },
+    {
+      "id": "be1450bc-1fbe-4b27-a94c-77800469655b",
+      "lesson": "part-3/3-parameters-and-return-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-3-2-create-radio-badge/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-3-2-create-radio-badge"
+    },
+    {
+      "id": "8b520b5d-9ce3-4bcf-9f2d-bf5287e35386",
+      "lesson": "part-3/3-parameters-and-return-values",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-3-4-estimate-route/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-3-4-estimate-route"
+    },
+    {
+      "id": "5fe88bcf-9fb3-4a15-9ad4-5538d8cc38cb",
+      "lesson": "part-3/4-names-objects-and-mutable-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-4-1-follow-local-names/sequence-config.yml",
+      "sequence": "da840683-bb4a-4879-ba4f-f84ae6d24873"
+    },
+    {
+      "id": "9c52fac6-0c97-4ddf-a3dd-512166f73a8b",
+      "lesson": "part-3/4-names-objects-and-mutable-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-4-3-normalize-sensor-log/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-4-3-normalize-sensor-log"
+    },
+    {
+      "id": "ce8f0d37-f8bc-4879-bafc-f8554331e27f",
+      "lesson": "part-3/4-names-objects-and-mutable-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-4-4-record-another-reading/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-4-4-record-another-reading"
+    },
+    {
+      "id": "48f766af-dc3c-4457-b52a-406367b8cf37",
+      "lesson": "part-3/5-building-functions-with-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-5-2-search-radio-log/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-5-2-search-radio-log"
+    },
+    {
+      "id": "331fb3b3-d198-4046-aa8a-04cc237b743d",
+      "lesson": "part-3/5-building-functions-with-lists",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-5-3-summarize-expedition-route/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-5-3-summarize-expedition-route"
+    },
+    {
+      "id": "0636b45b-6807-4efe-9df4-62c32b9d9775",
+      "lesson": "part-3/6-designing-programs-from-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-6-1-map-festival-jobs/sequence-config.yml",
+      "sequence": "20ee6a37-04a9-41b1-9e06-a96f943566ae"
+    },
+    {
+      "id": "145216f9-ae83-457b-acc4-066f079a8ae8",
+      "lesson": "part-3/6-designing-programs-from-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-6-1-map-festival-jobs/sequence-config.yml",
+      "sequence": "20ee6a37-04a9-41b1-9e06-a96f943566ae"
+    },
+    {
+      "id": "3372478c-96e3-4309-813c-ef420cb305cc",
+      "lesson": "part-3/6-designing-programs-from-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-6-1-map-festival-jobs/sequence-config.yml",
+      "sequence": "20ee6a37-04a9-41b1-9e06-a96f943566ae"
+    },
+    {
+      "id": "12dd0ec6-6f1c-415e-b6a0-df5f4c1a61d8",
+      "lesson": "part-3/6-designing-programs-from-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-6-3-review-control-flow/sequence-config.yml",
+      "sequence": "09d3814f-c84f-4ceb-9025-e920fd8302d9"
+    },
+    {
+      "id": "c4e6e50b-6991-46a9-b834-8058ca9f4dde",
+      "lesson": "part-3/6-designing-programs-from-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-6-3-review-control-flow/sequence-config.yml",
+      "sequence": "09d3814f-c84f-4ceb-9025-e920fd8302d9"
+    },
+    {
+      "id": "021b9d25-79d3-42b1-9026-1463a04d139b",
+      "lesson": "part-3/6-designing-programs-from-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-6-2-festival-dashboard/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-6-2-festival-dashboard"
+    },
+    {
+      "id": "c7de8a34-6351-4dd5-bee6-3afb88b44a82",
+      "lesson": "part-3/7-testing-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-7-1-read-test-runs/sequence-config.yml",
+      "sequence": "6ddd32f7-7c36-4ba7-85ef-37c44c806570",
+      "files": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-7-1-read-test-runs/1"
+    },
+    {
+      "id": "7012827e-ca6e-4d8c-9653-292d120db632",
+      "lesson": "part-3/7-testing-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-7-1-read-test-runs/sequence-config.yml",
+      "sequence": "6ddd32f7-7c36-4ba7-85ef-37c44c806570"
+    },
+    {
+      "id": "0b0ad9b9-01c3-4f61-adb0-38c9368c2e09",
+      "lesson": "part-3/7-testing-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-7-1-read-test-runs/sequence-config.yml",
+      "sequence": "6ddd32f7-7c36-4ba7-85ef-37c44c806570"
+    },
+    {
+      "id": "21aa840b-2775-4971-977b-5af81480300f",
+      "lesson": "part-3/7-testing-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-7-2-badge-scanner-audit/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-7-2-badge-scanner-audit"
+    },
+    {
+      "id": "dd83d776-6731-4b23-8ef5-4694f8f3349f",
+      "lesson": "part-3/7-testing-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-7-3-choose-revealing-cases/sequence-config.yml",
+      "sequence": "1e10dd52-a851-483e-8d03-39b882ea1950"
+    },
+    {
+      "id": "b45cb13c-ad2f-4cb4-bf06-9a2cf8f41533",
+      "lesson": "part-3/7-testing-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-7-3-choose-revealing-cases/sequence-config.yml",
+      "sequence": "1e10dd52-a851-483e-8d03-39b882ea1950"
+    },
+    {
+      "id": "0e3f77f5-5145-4785-8a59-f89a2efc0536",
+      "lesson": "part-3/7-testing-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-7-3-choose-revealing-cases/sequence-config.yml",
+      "sequence": "1e10dd52-a851-483e-8d03-39b882ea1950"
+    },
+    {
+      "id": "deca2a64-385a-4a09-a8ab-9d382a3efceb",
+      "lesson": "part-3/7-testing-functions",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-7-3-choose-revealing-cases/sequence-config.yml",
+      "sequence": "1e10dd52-a851-483e-8d03-39b882ea1950"
+    },
+    {
+      "id": "2c9a675a-9074-4c75-8319-8f1393a48733",
+      "lesson": "part-3/8-validation-and-errors",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-8-2-follow-retry-flow/sequence-config.yml",
+      "sequence": "16443837-fe29-4750-8073-8422d7877d28"
+    },
+    {
+      "id": "c4b5b8aa-98ce-43b1-ac04-fe6f525e5f11",
+      "lesson": "part-3/8-validation-and-errors",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-8-3-set-the-launch-level/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-8-3-set-the-launch-level"
+    },
+    {
+      "id": "e6b282a5-d1c1-406e-8cab-9e46bd4fd343",
+      "lesson": "part-3/9-specifications-verification-and-ai",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-9-1-turn-rules-into-checks/sequence-config.yml",
+      "sequence": "e93e0f09-a4dc-4721-bd5f-05eca9779410"
+    },
+    {
+      "id": "52848eff-903b-4bde-95e7-f3f931a91e44",
+      "lesson": "part-3/9-specifications-verification-and-ai",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-9-1-turn-rules-into-checks/sequence-config.yml",
+      "sequence": "e93e0f09-a4dc-4721-bd5f-05eca9779410"
+    },
+    {
+      "id": "c93b3501-afa5-4c63-b229-ed0ba414d9a2",
+      "lesson": "part-3/9-specifications-verification-and-ai",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-9-2-review-plausible-implementations/sequence-config.yml",
+      "sequence": "f9ddec7d-9cb5-416b-8e9b-2b6bc2055a2e"
+    },
+    {
+      "id": "458fd1bc-6975-47d8-8b0c-75a860a35f17",
+      "lesson": "part-3/9-specifications-verification-and-ai",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-9-2-review-plausible-implementations/sequence-config.yml",
+      "sequence": "f9ddec7d-9cb5-416b-8e9b-2b6bc2055a2e"
+    },
+    {
+      "id": "15db9d24-cd4a-4595-9ab3-e3ed57962d33",
+      "lesson": "part-3/9-specifications-verification-and-ai",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/3-9-2-review-plausible-implementations/sequence-config.yml",
+      "sequence": "f9ddec7d-9cb5-416b-8e9b-2b6bc2055a2e"
+    },
+    {
+      "id": "50ba6bd1-b2c0-49cd-adaf-4705e943f58c",
+      "lesson": "part-3/9-specifications-verification-and-ai",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-9-3-tournament-shortlist/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-9-3-tournament-shortlist"
+    },
+    {
+      "id": "c0640e66-3abc-44a8-8d12-8f9d78f49f55",
+      "lesson": "part-3/10-recap-and-feedback",
+      "source": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-11-1-reading-tracker/assignment-details.yml",
+      "sequence": null,
+      "files": "opencs-assignment-repository/introduction-to-programming/programming-pools/3-11-1-reading-tracker"
+    }
+  ],
+  "omitted": [
+    {
+      "id": "7e3c4f3f-f200-46bc-8fbc-5120d87f94b8",
+      "type": "feedback-exercises",
+      "lesson": "part-1/1-overview"
+    },
+    {
+      "id": "d44530c6-a920-45f0-bb37-f055cf2f572b",
+      "type": "code-puzzle",
+      "lesson": "part-1/2-programs-and-the-programming-workflow"
+    },
+    {
+      "id": "e4e6e011-3ca1-4fd4-bfa0-eeda9dfb8c5c",
+      "type": "nlpg-exercise",
+      "lesson": "part-1/2-programs-and-the-programming-workflow"
+    },
+    {
+      "id": "4c5d3785-082b-448b-bb58-702ae45857a1",
+      "type": "code-puzzle",
+      "lesson": "part-1/2-programs-and-the-programming-workflow"
+    },
+    {
+      "id": "435131a7-0263-448d-91b3-61cf0bd8bbf0",
+      "type": "llm-judged-essay-exercises",
+      "lesson": "part-1/2-programs-and-the-programming-workflow"
+    },
+    {
+      "id": "add42fd1-ff32-4f6e-bef7-2ea69b73c3a7",
+      "type": "nlpg-exercise",
+      "lesson": "part-1/3-talking-with-a-program"
+    },
+    {
+      "id": "53633a41-cc4d-4642-ae93-72f0f1f92b5e",
+      "type": "nlpg-exercise",
+      "lesson": "part-1/4-values-variables-and-types"
+    },
+    {
+      "id": "9612da2b-3f9d-4d76-93c2-141e2afbc4a4",
+      "type": "parsons-puzzle",
+      "lesson": "part-1/4-values-variables-and-types"
+    },
+    {
+      "id": "a442656a-331c-4755-9d9f-bdbfe45536cd",
+      "type": "parsons-puzzle",
+      "lesson": "part-1/4-values-variables-and-types"
+    },
+    {
+      "id": "627720da-ecc1-40be-846b-aacf4ca0c8f7",
+      "type": "parsons-puzzle",
+      "lesson": "part-1/4-values-variables-and-types"
+    },
+    {
+      "id": "869e03a1-a49a-4d06-bcb0-33ec7db6b456",
+      "type": "text-match-exercise",
+      "lesson": "part-1/4-values-variables-and-types"
+    },
+    {
+      "id": "56ecb036-8c8a-4254-b957-0b61fc2a61fe",
+      "type": "text-match-exercise",
+      "lesson": "part-1/4-values-variables-and-types"
+    },
+    {
+      "id": "c393613f-100b-4a9f-afba-95dc01acecef",
+      "type": "text-match-exercise",
+      "lesson": "part-1/4-values-variables-and-types"
+    },
+    {
+      "id": "02e477fb-baf3-4b18-a051-acc794b5d800",
+      "type": "text-match-exercise",
+      "lesson": "part-1/4-values-variables-and-types"
+    },
+    {
+      "id": "414d94df-721f-4aea-9625-131fc5fc3fe1",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-1/4-values-variables-and-types"
+    },
+    {
+      "id": "c904cdb6-1819-448a-a885-6a0b72b27bc5",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-1/5-numbers-and-expressions"
+    },
+    {
+      "id": "77c55af9-7b6c-43f5-a4b4-5f8e0336e0e8",
+      "type": "parsons-puzzle",
+      "lesson": "part-1/5-numbers-and-expressions"
+    },
+    {
+      "id": "df1213d3-3879-4f2c-be99-d444d806c43e",
+      "type": "nlpg-exercise",
+      "lesson": "part-1/5-numbers-and-expressions"
+    },
+    {
+      "id": "89887931-d659-4250-8474-505ac9cf53e6",
+      "type": "parsons-puzzle",
+      "lesson": "part-1/5-numbers-and-expressions"
+    },
+    {
+      "id": "83898d0b-c4c0-4698-8e0d-f45ca0a9f952",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "a2d362d4-76e3-489f-9806-9ba3cef6ee6c",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "a63e6ea5-a13a-480c-8bca-2efbdb4bc77c",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "b3a28491-5e22-4da6-b948-5e443f6d20bc",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "7ec19b6b-4832-4cee-8f1b-60b49020e798",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "2a82bc6b-10b3-4eeb-96ce-7637f2611249",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "c1d3f0c4-172a-4089-9bec-bcaf8a66d1c1",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "6f70f779-71d8-4279-a67e-837033ee0cee",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "27e7a886-e3fa-4bca-8556-7d6c4de329b9",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "4f820119-8c54-4ebf-807e-0cc941545e38",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "72c78204-b5ca-49c8-89b4-5cd2457978aa",
+      "type": "text-match-exercise",
+      "lesson": "part-1/6-making-decisions"
+    },
+    {
+      "id": "5baf8db3-1366-45a0-94e9-77db1eb0917b",
+      "type": "text-match-exercise",
+      "lesson": "part-1/7-reading-tracing-and-explaining-programs"
+    },
+    {
+      "id": "cfe5b057-e477-457a-afdc-49f091065d89",
+      "type": "text-match-exercise",
+      "lesson": "part-1/7-reading-tracing-and-explaining-programs"
+    },
+    {
+      "id": "096fccf9-c80e-42e0-a0ba-c1e50dbfc4e9",
+      "type": "text-match-exercise",
+      "lesson": "part-1/7-reading-tracing-and-explaining-programs"
+    },
+    {
+      "id": "d359800b-7621-4942-bb55-f4c7c584badf",
+      "type": "parsons-puzzle",
+      "lesson": "part-1/7-reading-tracing-and-explaining-programs"
+    },
+    {
+      "id": "7700d941-b5d1-40c7-84c7-5f420f9655c9",
+      "type": "parsons-puzzle",
+      "lesson": "part-1/7-reading-tracing-and-explaining-programs"
+    },
+    {
+      "id": "07cb3c20-3d15-4113-b951-ce46b220fe87",
+      "type": "llm-judged-essay-exercises",
+      "lesson": "part-1/7-reading-tracing-and-explaining-programs"
+    },
+    {
+      "id": "51a4064e-f799-41cd-b452-9e7cc6d65530",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-1/7-reading-tracing-and-explaining-programs"
+    },
+    {
+      "id": "5e6132df-8ffb-4950-9130-b3fd5ff5f608",
+      "type": "llm-judged-essay-exercises",
+      "lesson": "part-1/7-reading-tracing-and-explaining-programs"
+    },
+    {
+      "id": "50bb3d6c-c6ab-4170-b972-070e2e32a990",
+      "type": "text-match-exercises",
+      "lesson": "part-2/1-overview"
+    },
+    {
+      "id": "0ee7c467-33e8-4a6e-82a3-2504eb46859c",
+      "type": "text-match-exercise",
+      "lesson": "part-2/2-strings-as-sequences"
+    },
+    {
+      "id": "99355da5-83be-4ca1-868c-ac25b93f2530",
+      "type": "text-match-exercise",
+      "lesson": "part-2/2-strings-as-sequences"
+    },
+    {
+      "id": "831005a6-13f8-4edf-8dc3-0705aaf6669d",
+      "type": "text-match-exercise",
+      "lesson": "part-2/2-strings-as-sequences"
+    },
+    {
+      "id": "2d38c900-9b97-40ed-93ed-ef47400f06d0",
+      "type": "text-match-exercise",
+      "lesson": "part-2/2-strings-as-sequences"
+    },
+    {
+      "id": "267d00d0-ea92-4310-9daf-3a497b9d64ed",
+      "type": "text-match-exercise",
+      "lesson": "part-2/2-strings-as-sequences"
+    },
+    {
+      "id": "135ee2a8-061e-48a7-9e84-dfdf83575418",
+      "type": "text-match-exercise",
+      "lesson": "part-2/2-strings-as-sequences"
+    },
+    {
+      "id": "e9152604-b854-48a6-affd-befe8c4d14f6",
+      "type": "text-match-exercise",
+      "lesson": "part-2/2-strings-as-sequences"
+    },
+    {
+      "id": "4c6e4e20-f5d4-4857-b86b-032f7891fc35",
+      "type": "text-match-exercise",
+      "lesson": "part-2/2-strings-as-sequences"
+    },
+    {
+      "id": "3b19a72d-968a-45d3-a1c7-b6aeb26ea76d",
+      "type": "parsons-puzzle",
+      "lesson": "part-2/3-repeating-over-a-sequence"
+    },
+    {
+      "id": "a002d638-c205-4054-b521-4618d06d486e",
+      "type": "nlpg-exercise",
+      "lesson": "part-2/3-repeating-over-a-sequence"
+    },
+    {
+      "id": "0e3c6dd5-eddd-4a74-bd3e-acfa7052aefd",
+      "type": "text-match-exercise",
+      "lesson": "part-2/3-repeating-over-a-sequence"
+    },
+    {
+      "id": "bf61f22e-a9ec-41fd-b26f-16c7e2e6afb2",
+      "type": "text-match-exercise",
+      "lesson": "part-2/3-repeating-over-a-sequence"
+    },
+    {
+      "id": "17aa613d-9769-46d9-adc7-c545c4eb8ea9",
+      "type": "text-match-exercise",
+      "lesson": "part-2/3-repeating-over-a-sequence"
+    },
+    {
+      "id": "080d202c-afb0-4d6c-82c3-013732fe7b33",
+      "type": "text-match-exercise",
+      "lesson": "part-2/3-repeating-over-a-sequence"
+    },
+    {
+      "id": "59929fa9-215c-4368-85b1-acc80d4917b4",
+      "type": "text-match-exercise",
+      "lesson": "part-2/3-repeating-over-a-sequence"
+    },
+    {
+      "id": "a07a6915-013b-48f3-9826-ed1d694a49b5",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-2/3-repeating-over-a-sequence"
+    },
+    {
+      "id": "3c31ba96-5617-46a4-958b-25106a07357a",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-2/4-lists-remembering-several-values"
+    },
+    {
+      "id": "d83f420f-8c42-4d38-96f6-0925c8650007",
+      "type": "nlpg-exercise",
+      "lesson": "part-2/5-processing-and-changing-lists"
+    },
+    {
+      "id": "8187cc85-9417-4b89-907e-b443f748d042",
+      "type": "nlpg-exercise",
+      "lesson": "part-2/5-processing-and-changing-lists"
+    },
+    {
+      "id": "75f57134-58d1-47b6-bc9b-afdd5134d1d3",
+      "type": "text-match-exercise",
+      "lesson": "part-2/5-processing-and-changing-lists"
+    },
+    {
+      "id": "e2c90ab9-cdbd-46bb-ab25-7a2514fee73c",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-2/5-processing-and-changing-lists"
+    },
+    {
+      "id": "88d2fe16-1007-40b5-9679-123d60b31692",
+      "type": "text-match-exercise",
+      "lesson": "part-2/5-processing-and-changing-lists"
+    },
+    {
+      "id": "dffdfcff-8ffd-4f6e-a7c3-a75f3be7856d",
+      "type": "text-match-exercise",
+      "lesson": "part-2/5-processing-and-changing-lists"
+    },
+    {
+      "id": "f5a30e10-08f0-43a5-a53f-6ff95d7ed647",
+      "type": "text-match-exercise",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop"
+    },
+    {
+      "id": "7614107b-83ca-4b2b-9d75-44d56ef5fc51",
+      "type": "text-match-exercise",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop"
+    },
+    {
+      "id": "4f7d952e-c853-45dd-9246-d09cbef44c98",
+      "type": "text-match-exercise",
+      "lesson": "part-2/6-repeating-until-we-decide-to-stop"
+    },
+    {
+      "id": "1caa2544-16bb-4d2c-a150-91b68dc40d97",
+      "type": "text-match-exercise",
+      "lesson": "part-2/7-choosing-and-combining-repetition"
+    },
+    {
+      "id": "31b5d068-b59e-46c2-895e-1380502444af",
+      "type": "text-match-exercise",
+      "lesson": "part-2/7-choosing-and-combining-repetition"
+    },
+    {
+      "id": "c948332b-6854-4c74-a6d2-28345ffff7db",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-2/7-choosing-and-combining-repetition"
+    },
+    {
+      "id": "6e265122-4cc6-4b47-b686-b1c79ada09a8",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-2/8-recap-and-feedback"
+    },
+    {
+      "id": "24ba4bcb-f701-4967-9f37-166c22bf963a",
+      "type": "text-match-exercise",
+      "lesson": "part-3/2-defining-and-calling-functions"
+    },
+    {
+      "id": "bbdaf0ae-c913-4a94-86a5-fe54b23c7814",
+      "type": "text-match-exercise",
+      "lesson": "part-3/2-defining-and-calling-functions"
+    },
+    {
+      "id": "890cd3d8-d1ec-4258-aafd-2d61c81a6f1e",
+      "type": "text-match-exercise",
+      "lesson": "part-3/2-defining-and-calling-functions"
+    },
+    {
+      "id": "7e8f9a0b-1c2d-4435-8e4f-5a6b7c8d9e0f",
+      "type": "nlpg-exercise",
+      "lesson": "part-3/2-defining-and-calling-functions"
+    },
+    {
+      "id": "c5816154-d581-4e1c-b122-63eb1a8ce7b8",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-3/2-defining-and-calling-functions"
+    },
+    {
+      "id": "be77aeb5-17b9-4537-b4ff-a6b23f816aa1",
+      "type": "text-match-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "ed4574e2-1af6-4bdd-a4c1-23198550eede",
+      "type": "text-match-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "e56e483e-e125-4e62-817b-f7fe9aa24fdc",
+      "type": "text-match-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "926ec5c0-f174-4a06-ba72-aa499c2b9a8d",
+      "type": "text-match-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "8f9a0b1c-2d3e-4546-9f50-6b7c8d9e0f1a",
+      "type": "nlpg-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "9b96c0ca-be8e-4c77-9675-173aae35287e",
+      "type": "text-match-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "4df89ae8-9645-475d-917b-d589ff2ad4e5",
+      "type": "text-match-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "c8175772-1217-4788-8edc-ef49a35ddf41",
+      "type": "text-match-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "c7e9feef-ee86-4b1c-90ac-ca086e37db2b",
+      "type": "text-match-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "a7a5e515-3250-4b1c-b46e-2998cff5e711",
+      "type": "text-match-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "56440430-8518-40b3-aa8e-c751450ea742",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-3/3-parameters-and-return-values"
+    },
+    {
+      "id": "4b371215-8fc3-4b39-98ad-35be8602757e",
+      "type": "text-match-exercise",
+      "lesson": "part-3/4-names-objects-and-mutable-lists"
+    },
+    {
+      "id": "c2314161-5f17-49c9-889a-d4a507366111",
+      "type": "text-match-exercise",
+      "lesson": "part-3/4-names-objects-and-mutable-lists"
+    },
+    {
+      "id": "d1e45d59-1669-4011-8bce-88a61f5798fb",
+      "type": "text-match-exercise",
+      "lesson": "part-3/4-names-objects-and-mutable-lists"
+    },
+    {
+      "id": "f35cd72c-f712-4eaa-8236-1412633ff740",
+      "type": "text-match-exercise",
+      "lesson": "part-3/4-names-objects-and-mutable-lists"
+    },
+    {
+      "id": "6611ba6e-ab3c-454b-983b-dc58384122f2",
+      "type": "text-match-exercise",
+      "lesson": "part-3/4-names-objects-and-mutable-lists"
+    },
+    {
+      "id": "0f1b5074-187d-49ce-a425-4c5194a4dd4d",
+      "type": "text-match-exercise",
+      "lesson": "part-3/4-names-objects-and-mutable-lists"
+    },
+    {
+      "id": "d625130d-3edf-40c0-a619-0a616a6691ff",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-3/4-names-objects-and-mutable-lists"
+    },
+    {
+      "id": "e2ef464e-2a7e-48fb-a1b7-2687592ab614",
+      "type": "text-match-exercise",
+      "lesson": "part-3/5-building-functions-with-lists"
+    },
+    {
+      "id": "1dc27b29-9af3-45e0-a4d9-c075f41cbc96",
+      "type": "text-match-exercise",
+      "lesson": "part-3/5-building-functions-with-lists"
+    },
+    {
+      "id": "8ac45398-8096-4f50-82b0-68b051154b90",
+      "type": "text-match-exercise",
+      "lesson": "part-3/5-building-functions-with-lists"
+    },
+    {
+      "id": "9a0b1c2d-3e4f-4657-8061-7c8d9e0f1a2b",
+      "type": "nlpg-exercise",
+      "lesson": "part-3/5-building-functions-with-lists"
+    },
+    {
+      "id": "0b1c2d3e-4f5a-4768-a172-8d9e0f1a2b3c",
+      "type": "nlpg-exercise",
+      "lesson": "part-3/6-designing-programs-from-functions"
+    },
+    {
+      "id": "ddf95258-5e02-4c56-b73f-7708a9ba39f5",
+      "type": "text-match-exercise",
+      "lesson": "part-3/6-designing-programs-from-functions"
+    },
+    {
+      "id": "f37953eb-8bd9-4469-a382-df33608cd28b",
+      "type": "text-match-exercise",
+      "lesson": "part-3/8-validation-and-errors"
+    },
+    {
+      "id": "c3a6a6b3-7efd-4a56-b298-0b6de0f78ebb",
+      "type": "text-match-exercise",
+      "lesson": "part-3/8-validation-and-errors"
+    },
+    {
+      "id": "2dea4f78-02d6-4322-9ed8-6d6d096e6765",
+      "type": "text-match-exercise",
+      "lesson": "part-3/8-validation-and-errors"
+    },
+    {
+      "id": "6689a23f-111f-4602-9957-667fb9166354",
+      "type": "text-match-exercise",
+      "lesson": "part-3/8-validation-and-errors"
+    },
+    {
+      "id": "559045f4-6273-4377-b9e6-32b04e7a472e",
+      "type": "text-match-exercise",
+      "lesson": "part-3/8-validation-and-errors"
+    },
+    {
+      "id": "2a0426b8-573a-40c7-adca-4492455bd5d8",
+      "type": "text-match-exercise",
+      "lesson": "part-3/9-specifications-verification-and-ai"
+    },
+    {
+      "id": "2f7b905f-5831-40c8-be0c-715b86d48690",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-3/9-specifications-verification-and-ai"
+    },
+    {
+      "id": "84f0e56a-7257-4f3e-a3ed-aebd71836464",
+      "type": "llm-judged-essay-exercise",
+      "lesson": "part-3/10-recap-and-feedback"
+    }
+  ],
+  "solutionsMissingInSource": [
+    {
+      "id": "7edbc312-2dd5-4f95-9b63-ee4158920d51",
+      "title": "Repair the welcome program",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-2-3-fix-one-thing-at-a-time/1"
+    },
+    {
+      "id": "3724c9ed-ab2c-4ba8-b247-d67f27066fed",
+      "title": "Repair the continuation program",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-2-3-fix-one-thing-at-a-time/2"
+    },
+    {
+      "id": "04de5bac-f771-4b81-a629-d0df39ac3fee",
+      "title": "Ask for a favorite food",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-3-ask-and-repeat/1"
+    },
+    {
+      "id": "fef85ec1-39d9-42b4-a401-11fc449913ac",
+      "title": "Print the response twice",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-3-3-ask-and-repeat/2"
+    },
+    {
+      "id": "9a2d50e6-5c33-4fe0-bbef-64b650d6e8ca",
+      "title": "Repair the calculation",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-5-7-repair-numeric-input/1"
+    },
+    {
+      "id": "b437acf7-d0c5-4043-932f-7681428f7315",
+      "title": "Repair the access check",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/1"
+    },
+    {
+      "id": "d8813772-625d-4a95-8f65-11968c1a8661",
+      "title": "Repair the freezing check",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/2"
+    },
+    {
+      "id": "ed2d0d92-2e10-4833-986c-bec3d296af43",
+      "title": "Repair the result report",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/3"
+    },
+    {
+      "id": "4d1a2d73-044f-48d7-8f8a-0dd605605843",
+      "title": "Repair the confirmation check",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/4"
+    },
+    {
+      "id": "490939e4-eb80-43dd-bf91-a2cbdfdb66d4",
+      "title": "Repair the senior discount",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/1-6-13-repair-common-decision-pitfalls/5"
+    },
+    {
+      "id": "9e39e8ac-a171-44f8-8638-35302a7b6084",
+      "title": "Inspect a word",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-2-5-a-character-is-a-string/3"
+    },
+    {
+      "id": "3d7dff78-639d-4f39-8797-a8e309b07c65",
+      "title": "Repair the letter counter",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-3-4-remember-across-iterations/2"
+    },
+    {
+      "id": "9a358f00-190c-4f88-aab5-737b4d4e752c",
+      "title": "Count all vowels",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-3-4-remember-across-iterations/3"
+    },
+    {
+      "id": "2ed4d5be-5914-46e4-8c89-ce67675f0f3e",
+      "title": "Find the lowest temperature",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-3-best-so-far-and-negative-values/3"
+    },
+    {
+      "id": "8a67139a-e13c-46b9-9ca8-e43f127426b4",
+      "title": "Clean up energy readings",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-7-trace-and-replace-by-index/2"
+    },
+    {
+      "id": "f95811c5-c5fe-41eb-80f9-3eec58db390a",
+      "title": "Repair a score loop",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/1"
+    },
+    {
+      "id": "40923a1b-d083-4e0a-be4a-ee07846e402b",
+      "title": "Repair the expanding loop",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/3"
+    },
+    {
+      "id": "36ebd9b2-4821-40e7-a607-9edc138a4ac2",
+      "title": "Repair the word-filter loop",
+      "source": "opencs-assignment-repository/introduction-to-programming/exercise-sequences/2-5-8-repair-list-loop-pitfalls/4"
+    }
+  ]
+}

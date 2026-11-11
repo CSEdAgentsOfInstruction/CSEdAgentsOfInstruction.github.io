@@ -1,0 +1,18 @@
+id: 36ebd9b2-4821-40e7-a607-9edc138a4ac2
+type: python
+title: Repair the word-filter loop
+prompt: |
+  The starter reads a non-negative number of words, then that many words, one per line. The input code is complete.
+
+  The program should leave `words` unchanged and collect the words of at least five characters in `long_words`.
+
+  Find and repair the mistake. For inputs `4`, `sun`, `planet`, `sky`, and `comet`, the output must be:
+
+  ```text
+  Original: ['sun', 'planet', 'sky', 'comet']
+  Long words: ['planet', 'comet']
+  ```
+
+  The program must also handle other list lengths, including zero items, and keep repeated values in their original order.
+part: 2
+points: 5

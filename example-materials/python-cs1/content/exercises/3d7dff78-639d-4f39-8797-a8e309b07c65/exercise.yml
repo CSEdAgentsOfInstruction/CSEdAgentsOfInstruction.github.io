@@ -1,0 +1,9 @@
+id: 3d7dff78-639d-4f39-8797-a8e309b07c65
+type: python
+title: Repair the letter counter
+prompt: |
+  The starter should count every letter `a` in a word, but it resets `count` during every iteration. It also fails when the entered word is empty.
+
+  Move the initialization `count = 0` to the correct place before the loop. Keep the update inside the condition. The program must read one word without a visible prompt, normalize it with `.strip().lower()`, and print only the final count.
+part: 2
+points: 5

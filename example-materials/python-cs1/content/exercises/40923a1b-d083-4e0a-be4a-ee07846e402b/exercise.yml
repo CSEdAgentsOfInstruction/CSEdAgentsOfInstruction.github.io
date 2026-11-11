@@ -1,0 +1,18 @@
+id: 40923a1b-d083-4e0a-be4a-ee07846e402b
+type: python
+title: Repair the expanding loop
+prompt: |
+  The starter reads a non-negative number of values, then that many whole numbers, one per line. The input code is complete.
+
+  The program should leave `values` unchanged and build `expanded_values` containing each original value followed by its double.
+
+  Find and repair the mistake. For inputs `3`, `1`, `2`, and `3`, the output must be:
+
+  ```text
+  Original: [1, 2, 3]
+  Expanded: [1, 2, 2, 4, 3, 6]
+  ```
+
+  The program must also handle other list lengths, including zero items, and keep repeated values in their original order.
+part: 2
+points: 5

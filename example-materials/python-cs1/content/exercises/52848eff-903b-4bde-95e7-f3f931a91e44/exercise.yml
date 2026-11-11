@@ -1,0 +1,21 @@
+id: 52848eff-903b-4bde-95e7-f3f931a91e44
+type: mcq
+title: Review the test set
+prompt: |
+  Specification: `all_within_limit(values, limit)` returns `True` if every value is less than or equal to `limit`. The empty list returns `True`. Which set best represents the ordinary, boundary, later-failure, and empty cases named or implied by the specification?
+part: 3
+points: 5
+multiple: false
+options:
+  - id: df1c648a-587b-42c3-bce9-f64123a6290d
+    text: "`[1, 2]` with limit `3`; `[1, 3]` with limit `3`; `[1, 4]` with limit `3`; and `[]` with limit `3`"
+    correct: true
+    explanation: These cases cover ordinary success, equality, a violation after an acceptable first item, and the specified empty behavior.
+  - id: 10b31932-b538-4f7a-afdd-455b3fd11096
+    text: "`[1, 2]`, `[1, 3]`, `[4, 1]`, and `[]`, all with limit `3`"
+    correct: false
+    explanation: These cover success, equality, an immediate violation, and empty input. They do not test a violation after an acceptable first item.
+  - id: b8436434-6772-419b-8ab0-b94d7f44a4fa
+    text: "`[1, 2]`, `[1, 4]`, `[4, 1]`, and `[]`, all with limit `3`"
+    correct: false
+    explanation: These include both positions of a violation and empty input, but never a value equal to the limit.

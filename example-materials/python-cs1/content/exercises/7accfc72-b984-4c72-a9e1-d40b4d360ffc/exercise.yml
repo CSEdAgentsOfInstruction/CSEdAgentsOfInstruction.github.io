@@ -1,0 +1,17 @@
+id: 7accfc72-b984-4c72-a9e1-d40b4d360ffc
+type: python
+title: Repair the sentinel loop
+prompt: |
+  The program reads words until the user enters an empty line, then prints the collected list. Its statements are currently in the wrong order, so it stores the empty sentinel in the list.
+
+  Repair the loop so it checks for the empty string and executes `break` **before** appending an actual word. Keep `input()` without a visible prompt and print only the final list.
+
+  For the inputs `red`, `green`, and then an empty line, the output must be:
+
+  ```text
+  ['red', 'green']
+  ```
+
+  If the first input is empty, the output must be `[]`.
+part: 2
+points: 5

@@ -1,0 +1,17 @@
+id: 9769580d-5642-40cd-8b48-e0f0b44e45ae
+type: mcq
+title: Quotes in displayed lists
+prompt: |
+  Python displays a list as `['Dune', 'The Hobbit']`. What do the quote marks mean?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 80469c9e-9a2f-4367-a79b-7ca5351aafc2
+    text: They show that the list items are strings; they are not part of the titles.
+    correct: true
+    explanation: Printing one item displays its text without those representation markers.
+  - id: 9eab9732-7495-4fdc-aa56-1d8d0a614f1e
+    text: They are stored as the first and last characters of each title.
+    correct: false
+    explanation: The quote marks belong to Python's display of the list, not to the string data.

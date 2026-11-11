@@ -1,0 +1,21 @@
+id: 83daca35-b05f-4867-9daa-119ff29fd2ef
+type: mcq
+title: Is this value a string? Item 4
+prompt: |
+  Is this Python value a string?
+
+  ```python
+  "False"
+  ```
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 9a499400-8bd0-4d88-b383-121b3ff87925
+    text: String
+    correct: true
+    explanation: The quotation marks make this the text "False".
+  - id: 2c56fc52-6992-4b2e-bfe2-f62c2c5763e0
+    text: Not a string
+    correct: false
+    explanation: "The quotation marks matter: this is text, regardless of what the word says."

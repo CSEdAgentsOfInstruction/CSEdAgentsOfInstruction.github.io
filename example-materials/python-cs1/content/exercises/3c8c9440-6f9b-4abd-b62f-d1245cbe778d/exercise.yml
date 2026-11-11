@@ -1,0 +1,30 @@
+id: 3c8c9440-6f9b-4abd-b62f-d1245cbe778d
+type: mcq
+title: Output from user input
+prompt: |
+  Assume the user enters `42`. What does the final `print(...)` call display?
+
+  ```python
+  value = input("Value: ")
+  print(value)
+  ```
+part: 1
+points: 3
+multiple: false
+options:
+  - id: 35e850fa-4504-44ff-a655-a96e12a6d873
+    text: "42"
+    correct: true
+    explanation: "`input(...)` stores the entered characters, and `print(...)` displays them without adding quotation marks."
+  - id: 40932b5c-c5c6-41d2-ac2f-d895800f62f4
+    text: '"42"'
+    correct: false
+    explanation: The value is a string, but `print(...)` does not normally display the string's quotation marks.
+  - id: ebb808c8-17d6-4ca4-86b9-e8576cc52faf
+    text: <class 'str'>
+    correct: false
+    explanation: That is what `print(type(value))` would display, not what `print(value)` displays.
+  - id: 48fd0b30-e097-435e-b9b1-13659d95a7d9
+    text: The program raises an error.
+    correct: false
+    explanation: Entering digit characters is valid input and can be stored as text.

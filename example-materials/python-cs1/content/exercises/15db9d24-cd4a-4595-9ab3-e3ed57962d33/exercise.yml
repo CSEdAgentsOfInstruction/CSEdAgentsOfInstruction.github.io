@@ -1,0 +1,36 @@
+id: 15db9d24-cd4a-4595-9ab3-e3ed57962d33
+type: mcq
+title: Inspect the summary calculation
+prompt: |
+  Specification: `average_minutes(sessions)` returns the average session length. The input is a nonempty list of positive integers.
+
+  ```python
+  def total_minutes(sessions):
+      total = 0
+      for minutes in sessions:
+          total = total + minutes
+      return total
+
+
+  def average_minutes(sessions):
+      total_minutes(sessions)
+      return len(sessions)
+  ```
+
+  Which assertion exposes a mismatch with the specification?
+part: 3
+points: 4
+multiple: false
+options:
+  - id: b877a908-f404-4456-8e1f-585d65077ab0
+    text: "`assert average_minutes([10, 20]) == 15`"
+    correct: true
+    explanation: The function ignores the total returned by the helper and returns the list length, 2, instead of the average, 15.
+  - id: d4023696-2db1-48ee-88cc-5cab8420d979
+    text: "`assert average_minutes([2, 2]) == 2`"
+    correct: false
+    explanation: The list length happens to equal its average, so this case passes despite the faulty calculation.
+  - id: 827e0b98-0042-4578-a46f-e4ffe8bc5b6a
+    text: "`assert average_minutes([3, 3, 3]) == 3`"
+    correct: false
+    explanation: The list length and average are both 3. This coincidence hides the problem.

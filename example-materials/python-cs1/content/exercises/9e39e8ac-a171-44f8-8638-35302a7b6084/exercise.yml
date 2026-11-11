@@ -1,0 +1,17 @@
+id: 9e39e8ac-a171-44f8-8638-35302a7b6084
+type: python
+title: Inspect a word
+prompt: |
+  Write a program that reads one nonempty word without a visible prompt. The word has no surrounding whitespace.
+
+  Print its first character, last character, and length. Preserve the original letter case. For input `python`, print:
+
+  ```text
+  First: p
+  Last: n
+  Length: 6
+  ```
+
+  Use indexes and `len(...)` to find the results. A one-character word has the same first and last character. Test one-character words as well as longer words.
+part: 2
+points: 10

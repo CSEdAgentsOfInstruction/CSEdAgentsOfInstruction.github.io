@@ -1,0 +1,20 @@
+id: 92a0878a-40c8-4a87-af77-a4977296a806
+type: mcq
+title: An operation shared by both
+prompt: Which operation works with both strings and lists?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 1be8b5fc-38a1-4f49-8cc9-69791fae206f
+    text: Finding the number of items with `len(...)`
+    correct: true
+    explanation: Both strings and lists are sequences with a length.
+  - id: 4eecc030-4cfc-446c-ba04-5bbeaa4f3db3
+    text: Adding an item with `.append(...)`
+    correct: false
+    explanation: Lists can grow with `.append(...)`, but strings cannot.
+  - id: 59894601-6fe6-426c-950d-d8e952a53aec
+    text: Replacing an item by assigning to its index
+    correct: false
+    explanation: List items can be replaced, but string characters cannot.

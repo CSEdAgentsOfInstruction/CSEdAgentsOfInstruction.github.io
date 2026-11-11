@@ -1,0 +1,51 @@
+id: c0640e66-3abc-44a8-8d12-8f9d78f49f55
+type: python
+title: Reading tracker
+prompt: |
+  Complete a reading tracker whose input, calculations, and presentation are divided into functions.
+
+  Implement the five functions and the coordinating `main()` function in the starter. Keep the provided import guard so that the calculation functions can be imported for testing without starting the interactive program.
+
+  `read_sessions()` takes no arguments. Use `while True` for the input process because the number of attempts is not known in advance. Repeatedly ask with the prompt `Minutes, or done: `. Ignore surrounding whitespace. Any capitalization of `done`, such as `DONE` or ` Done `, stops input before conversion and is not stored; use `break` for this sentinel. Otherwise, use `int(...)` to convert the text and accept only integers greater than zero.
+
+  Keep the `try` block focused on integer conversion and check whether the converted value is positive separately. This makes it clear which operation may fail and which values the program accepts.
+
+  If conversion raises `ValueError`, or if the integer is zero or negative, print exactly:
+
+  ```text
+  Please enter a positive integer or done.
+  ```
+
+  After either kind of invalid response, ask again without storing it. You can use `continue` to begin the next attempt. Return a list containing only the accepted positive integers. Catch `ValueError` specifically so that unrelated errors are not treated as invalid input.
+
+  The calculation functions must return their results, print nothing, and leave `sessions` unchanged:
+
+  - `total_minutes(sessions)` returns the total, or `0` for an empty list.
+  - `longest_session(sessions)` returns the largest value, or `0` for an empty list.
+  - `count_long_sessions(sessions, minimum_minutes)` returns how many values are greater than or equal to the supplied boundary, or `0` for an empty list. Use the parameter rather than hard-coding `30` inside this function.
+
+  `print_summary(session_count, total, longest, long_count)` prints exactly four lines. For a nonempty session list, the format is:
+
+  ```text
+  Sessions: 3
+  Total minutes: 80
+  Longest session: 45
+  Long sessions: 1
+  ```
+
+  If `session_count` is `0`, print `Longest session: none` on the third line. The other empty results are numeric zero.
+
+  Finally, `main()` must call `read_sessions`, calculate all three results with the calculation functions, use `30` as the long-session boundary, and pass the session count and results to `print_summary`.
+
+  For example, the responses `20`, `45`, `15`, and `done` produce the four-line nonempty summary above. Entering `done` immediately produces:
+
+  ```text
+  Sessions: 0
+  Total minutes: 0
+  Longest session: none
+  Long sessions: 0
+  ```
+
+  Test immediate stopping, sentinel capitalization and whitespace, invalid text followed by valid input, zero and negative input, a one-item list, a session exactly at 30 minutes, an empty list, and a longest value that is not first.
+part: 3
+points: 40

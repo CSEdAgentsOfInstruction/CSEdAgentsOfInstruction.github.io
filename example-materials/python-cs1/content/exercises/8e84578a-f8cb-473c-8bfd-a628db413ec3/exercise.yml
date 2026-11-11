@@ -1,0 +1,33 @@
+id: 8e84578a-f8cb-473c-8bfd-a628db413ec3
+type: python
+title: Five-message announcer
+prompt: |
+  Write a program for an event announcer. It must read exactly five messages, one per input line. Use `input()` without a visible prompt and one `for` loop over `range(5)`.
+
+  On each iteration, read one message and immediately announce it in uppercase. Number the output from 1 through 5 by displaying the current range value plus one.
+
+  Preserve spaces and punctuation in each message. An empty message still gets its own numbered output line. Announce each message before asking for the next one.
+
+  For these inputs:
+
+  ```text
+  Welcome
+  Get ready
+  Set
+  Code
+  Celebrate
+  ```
+
+  the output must be exactly:
+
+  ```text
+  MESSAGE 1: WELCOME
+  MESSAGE 2: GET READY
+  MESSAGE 3: SET
+  MESSAGE 4: CODE
+  MESSAGE 5: CELEBRATE
+  ```
+
+  Produce exactly five output lines in input order. Do not write five separate copies of the input and output statements.
+part: 2
+points: 10

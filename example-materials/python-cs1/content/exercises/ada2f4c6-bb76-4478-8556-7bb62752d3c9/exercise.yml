@@ -1,0 +1,24 @@
+id: ada2f4c6-bb76-4478-8556-7bb62752d3c9
+type: mcq
+title: Print every stored name
+prompt: A list called `names` already exists. The program should print every name once without changing the list. Which form is clearest?
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 0a014de6-7001-4a24-b607-e1765e143305
+    text: "`for name in names`"
+    correct: true
+    explanation: The task needs each stored value directly and does not need its position.
+  - id: 1bc0ecd0-87fe-477e-b545-b0493414e3dd
+    text: "`for index in range(len(names))`"
+    correct: false
+    explanation: This can visit the names, but it introduces positions that the task does not need.
+  - id: 7c053e24-95fd-4eac-88d6-9ed2446230b3
+    text: "`for number in range(3)`"
+    correct: false
+    explanation: The task depends on the items in `names`, not on a fixed repetition count of three.
+  - id: 4df36c4d-71bd-4f1c-b4fb-c74e62e7d8fe
+    text: "`while True` with `break`"
+    correct: false
+    explanation: An existing finite list already determines when iteration ends.

@@ -1,0 +1,29 @@
+id: fadc5e6a-ce91-4a0c-83e1-b5de8d8012ce
+type: python
+title: Build and inspect a city list
+prompt: |
+  The starter reads four city names, one per line, without visible prompts. Put the four stored values into a list called `cities`, in input order. Create the list using square brackets, as in the chapter's examples.
+
+  Print the complete list, then use it to print its first item, last item, and length. For these inputs:
+
+  ```text
+  Helsinki
+  Oslo
+  Tallinn
+  Reykjavik
+  ```
+
+  the output must be:
+
+  ```text
+  Cities: ['Helsinki', 'Oslo', 'Tallinn', 'Reykjavik']
+  First: Helsinki
+  Last: Reykjavik
+  Number of cities: 4
+  ```
+
+  You can print the complete list with `print(f"Cities: {cities}")`. Python displays square brackets around the list and quote marks around its string items.
+
+  Your program must work with other city names too. Preserve each name as entered, including spaces within names. Two cities may have the same name.
+part: 2
+points: 10

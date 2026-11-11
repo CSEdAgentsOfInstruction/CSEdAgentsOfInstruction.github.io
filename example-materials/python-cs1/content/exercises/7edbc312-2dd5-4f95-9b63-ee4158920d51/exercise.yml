@@ -1,0 +1,13 @@
+id: 7edbc312-2dd5-4f95-9b63-ee4158920d51
+type: python
+title: Repair the welcome program
+prompt: |
+  This program is missing one opening parenthesis. Add it, then run the program.
+
+  The final output must be exactly:
+
+  ```text
+  Welcome!
+  ```
+part: 1
+points: 5

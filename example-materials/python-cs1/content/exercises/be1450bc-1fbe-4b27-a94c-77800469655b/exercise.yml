@@ -1,0 +1,17 @@
+id: be1450bc-1fbe-4b27-a94c-77800469655b
+type: python
+title: Create a radio badge
+prompt: |
+  Define a function named `print_badge` with one parameter named `callsign`. The function must print the callsign in this format:
+
+  ```text
+  BADGE: Nova
+  ```
+
+  The example above is the output printed by calling `print_badge("Nova")`.
+
+  The callsign is a string. Print it exactly as received, preserving any spaces and letter case. An empty callsign produces the prefix `BADGE: ` followed by a newline.
+
+  Keep the output inside the function and use the parameter rather than writing `Nova` directly into the printed text. The function does not calculate a value for its caller, so let it finish without returning another value; its returned value is therefore `None`. The automated checks call your function with several different callsigns. While testing, add calls such as `print_badge("Nova")` and `print_badge("Orbit")` below the definition and run the program. Remove those temporary calls before pressing **Check**, leaving only the function definition.
+part: 3
+points: 10

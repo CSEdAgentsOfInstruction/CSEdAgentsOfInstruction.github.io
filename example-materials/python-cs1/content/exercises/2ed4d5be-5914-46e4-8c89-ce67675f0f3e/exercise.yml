@@ -1,0 +1,15 @@
+id: 2ed4d5be-5914-46e4-8c89-ce67675f0f3e
+type: python
+title: Find the lowest temperature
+prompt: |
+  The starter reads exactly four whole-number temperatures into a non-empty list, without visible prompts.
+
+  Fix the initial value of `lowest`, then use a direct `for` loop and the best-so-far pattern to find the lowest stored temperature. Print the result in this form:
+
+  ```text
+  Lowest: -8
+  ```
+
+  The example output applies when the inputs are `4`, `-2`, `7`, and `-8`. Your program must also work when every temperature is above zero or every temperature is below zero.
+part: 2
+points: 15

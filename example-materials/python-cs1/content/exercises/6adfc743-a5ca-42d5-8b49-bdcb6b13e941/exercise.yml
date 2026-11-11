@@ -1,0 +1,16 @@
+id: 6adfc743-a5ca-42d5-8b49-bdcb6b13e941
+type: python
+title: Check for the letter e
+prompt: |
+  Complete the program so it reads one word without a visible input prompt and reports whether the word contains the letter `e`.
+
+  Normalize the input with `.strip().lower()` and use the `in` operator. Print exactly one of these lines:
+
+  ```text
+  Contains e.
+  Does not contain e.
+  ```
+
+  The check must work for input containing uppercase letters as well as lowercase letters.
+part: 2
+points: 10

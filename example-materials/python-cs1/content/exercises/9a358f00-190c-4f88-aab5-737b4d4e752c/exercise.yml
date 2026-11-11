@@ -1,0 +1,11 @@
+id: 9a358f00-190c-4f88-aab5-737b4d4e752c
+type: python
+title: Count all vowels
+prompt: |
+  The starter reads one word without a visible prompt and normalizes it with `.strip().lower()`.
+
+  Complete the program so it counts all vowels in the word and prints only the final count. Use a direct `for` loop over `word`. For this exercise, the vowels are `a`, `e`, `i`, `o`, and `u`. Count every occurrence, including repeated vowels.
+
+  An empty word and a word without vowels must both produce `0`.
+part: 2
+points: 15

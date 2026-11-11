@@ -1,0 +1,22 @@
+id: 6631fcb9-75f1-488e-9d71-d1bba6256ba5
+type: mcq
+title: Check a single character
+prompt: |
+  What does this expression produce?
+
+  ```python
+  names = ["Ada", "Grace", "Linus"]
+  "a" in names
+  ```
+part: 2
+points: 3
+multiple: false
+options:
+  - id: 36c97bf4-a021-4faf-b905-e27a2c5bd512
+    text: "`True`"
+    correct: false
+    explanation: List membership does not search inside every string item.
+  - id: 5a78f321-a5f1-4ae8-9003-d417e76ada48
+    text: "`False`"
+    correct: true
+    explanation: No complete list item equals the one-character string `"a"`.

@@ -1,0 +1,23 @@
+id: 9a2d50e6-5c33-4fe0-bbef-64b650d6e8ca
+type: python
+title: Repair the calculation
+prompt: |
+  Fix this program:
+
+  ```python
+  minutes = input()
+  new_minutes = minutes + 5
+  print(new_minutes)
+  ```
+
+  Convert the entered text to an integer, add five minutes numerically, and print the result.
+
+  Keep the output to the calculated number only. For input `12`, the output must be:
+
+  ```text
+  17
+  ```
+
+  You may assume the input is a valid whole number.
+part: 1
+points: 5

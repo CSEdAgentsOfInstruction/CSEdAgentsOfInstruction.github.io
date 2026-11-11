@@ -3,3 +3,6 @@ title: Agents of Instruction
 theme: jekyll-theme-slate
 description: Co-Creating Learning Materials with AI Agents
 show_downloads: false
+exclude:
+  - example-materials/introcs
+  - example-materials/python-cs1

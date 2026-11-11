@@ -1,0 +1,17 @@
+id: c614d7ea-b627-4758-b481-00d4366473d3
+type: python
+title: Display a friendly average speed
+prompt: |
+  Write a program that reads a distance in kilometers and a time in hours, both as decimal numbers.
+
+  Calculate the average speed in kilometers per hour and display it with exactly one digit after the decimal point, followed by `km/h`.
+
+  For inputs `150` and `2`, the output must be:
+
+  ```text
+  75.0 km/h
+  ```
+
+  Use `input()` without visible prompts so the output contains only the result. You may assume both inputs are valid positive numbers.
+part: 1
+points: 10
