@@ -1,6 +1,3 @@
-* TOC
-{:toc}
-
 This page contains resources for the [SIGCSE-Virtual 2026](https://sigcsevirtual2026.acm.org/) workshop "Agents of Instruction: Co-Creating Learning Materials with AI Agents"
 
 This page is created and maintained by the workshop facilitators:
@@ -15,6 +12,11 @@ This page is created and maintained by the workshop facilitators:
 AI agents are increasingly used by professional software developers to support tasks such as planning, coding, debugging, refactoring, and drafting documentation. Unlike basic chat models, AI agents work more autonomously toward a broader goal: breaking tasks into steps, taking actions, using tools, and iterating on their own output. Based on our experiences, similar agent-based workflows can be used to assist educators in generating and refining learning materials. 
 
 In this hands-on tutorial, we will introduce participants to practical ways of using AI agents to support the development of computing education resources, including lecture slides, online textbook materials, programming exercises, explanations, analogies, and visualizations. We will compare different types of tools, including general-purpose AI systems and coding-focused agentic tools, and discuss when each may be useful for educational material generation.  Participants will explore agent-based workflows through hands-on activities in which they create, revise, and adapt learning materials for their own teaching contexts. Throughout the tutorial, we will emphasize both the opportunities and limitations of these tools. We will also discuss ethical and practical issues, including copyright, citations, attribution, transparency, and responsible use. Drawing on the organizers’ experiences, the tutorial will provide participants with concrete workflows, examples, and strategies for incorporating AI agents into the creation of learning materials in computing education.
+
+**Content**
+
+* TOC
+{:toc}
 
 ## Setup Instructions for Attendees
 
@@ -87,14 +89,63 @@ You only need one of these options.
 
 The [agent sandbox guide](agent-sandbox-guide.md) has step-by-step instructions for running GitHub Copilot, Claude Code or Codex in a Docker container, and explains what this setup does and doesn't protect against. Cursor is a separate application, so the guide does not cover it.
 
-### Preparing Source Files
+## Activities
 
-If you would like ready-to-use materials, use our **Introduction to Programming workshop edition**, adapted from parts 1–3 of [Aalto OpenCS Introduction to Programming](https://opencs.aalto.fi/en/courses/introduction-to-programming):
+There will be two activities during the tutorial: 
+
+1. Initial creation of educational materials: Set up. Finding base/source materials to use
+   (or use the one provided by the facilitators, below), and generating an initial draft of
+   a target education materials.
+2. "Co-creation". Setting up the feedback loop, interactions with the GenAI tool.
+   Creating and revising learning materials with AI agents.
+
+We encourage you to start with some source materials to adapt, so that resources that the
+agents generate can be grounded in these materials. We also encourage you to work with your
+own materials---though that also depends on your comfort level in having these materials 
+sent to external servers, possibly used for training.
+
+Also, these are quite broad instructions, and you can create a range of different kinds
+of educational materials! Consider any of the following:
+
+- Generating initial set of slides (e.g., using Quarto) grounded in readings.
+- Generate an initial set of notes based on your existing slides.
+- Having the AI Agent "fact check" a set of notes, or suggest ideas to revise these notes.
+- Generate or adapt exercises, multiple-choice questions, or Parsons problems.
+- Produce an interactive visualization for a specific concept.
+- Adapt resources from one format to another (e.g., pull out all the exercises in
+  a set of slides/resources into a single webpage).
+
+Since time will be limited during the tutorial, we encourage you to focus on one
+small thing: e.g., a small number of slides, a single visualization, or variants to
+a single problem. 
+It's important to keep your pedagogical rationale forefront in these exercises.
+
+### CS1 Source Files (from Arto & Juho)
+
+If you prefer to start with some ready-to-use materials (instead of your own),
+you can use Arto & Juho's **Introduction to Programming workshop edition**,
+adapted from parts 1–3 of
+[Aalto OpenCS Introduction to Programming](https://opencs.aalto.fi/en/courses/introduction-to-programming):
 
 - [Open the course in your browser](example-materials/python-demo/) — no installation needed.
 - [Download the editable source ZIP](example-materials/python-cs1.zip) — 26 lessons, 70 MCQs, and 73 Python exercises from parts 1–3, with tests and reference solutions.
 
-To work on the materials with your coding agent, unzip the project and open the `python-cs1` folder in your editor. Install Node.js LTS (24 or later), then run `npm ci` followed by `npm run dev` in that folder. Open the local URL printed in the terminal. Python runs in the browser; no local Python installation is needed. The ZIP includes setup instructions and an authoring guide with example agent prompts.
+To work on the materials with your coding agent,
+unzip the project and open the `python-cs1` folder in your editor.
+You can also clone the repository
+`https://github.com/CSEdAgentsOfInstruction/CSEdAgentsOfInstruction.github.io/`, which
+contains the materials in the `example-materials/python-cs1` subfolder.
+Run your coding agent in this folder, so that it has access to 
+the content in the subfolders.
+
+This part is not necessary, but if you would like to run the webpage demo locally 
+(like what you see in [here](example-materials/python-demo/), 
+you will need to install Node.js LTS (24 or later). 
+Run `npm ci` followed by `npm run dev` in that folder.
+Open the local URL printed in the terminal.
+There is a Python interpreter that runs in the browser, so no local Python
+installation is needed.
+The ZIP includes setup instructions and an authoring guide with example agent prompts.
 
 ## Workshop Resources
 
