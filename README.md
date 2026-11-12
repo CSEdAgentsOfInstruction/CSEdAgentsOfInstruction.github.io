@@ -1,3 +1,6 @@
+* TOC
+{:toc}
+
 This page contains resources for the [SIGCSE-Virtual 2026](https://sigcsevirtual2026.acm.org/) workshop "Agents of Instruction: Co-Creating Learning Materials with AI Agents"
 
 This page is created and maintained by the workshop facilitators:
