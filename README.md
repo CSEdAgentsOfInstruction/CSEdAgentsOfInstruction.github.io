@@ -107,7 +107,7 @@ sent to external servers, possibly used for training.
 Also, these are quite broad instructions, and you can create a range of different kinds
 of educational materials! Consider any of the following:
 
-- Generating initial set of slides (e.g., using Quarto) grounded in readings.
+- Generating initial set of slides (e.g., using [Quarto](https://quarto.org/), which requires installation) grounded in readings.
 - Generate an initial set of notes based on your existing slides.
 - Having the AI Agent "fact check" a set of notes, or suggest ideas to revise these notes.
 - Generate or adapt exercises, multiple-choice questions, or Parsons problems.
@@ -146,6 +146,53 @@ Open the local URL printed in the terminal.
 There is a Python interpreter that runs in the browser, so no local Python
 installation is needed.
 The ZIP includes setup instructions and an authoring guide with example agent prompts.
+
+Here are some activities that you can choose from:
+
+1. **Adapt materials**: Convert the chapter on [Processing Values and Remembering Results](https://github.com/CSEdAgentsOfInstruction/CSEdAgentsOfInstruction.github.io/blob/main/example-materials/python-cs1/content/lessons/part-2/5-processing-and-changing-lists.md) into a set of slides, in either PDF, Quarto markdown, or anther format of your choice.
+2. **Add a visualization**: Design a set of visualizations that explains `for` loops, using the same set of base explanations as in part 1. For this, it would be useful to have Node.js set up, or Quarto, or another tool that can display visualizations in the browser.
+3. **Revise a lesson**: Suppose you find that students are having challenges understanding
+  when to use a `for` loop (covered in [Processing Values and Remembering Results](https://github.com/CSEdAgentsOfInstruction/CSEdAgentsOfInstruction.github.io/blob/main/example-materials/python-cs1/content/lessons/part-2/5-processing-and-changing-lists.md)) and a `while` loop (covered  [Repeating until we decide to stop](https://github.com/CSEdAgentsOfInstruction/CSEdAgentsOfInstruction.github.io/blob/main/example-materials/python-cs1/content/lessons/part-2/6-repeating-until-we-decide-to-stop.md). Identify where this learning objective could fit and revise the lesson, by first writing down a plan for what you would change, and asking the agent to act on your plan.
+4. **Improving a MCQ**: Each exercise has a folder under `content/exercises/`. Its `exercise.yml` file contains the title, question, answer choices, and feedback. You can find an exercise by searching for its title in your editor. For example, try “In Part 1, Chapter 6: Making Decisions, improve the MCQ Age statement 1, which asks what `age = 18` does. Add one plausible incorrect answer that targets a different misunderstanding from the existing wrong answer. Write feedback explaining why the new answer is wrong. Keep the existing correct answer and exercise ID.”
+
+### Worked Example (from Arto & Juho)
+
+Suppose that we would like to adopt a Python exercise. Each exercise's folder contains:
+
+- `exercise.yml`: the title and instructions.
+- `starter.py`: the learner's initial code, shown as `main.py` in the browser.
+- `tests.py`: the automated checks used by **Check**.
+- `solution.py`: a reference solution.
+
+When changing what a program should do, ask your agent to update these files together.
+The exercises use Python's standard library;
+a nearby exercise can serve as a working example.
+
+For example, **Welcome card** in **Part 1, Chapter 3: Talking with a Program** currently asks learners to print `Welcome!` between two rows of asterisks. Try this prompt:
+
+> Change the Welcome card exercise so learners write a program that prints exactly these two lines, with no asterisk border:
+>
+> ```text
+> Welcome to the library!
+> Please return books at the front desk.
+> ```
+>
+> Keep it a beginner exercise using `print()`, with no user input. Update the instructions, starter, tests, and reference solution together, and preserve the exercise ID. Check that the new solution passes and that the original welcome card output fails.
+
+Ask your agent to run these checks after making changes:
+
+```sh
+npm run validate
+npm run test:grading
+```
+
+The first checks the content and lesson references.
+The second checks the Python exercises.
+
+Then, review the ternedered materials yourself to 
+see whether the checks match the instructions and accept other reasonable solutions.
+Try the exercise yourself using **Run** and **Check**,
+and consider whether the feedback would help your students.
 
 ## Workshop Resources
 

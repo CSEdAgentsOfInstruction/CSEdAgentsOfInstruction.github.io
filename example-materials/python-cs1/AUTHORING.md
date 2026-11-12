@@ -46,7 +46,7 @@ Review whether the checks match the instructions and accept other reasonable sol
 
 ## Add an exercise
 
-Ask your agent to use an existing exercise of the same type as a starting point and place the new one in the relevant lesson. Ask it to create new IDs for new exercises and preserve existing IDs when revising them, so your saved drafts stay associated with the right exercise.
+your agent to use an existing exercise of the same type as a starting point and place the new one in the relevant lesson. Ask it to create new IDs for new exercises and preserve existing IDs when revising them, so your saved drafts stay associated with the right exercise.
 
 Try: “In Part 2, Chapter 2: Strings Are Sequences, add an MCQ immediately after the section Positions Start at Zero. Ask which character `word[2]` selects when `word = "planet"`. Include one correct answer and three plausible incorrect answers, including one based on counting positions from 1. Explain each answer. Follow the format of a nearby MCQ, give the new exercise its own ID, and add it to the lesson.”
 
