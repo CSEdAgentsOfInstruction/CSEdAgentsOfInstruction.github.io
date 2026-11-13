@@ -128,7 +128,7 @@ adapted from parts 1–3 of
 [Aalto OpenCS Introduction to Programming](https://opencs.aalto.fi/en/courses/introduction-to-programming):
 
 - [Open the course in your browser](example-materials/python-demo/) — no installation needed.
-- [Download the editable source ZIP](example-materials/python-cs1.zip) — 26 lessons, 70 MCQs, and 73 Python exercises from parts 1–3, with tests and reference solutions.
+- [Download the editable source ZIP]([example-materials/python-cs1.zip](https://github.com/CSEdAgentsOfInstruction/CSEdAgentsOfInstruction.github.io/raw/refs/heads/main/example-materials/python-cs1.zip)) — 26 lessons, 70 MCQs, and 73 Python exercises from parts 1–3, with tests and reference solutions.
 
 To work on the materials with your coding agent,
 unzip the project and open the `python-cs1` folder in your editor.
