@@ -128,7 +128,7 @@ adapted from parts 1–3 of
 [Aalto OpenCS Introduction to Programming](https://opencs.aalto.fi/en/courses/introduction-to-programming):
 
 - [Open the course in your browser](example-materials/python-demo/) — no installation needed.
-- [Download the editable source ZIP]([example-materials/python-cs1.zip](https://github.com/CSEdAgentsOfInstruction/CSEdAgentsOfInstruction.github.io/raw/refs/heads/main/example-materials/python-cs1.zip)) — 26 lessons, 70 MCQs, and 73 Python exercises from parts 1–3, with tests and reference solutions.
+- [Download the editable source ZIP](https://github.com/CSEdAgentsOfInstruction/CSEdAgentsOfInstruction.github.io/raw/refs/heads/main/example-materials/python-cs1.zip) — 26 lessons, 70 MCQs, and 73 Python exercises from parts 1–3, with tests and reference solutions.
 
 To work on the materials with your coding agent,
 unzip the project and open the `python-cs1` folder in your editor.
@@ -138,13 +138,15 @@ contains the materials in the `example-materials/python-cs1` subfolder.
 Run your coding agent in this folder, so that it has access to 
 the content in the subfolders.
 
-This part is not necessary, but if you would like to run the webpage demo locally 
-(like what you see in [here](example-materials/python-demo/), 
-you will need to install Node.js LTS (24 or later).
-- For Windows, we recommend [nvm-windows](https://nvm-windows.com/)
-- For Linux and macOS, we recommend [nvm](https://github.com/nvm-sh/nvm#installing-and-updating). After installing it, run `nvm install --lts` to install the latest LTS version of Node.js.
+Running the webpage demo locally is optional. If you would like to try
+the [Python demo](example-materials/python-demo/) on your own computer,
+install an LTS version of Node.js (version 24 or later).
 
-Then, run `npm ci` followed by `npm run dev` in that folder.
+- **Windows:** We recommend [nvm-windows](https://nvm-windows.com/).
+- **Linux and macOS:** We recommend [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+  After installing it, run `nvm install --lts` to install the latest LTS version of Node.js.
+
+Then, run `npm ci` followed by `npm run dev` in the folder where you downloaded the sources.
 Open the local URL printed in the terminal.
 There is a Python interpreter that runs in the browser, so no local Python
 installation is needed.
