@@ -140,8 +140,11 @@ the content in the subfolders.
 
 This part is not necessary, but if you would like to run the webpage demo locally 
 (like what you see in [here](example-materials/python-demo/), 
-you will need to install Node.js LTS (24 or later). 
-Run `npm ci` followed by `npm run dev` in that folder.
+you will need to install Node.js LTS (24 or later).
+- For Windows, we recommend [nvm-windows](https://nvm-windows.com/)
+- For Linux and macOS, we recommend [nvm](https://github.com/nvm-sh/nvm#installing-and-updating). After installing it, run `nvm install --lts` to install the latest LTS version of Node.js.
+
+Then, run `npm ci` followed by `npm run dev` in that folder.
 Open the local URL printed in the terminal.
 There is a Python interpreter that runs in the browser, so no local Python
 installation is needed.
