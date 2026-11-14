@@ -200,6 +200,36 @@ see whether the checks match the instructions and accept other reasonable soluti
 Try the exercise yourself using **Run** and **Check**,
 and consider whether the feedback would help your students.
 
-## Workshop Resources
+## Workshop Slides
 
-Slides and other materials used for the workshop will be posted here.
+A PDF version of the Workshop Slides are here:
+
+- [Workshop slides (PDF, 12 MB)](SIGCSEV-Agents-of-Instruction-slides.pdf)
+
+## Contributed Resources
+
+The following resouces were shared in the zoom chat in by attendees in the workshop session:
+
+Co-Created Resources:
+
+- [Interactive Neural Network Demos](https://www.usingandunderstanding.ai/educators#interactive-demos)
+- [Slides and Corresponding Prompts used](https://www.geoffreychallen.com/talks/2026-09-29-new-computing-new-pedagogy)
+- [Quiz Feedback](https://www.cs124.org/educators#quiz_feedback)
+
+Tutorials and Learning Materials:
+
+- [Educators Who Build](https://www.educatorswhobuild.org/tutorials)
+
+Related Papers:
+
+- [How Instructors Incorporate Generative AI into Teaching Computing ](https://dl.acm.org/doi/10.1145/3649405.3659534)
+
+Less Related (but fun) Papers and News:
+
+- [AI Revealed Preferences](https://arxiv.org/abs/2608.26178)
+- [The human-authorship halo: attribution bias in literary style evaluation by humans and AI](https://arxiv.org/abs/2510.08831)
+- [Anthropic bans users from being 'cruel' to its AI systems](https://www.bbc.com/news/articles/c6j9k1l72wkgo)
+- [The Claude Bliss Attractor](https://www.astralcodexten.com/p/the-claude-bliss-attractor)
+
+    
+
